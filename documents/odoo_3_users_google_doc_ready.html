@@ -1,0 +1,225 @@
+
+<h1 style="color:#242733;font-size:22pt;font-family:Arial,sans-serif;">📊 Master 3-Users Technical, CRM & Sales Audit Report</h1>
+<p style="font-size:11pt;color:#475569;font-family:Arial,sans-serif;">
+  <strong>Target Database:</strong> <code>CC_Live_Stage</code> (Odoo ERP v19.0) vs. Legacy EMS Portal<br>
+  <strong>Audit Scope:</strong> User 1 (admin) vs. User 2 (ccadmin) vs. User 3 (EMS webmaster)<br>
+  <strong>Audit Date:</strong> September 10, 2026 | <strong>Prepared By:</strong> Infogenx Senior Technical ERP Audit Team
+</p>
+<hr>
+
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">📌 1. Executive Summary & 3-Users Authentication Profiles</h2>
+<p style="font-size:11pt;font-family:Arial,sans-serif;">This master technical document provides an exhaustive comparative evaluation across the <strong>three user accounts</strong> specified for inspection:</p>
+<ul style="font-size:11pt;font-family:Arial,sans-serif;">
+  <li><strong>User 1 (Odoo Superuser):</strong> <code>admin</code> / <code>admin@321</code> (UID: 2) on <code>https://app.canadiancrystalline.info</code> (Database: <code>CC_Live_Stage</code>)</li>
+  <li><strong>User 2 (Odoo Custom Admin):</strong> <code>ccadmin</code> / <code>CCAdm!n</code> (UID: 11) on <code>https://app.canadiancrystalline.info</code> (Database: <code>CC_Live_Stage</code>)</li>
+  <li><strong>User 3 (Legacy EMS Portal Admin):</strong> <code>webmaster@canadiancrystalline.net</code> / <code>Canadian@149</code> on <code>https://ems.canadiancrystalline.org/</code></li>
+</ul>
+
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">🏢 2. Master 3-Users Feature & Permission Matrix</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:10pt;font-family:Arial,sans-serif;border:1px solid #cbd5e1;">
+  <thead>
+    <tr style="background-color:#242733;color:#ffffff;">
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">#</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Feature / Dimension</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">User 1: Administrator (admin)</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">User 2: CC Admin (ccadmin)</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">User 3: Legacy EMS (webmaster)</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Parity & Audit Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>1</strong></td><td><strong>Platform URL</strong></td><td><code>app.canadiancrystalline.info/canadian/</code></td><td><code>app.canadiancrystalline.info/canadian/</code></td><td><code>ems.canadiancrystalline.org/</code></td><td>✅ Production Migration Target</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>2</strong></td><td><strong>Underlying Engine</strong></td><td>Odoo 19.0-2026 (Python 3.12 / Ubuntu 24.04)</td><td>Odoo 19.0-2026 (Python 3.12 / Ubuntu 24.04)</td><td>EnqWin PHP Yii2 Framework</td><td>✅ Modernization Upgrade</td></tr>
+    <tr><td><strong>3</strong></td><td><strong>Security Groups</strong></td><td><strong>47 Security Groups</strong> (Full IT Superuser)</td><td><strong>26 Security Groups</strong> (Missing 21 Groups)</td><td>Role-based Yii2 Web RBAC</td><td>⚠️ 21 Missing Groups on User 2</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>4</strong></td><td><strong>Side Appsbar Access</strong></td><td><strong>9 Apps</strong> (Access Role, CRM, Sales, etc.)</td><td><strong>3 Apps</strong> (CRM, Sales, Settings)</td><td>4 Modules (Enquiries, Contacts, Units)</td><td>⚠️ 6 Root Apps Hidden on User 2</td></tr>
+    <tr><td><strong>5</strong></td><td><strong>CRM Submenus</strong></td><td><strong>32 Submenus</strong> (Includes HOD, Teams, Config)</td><td><strong>17 Submenus</strong> (Missing 15 Submenus)</td><td>Single Enquiry Management Menu</td><td>⚠️ Major Menus Hidden on User 2</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>6</strong></td><td><strong>Sales Submenus</strong></td><td><strong>31 Submenus</strong> (Includes Teams, Reporting, Config)</td><td><strong>9 Submenus</strong> (Missing 22 Submenus)</td><td>Sales Unit & Quotation List</td><td>⚠️ Reporting & Config Hidden</td></tr>
+    <tr><td><strong>7</strong></td><td><strong>Pipeline Stages Count</strong></td><td><strong>21 Custom Stages</strong> (Full Create/Write/Delete)</td><td><strong>21 Custom Stages</strong> (Read-Only)</td><td><strong>10 Legacy Stages</strong></td><td>✅ 100% EMS Stages Migrated</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>8</strong></td><td><strong>Lead / Quote Deletion</strong></td><td>✅ Allowed (Full Delete Privileges)</td><td>❌ <strong>Blocked (delete="False")</strong></td><td>Restricted in Web Interface</td><td>⚠️ Hardcoded View Restriction</td></tr>
+    <tr><td><strong>9</strong></td><td><strong>Quotation Stat Buttons</strong></td><td><strong>6 Smart Buttons</strong> (POS, Mfg, Delivery, etc.)</td><td><strong>0 Buttons</strong> (All 6 Stat Buttons Stripped)</td><td>N/A</td><td>⚠️ Cross-Module Stat Hidden</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>10</strong></td><td><strong>Theme & Styling</strong></td><td>#99a4ae primary / #2c2f32 secondary / #242733 navbar</td><td>#99a4ae primary / #2c2f32 secondary / #242733 navbar</td><td>Orange (#f2711c) & Slate Grey Theme</td><td>✅ Odoo Theme Aligned</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">🔍 3. Precision Spelling, Typography & Naming Audit (With Exact Locations)</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:10pt;font-family:Arial,sans-serif;border:1px solid #cbd5e1;">
+  <thead>
+    <tr style="background-color:#1F4E79;color:#ffffff;">
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">#</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Exact UI / System Location</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Current Display Text</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Error Type</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Exact Fix Required</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>Top Navbar</strong> (Header Right, left of Avatar)</td><td><code>Canadian Crystaline</code></td><td>Spelling Typo (Single 'l')</td><td>Change to <code>Canadian Crystalline</code></td><td><span style="color:#b91c1c;font-weight:bold;">Critical</span> (Brand Identity on all screens)</td></tr>
+    <tr style="background-color:#f8fafc;"><td>2</td><td><strong>CRM Pipeline</strong> -> Column 2 Header (Stage ID 2)</td><td><code>Alloted</code></td><td>Spelling Typo (Single 't')</td><td>Change to <code>Allotted</code></td><td><span style="color:#d97706;font-weight:bold;">Medium</span> (Copied from legacy EMS typo)</td></tr>
+    <tr><td>3</td><td><strong>CRM Pipeline</strong> -> Column 1 Header (Stage ID 1)</td><td><code>New Enquiry - Hod</code></td><td>Case Inconsistency ('Hod')</td><td>Change to <code>New Enquiry - HOD</code></td><td><span style="color:#d97706;font-weight:bold;">Minor</span> (Acronym formatting)</td></tr>
+    <tr style="background-color:#f8fafc;"><td>4</td><td><strong>CRM Pipeline</strong> -> Column 15 Header (Stage ID 32)</td><td><code>Details sent, client will respond if required</code></td><td>Excessive Length (43 chars)</td><td>Change to <code>Details Sent (Client Review)</code></td><td><span style="color:#2563eb;font-weight:bold;">UI Layout</span> (Stretches Kanban column)</td></tr>
+    <tr><td>5</td><td><strong>CRM Lead Form</strong> -> Header Button Bar</td><td><code>Notify HOD & Salesperson</code></td><td>Excessive Button Width (24 chars)</td><td>Shorten to <code>Notify Team</code></td><td><span style="color:#2563eb;font-weight:bold;">Responsive Layout</span> (Wraps on laptops)</td></tr>
+    <tr style="background-color:#f8fafc;"><td>6</td><td><strong>Email Templates</strong> -> Template ID 1 Body</td><td><code>invites you to connect to Odoo</code></td><td>Debranding Leak ('Odoo')</td><td>Replace with <code>Canadian Crystalline</code></td><td><span style="color:#b91c1c;font-weight:bold;">High</span> (Sent in user invitation emails)</td></tr>
+    <tr><td>7</td><td><strong>Email Templates</strong> -> Template ID 5 Body</td><td><code>on your Odoo account</code></td><td>Debranding Leak ('Odoo')</td><td>Replace with <code>Canadian Crystalline account</code></td><td><span style="color:#b91c1c;font-weight:bold;">High</span> (Sent in password reset emails)</td></tr>
+    <tr style="background-color:#f8fafc;"><td>8</td><td><strong>System Config</strong> -> <code>base.web_support_url</code></td><td><code>https://www.odoo.com/buy</code></td><td>Debranding Leak (Odoo URL)</td><td>Change to <code>canadiancrystalline.com/support</code></td><td><span style="color:#d97706;font-weight:bold;">Medium</span> (System help redirects to Odoo)</td></tr>
+    <tr><td>9</td><td><strong>System Config</strong> -> <code>email_secondary_color</code></td><td><code>#875A7B</code></td><td>Odoo Corporate Purple</td><td>Change to <code>#2c2f32</code> (Charcoal grey)</td><td><span style="color:#2563eb;font-weight:bold;">Visual</span> (Purple buttons in notification emails)</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">📐 4. Precision Position, Alignment & UI Discrepancy Audit (With Exact Locations)</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:10pt;font-family:Arial,sans-serif;border:1px solid #cbd5e1;">
+  <thead>
+    <tr style="background-color:#2C2F32;color:#ffffff;">
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">#</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Exact Component / Location</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Administrator (admin) Position</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">CC Admin (ccadmin) Position</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Alignment Discrepancy & Analysis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>Left Navigation Drawer</strong> (<code>.o_navbar_apps_menu</code>)</td><td>9 app icons span from Y: 60px down to Y: 700px. Balanced vertical distribution.</td><td>3 app icons occupy top 180px. A 700px empty vertical blank void sits above logo.</td><td>Severe visual imbalance for CC Admin. Looks like an incomplete screen load.</td></tr>
+    <tr style="background-color:#f8fafc;"><td>2</td><td><strong>CRM Submenu Bar</strong> (<code>.o_menu_sections</code>)</td><td>10 menus: Dashboard [1], Sales [2], HOD Dashboard [3], Salesperson [4], Leads [5], Daily Sales [6], Reporting [7], Config [8], Approvals [9].</td><td>6 menus: Dashboard [1], Sales [2], Salesperson [3], Leads [4], Daily Sales [5], Reporting [6].</td><td>Position 3 (HOD Dashboard) missing; all subsequent items shifted left. Config & Approvals gone.</td></tr>
+    <tr><td>3</td><td><strong>Sale Order Form Header</strong> (<code>.oe_button_box</code>)</td><td>Right side contains 6 square stat buttons (width: 450px): Projects, Delivery, POS, Purchase, Mfg, Unlock.</td><td>Empty white space (0 buttons). Stat button container is completely empty.</td><td>Asymmetrical form layout on CC Admin. Title sits left, entire right half of header is blank.</td></tr>
+    <tr style="background-color:#f8fafc;"><td>4</td><td><strong>CRM Control Panel Action Cogwheel</strong> (<code>.o_cp_action_menus</code>)</td><td>Dropdown shows: Duplicate, Delete, Share.</td><td>Dropdown shows: Duplicate, Share. (Delete action is removed).</td><td>Delete action hidden via form architecture <code>&lt;form delete="False"&gt;</code>. Permission safeguard.</td></tr>
+    <tr><td>5</td><td><strong>EMS Dashboard Chart Widgets</strong> (<code>site/index</code>)</td><td>Due followups and Status boxes rendered with fixed borders.</td><td>Inner Flash/Canvas objects failed to load.</td><td>Legacy EMS leaves large 500px blank white boxes with orphaned dropdowns in header.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">🛡️ 5. User 1: Administrator (Superuser - admin / admin@321) — Real Application Screenshots</h2>
+<p style="font-size:11pt;font-family:Arial,sans-serif;">
+  <strong>Security Profile:</strong> Full Superuser (UID 2), 47 Security Groups, System Administrator.<br>
+  <strong>Operational Scope:</strong> Holds complete control over user access, CRM stage creation, stage approval routing, quotation approvals, salesperson assignments, and system debranding.
+</p>
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/5hikjq.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 5.1: Administrator Home Navigation — All 9 Apps & Role Management"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 5.1: Administrator Home Navigation — All 9 Apps & Role Management</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/ecj3iz.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 5.2: Administrator CRM Pipeline Kanban View — 21 Custom Stages with HOD Dashboard & Configuration"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 5.2: Administrator CRM Pipeline Kanban View — 21 Custom Stages with HOD Dashboard & Configuration</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/mgg0z2.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 5.3: Administrator HOD Dashboard Screen — Business Segment Allocation Screen"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 5.3: Administrator HOD Dashboard Screen — Business Segment Allocation Screen</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/dxgevq.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 5.4: Administrator Sales Quotations List Screen — Showing Orders, Reporting & Configuration"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 5.4: Administrator Sales Quotations List Screen — Showing Orders, Reporting & Configuration</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/fvh6ia.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 5.5: Administrator General Settings & Debranding Identity Screen"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 5.5: Administrator General Settings & Debranding Identity Screen</span>
+</div>
+
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">👤 6. User 2: CC Admin (Application User - ccadmin / CCAdm!n) — Real Application Screenshots</h2>
+<p style="font-size:11pt;font-family:Arial,sans-serif;">
+  <strong>Security Profile:</strong> Custom Application Admin (UID 11), 26 Security Groups (Missing 21 groups).<br>
+  <strong>Operational Scope:</strong> Day-to-day sales operations. Prohibited from deleting records (<code>delete="False"</code>), cannot modify stages (Read-Only), all 6 quotation smart buttons are hidden, and appsbar is collapsed to only 3 apps.
+</p>
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/nlu6ne.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 6.1: CC Admin Home Appsbar Collapse — Showing 700px blank void with only 3 apps"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 6.1: CC Admin Home Appsbar Collapse — Showing 700px blank void with only 3 apps</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/jbcb02.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 6.2: CC Admin CRM Restricted Top Navigation — Notice missing HOD Dashboard and Configuration"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 6.2: CC Admin CRM Restricted Top Navigation — Notice missing HOD Dashboard and Configuration</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/s6lmtr.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 6.3: CC Admin Daily Sales Activity Report Screen"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 6.3: CC Admin Daily Sales Activity Report Screen</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/c783y1.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 6.4: CC Admin Sales Quotations View — Missing Reporting & Configuration"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 6.4: CC Admin Sales Quotations View — Missing Reporting & Configuration</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/nlpkwu.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 6.5: CC Admin Settings Screen"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 6.5: CC Admin Settings Screen</span>
+</div>
+
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">🌐 7. User 3: Legacy EMS Portal (webmaster / Canadian@149) — Real Application Screenshots</h2>
+<p style="font-size:11pt;font-family:Arial,sans-serif;">
+  <strong>Platform Profile:</strong> Legacy EnqWin PHP Yii2 CRM Architecture at <code>https://ems.canadiancrystalline.org/</code>.<br>
+  <strong>Operational Scope:</strong> Historical lead repository containing 106,629 customer contacts and enquiry allocations.
+</p>
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/xkulb7.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 7.1: Legacy EMS Main Dashboard — Due Followups & Enquiry Conversion Widgets"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 7.1: Legacy EMS Main Dashboard — Due Followups & Enquiry Conversion Widgets</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/4mfbc5.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 7.2: Legacy EMS Enquiries Table — Showing Enquiry Statuses (New Enquiry, Alloted, Quotation Sent)"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 7.2: Legacy EMS Enquiries Table — Showing Enquiry Statuses (New Enquiry, Alloted, Quotation Sent)</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/ndzisc.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 7.3: Legacy EMS Contacts Directory (106,629 Records)"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 7.3: Legacy EMS Contacts Directory (106,629 Records)</span>
+</div>
+
+
+<div style="text-align:center;margin:20px 0;padding:10px;background:#ffffff;border:1px solid #cbd5e1;border-radius:6px;">
+  <img src="https://files.catbox.moe/era663.png" style="max-width:100%;width:680px;height:auto;border:1px solid #94a3b8;border-radius:4px;" alt="Figure 7.4: Legacy EMS Configuration Masters & Sales Units"><br>
+  <span style="font-size:10pt;font-style:italic;color:#475569;margin-top:6px;display:inline-block;">📸 Figure 7.4: Legacy EMS Configuration Masters & Sales Units</span>
+</div>
+
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">📋 8. Process Flow & Lead Management Process Fix Verification</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:10pt;font-family:Arial,sans-serif;border:1px solid #cbd5e1;">
+  <thead>
+    <tr style="background-color:#242733;color:#ffffff;">
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Process Requirement</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Legacy EMS Implementation</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Odoo CC_Live_Stage Implementation</th>
+      <th style="padding:8px 10px;border:1px solid #cbd5e1;">Fix Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Enquiry Capture</strong></td><td>Manual & IndiaMART API</td><td>Lead generation forms + IndiaMART tag</td><td>✅ FIXED & OPERATIONAL</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>Lead Allotment</strong></td><td>Assign to Sales Unit / Executive</td><td>Auto Assign & Notify HOD / Salesperson buttons</td><td>✅ FIXED & OPERATIONAL</td></tr>
+    <tr><td><strong>Daily Activity Log</strong></td><td>Follow-up reminder call log</td><td>Daily Sales Activity Report & Email dispatch (863, 864)</td><td>✅ FIXED & OPERATIONAL</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>Quotation Approval</strong></td><td>Manual upload of quote PDF</td><td>Multi-tier approval workflow (Request, Approved, Rejected)</td><td>✅ FIXED & OPERATIONAL</td></tr>
+    <tr><td><strong>Stage Naming Typo</strong></td><td>"Alloted" (single 't')</td><td>"Alloted" (single 't') in Stage ID 2</td><td>⚠️ PENDING FIX (Change to 'Allotted')</td></tr>
+    <tr style="background-color:#f8fafc;"><td><strong>HOD Designation</strong></td><td>HOD Role assignment</td><td>"Hod" lowercase in Stage ID 1</td><td>⚠️ PENDING FIX (Change to 'HOD')</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 style="color:#1F4E79;font-size:15pt;font-family:Arial,sans-serif;">🚨 9. System Debranding & Leaks To Fix</h2>
+<ol style="font-size:11pt;font-family:Arial,sans-serif;">
+  <li><strong>OdooBot Identity:</strong> Partner ID 2 (<code>OdooBot</code>, <code>odoobot@example.com</code>) is injected on every page load (<code>storeData.odoobot = 2</code>).</li>
+  <li><strong>Discuss Channels:</strong> 8 channels have <code>OdooBot</code> in their name (e.g. <code>Administrator, OdooBot</code>).</li>
+  <li><strong>Email Templates:</strong> 12 out of 41 email templates contain unbranded <code>"Odoo"</code> text.</li>
+  <li><strong>System Config:</strong> <code>support_url</code> points to <code>https://www.odoo.com/buy</code> and <code>email_secondary_color</code> is default Odoo purple (<code>#875A7B</code>).</li>
+  <li><strong>Company Name Typo:</strong> Company name is misspelled as <code>Canadian Crystaline</code> (single 'l') instead of <code>Canadian Crystalline</code>.</li>
+</ol>

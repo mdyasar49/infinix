@@ -1,0 +1,119 @@
+.sop-shell {
+  min-height: 100vh;
+  padding: 32px 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .sop-shell {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sop-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sop-welcome-banner {
+  background: var(--brand-gradient, linear-gradient(90deg, #081B5C 0%, #10389B 65%, #F25C1D 100%));
+  color: #ffffff;
+  border-radius: 22px;
+  padding: 36px 32px;
+  box-shadow: 0 18px 48px rgba(8, 27, 92, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.sop-welcome-banner h2 {
+  color: #ffffff !important;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.sop-tagline {
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.sop-tagline-pills {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.sop-pill {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.sop-info-card {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid rgba(8, 27, 92, 0.10);
+  box-shadow: 0 12px 32px rgba(8, 27, 92, 0.06);
+}
+
+.sop-info-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sop-service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sop-service-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #5F6B7A;
+}
+
+.sop-service-bullet {
+  color: #F25C1D;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.sop-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.sop-next-btn {
+  min-width: 220px;
+  cursor: pointer;
+}

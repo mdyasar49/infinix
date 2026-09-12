@@ -1,0 +1,120 @@
+/* Student Onboarding — unified corporate visual system */
+:root {
+  --primary-navy: #081B5C;
+  --royal-blue: #10389B;
+  --brand-orange: #F25C1D;
+  --dark-orange: #F25C1D;
+  --brand-blush: #FFF0E8;
+  --white: #FFFFFF;
+  --bg-surface: #FFF8F3;
+  --bg-muted: #FFF1E8;
+  --text-primary: #081B5C;
+  --text-secondary: #5F6B7A;
+  --border: rgba(8, 27, 92, .12);
+  --radius: 22px;
+  --shadow-soft: 0 18px 48px rgba(8, 27, 92, .09);
+  --shadow-deep: 0 24px 64px rgba(8, 27, 92, .14);
+  --brand-gradient: linear-gradient(90deg, #081B5C 0%, #10389B 65%, #F25C1D 100%);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body, input, button, textarea, select { font-family: 'Plus Jakarta Sans', sans-serif !important; }
+body { color: #081B5C; background: #FFF8F3; }
+body::before, body::after { content: ''; position: fixed; z-index: -1; pointer-events: none; opacity: .42; }
+body::before { width: 42rem; height: 42rem; top: -33rem; left: -19rem; border: 42px solid rgba(8,27,92,.035); border-radius: 48% 52% 63% 37% / 41% 47% 53% 59%; transform: rotate(-20deg); }
+body::after { width: 29rem; height: 10rem; right: -12rem; bottom: 8%; border: 22px solid rgba(242,92,29,.055); border-left: 0; border-radius: 0 12rem 12rem 0; transform: rotate(-30deg); }
+::selection { color: #fff; background: #F25C1D; }
+
+/* Page canvas */
+:is(.login-shell,.register-shell,.dashboard-shell,.materials-shell,.assessment-shell,.terms-shell,.signature-shell,.result-shell,.offer-shell,.training-shell,.completion-shell,.notfound-shell,.admin-shell) { background: transparent !important; }
+
+/* Premium card system */
+:is(.login-card,.register-card,.dashboard-welcome,.dashboard-panel,.progress-card,.summary-card,.details-card,.assessment-card,.terms-card,.signature-card,.material-card,.training-card,.training-banner,.completion-card,.offer-footer,.notfound-card,.admin-card) {
+  background: #fff !important;
+  background-image: none !important;
+  border: 1px solid rgba(8,27,92,.10) !important;
+  border-radius: 22px !important;
+  box-shadow: var(--shadow-soft) !important;
+  transition: transform .24s ease, box-shadow .24s ease !important;
+}
+:is(.login-card,.register-card,.dashboard-welcome,.dashboard-panel,.progress-card,.summary-card,.details-card,.assessment-card,.terms-card,.signature-card,.material-card,.training-card,.training-banner,.completion-card,.offer-footer,.notfound-card,.admin-card):hover { transform: translateY(-4px); box-shadow: var(--shadow-deep) !important; }
+:is(.material-card,.training-card,.summary-card,.details-card,.dashboard-panel) { border-top: 3px solid rgba(242,92,29,.78) !important; }
+
+/* Navigation and progress */
+.portal-sidebar { background: #fff !important; border: 1px solid rgba(8,27,92,.10) !important; border-radius: 22px !important; box-shadow: var(--shadow-soft) !important; }
+.sidebar-logo,.step-index,.user-avatar { background: var(--brand-gradient) !important; color: #fff !important; }
+.sidebar-company,.step-title { color: #081B5C !important; }
+.sidebar-tagline,.step-text { color: #5F6B7A !important; }
+.sidebar-step.current { background: #FFF0E8 !important; border-color: #F25C1D !important; }
+.sidebar-step.current .step-title { color: #F25C1D !important; }
+.sidebar-step.complete { background: rgba(8,27,92,.04) !important; }
+.progress-line span.active,.notification-dot { background: #F25C1D !important; }
+.portal-header,.header-usercard { background: rgba(255,255,255,.78); }
+
+/* Typography */
+:is(h1,h2,h3,h4,h5,h6,.header-title) { font-family: 'Poppins', sans-serif !important; color: #081B5C !important; letter-spacing: -.035em; font-weight: 700; }
+:is(.hero-title,.flow-header h1,.assessment-header h1,.terms-header h1,.signature-header h1,.result-header h1,.offer-banner h1,.training-banner h1,.completion-card h1,.notfound-card h1,.register-card h1,.welcome-section h2,.admin-card h1) { font-weight: 800 !important; line-height: 1.18 !important; }
+:is(.hero-title,.flow-header h1,.assessment-header h1,.terms-header h1,.signature-header h1,.result-header h1,.offer-banner h1,.training-banner h1,.completion-card h1,.notfound-card h1,.register-card h1,.welcome-section h2,.admin-card h1)::after { content: ''; display: block; width: 52px; height: 4px; margin-top: 14px; border-radius: 999px; background: #F25C1D; }
+.heading-accent { color: #F25C1D !important; }
+:is(.training-label,.material-tag,.admin-kicker,.completion-badge,.offer-summary,.task-pill,.material-status.completed) { color: #F25C1D !important; }
+:is(.material-status.completed,.completion-badge,.task-pill) { background: #FFF0E8 !important; }
+
+/* One consistent button treatment */
+:is(.primary-button,.secondary-button,.accept-button,.material-action,.continue-button,.offer-download,.login-button,.demo-button) {
+  color: #fff !important;
+  background: var(--brand-gradient) !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  min-height: 52px;
+  padding: 0 28px !important;
+  font-weight: 800 !important;
+  box-shadow: 0 12px 24px rgba(8,27,92,.20), 0 8px 18px rgba(242,92,29,.12) !important;
+  transition: transform .22s ease, box-shadow .22s ease, filter .22s ease !important;
+}
+:is(.primary-button,.secondary-button,.accept-button,.material-action,.continue-button,.offer-download,.login-button,.demo-button):hover:not(:disabled) { transform: translateY(-3px); filter: brightness(1.06); box-shadow: 0 18px 34px rgba(8,27,92,.24), 0 6px 18px rgba(242,92,29,.18) !important; }
+:is(.primary-button,.secondary-button,.accept-button,.material-action,.continue-button,.offer-download,.login-button,.demo-button):active:not(:disabled) { transform: translateY(-1px); }
+:is(.primary-button,.secondary-button,.accept-button,.material-action,.continue-button,.offer-download,.login-button,.demo-button):disabled { opacity: .5; box-shadow: none !important; }
+
+/* Forms */
+:is(.form-input,input:not([type='checkbox']),textarea,select,.signature-area) {
+  background: #fff !important;
+  border: 1px solid #DDE1E7 !important;
+  border-radius: 14px !important;
+  color: #081B5C !important;
+  box-shadow: none !important;
+}
+:is(.form-input,input:not([type='checkbox']),textarea,select,.signature-area)::placeholder { color: #97A0AB !important; }
+:is(.form-input,input:not([type='checkbox']),textarea,select,.signature-area):focus { border-color: #10389B !important; box-shadow: 0 0 0 4px rgba(242,92,29,.14) !important; outline: none !important; }
+input[type='checkbox'] { accent-color: #F25C1D !important; }
+.checkbox-input:checked { background: #F25C1D !important; border-color: #F25C1D !important; }
+.form-label,.input-label { color: #081B5C !important; font-weight: 700 !important; }
+
+/* Links and icon states */
+:is(a:not(.primary-button):not(.secondary-button),.password-toggle,.header-notification,.input-icon) { color: #081B5C; }
+:is(a:not(.primary-button):not(.secondary-button),.password-toggle,.header-notification):hover { color: #F25C1D; }
+:is(svg,.input-icon) { stroke: currentColor; }
+:is(button,a,input,textarea,select):focus-visible { outline: 3px solid rgba(242,92,29,.34) !important; outline-offset: 3px; }
+
+/* Feature and content accents */
+.milestone-highlight,.continue-banner { background: #FFF0E8 !important; border: 1px solid rgba(242,92,29,.16) !important; border-radius: 22px !important; }
+.offer-card,.score-circle { background: var(--brand-gradient) !important; }
+.offer-card { border-radius: 22px !important; box-shadow: var(--shadow-deep) !important; }
+.offer-card :is(h2,h3) { color: #fff !important; }
+.offer-meta { background: rgba(255,255,255,.14) !important; border: 1px solid rgba(255,255,255,.22) !important; }
+.resource-link,.task-item,.details-item,.assessment-stat,.completion-item { background: #FFF8F3 !important; border: 1px solid rgba(8,27,92,.07) !important; border-radius: 16px !important; }
+
+/* Login-specific polish */
+.login-shell { --login-navy: #081B5C; --login-blue: #10389B; --login-orange: #F25C1D; --login-gradient: var(--brand-gradient); }
+.login-shell::before,.login-particles::before { background: transparent !important; border: 30px solid rgba(8,27,92,.035); border-radius: 50%; }
+.login-shell::after { background: transparent !important; border: 20px solid rgba(242,92,29,.05); border-radius: 50%; }
+.login-particles span { background: #F25C1D !important; box-shadow: none !important; }
+.login-particles span:nth-child(2n) { background: #10389B !important; }
+.login-particles::after,.logo-container::before,.mouse-follow-glow { background: transparent !important; }
+.hero-title,.welcome-section h2 { background: none !important; -webkit-text-fill-color: currentColor !important; }
+.login-card .form-input { background: #FFFFFF !important; border-color: #DDE1E7 !important; }
+.login-card .form-input:focus { border-color: #10389B !important; box-shadow: 0 0 0 4px rgba(242,92,29,.14) !important; }
+
+@media (max-width: 760px) {
+  :is(.login-card,.register-card,.dashboard-welcome,.dashboard-panel,.progress-card,.summary-card,.details-card,.assessment-card,.terms-card,.signature-card,.material-card,.training-card,.training-banner,.completion-card,.offer-footer,.notfound-card,.admin-card) { border-radius: 18px !important; }
+  :is(.primary-button,.secondary-button,.accept-button,.material-action,.continue-button,.offer-download,.login-button,.demo-button) { width: 100%; }
+}

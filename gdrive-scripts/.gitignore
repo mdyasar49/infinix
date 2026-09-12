@@ -1,0 +1,15 @@
+# Credentials and secrets
+.clasprc.json
+*.json.key
+client_secret*.json
+credentials*.json
+*.bin
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,134 @@
+.result-shell {
+  min-height: 100vh;
+  padding: 40px 24px 88px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.result-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.result-header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 2.4vw, 2.6rem);
+  color: #00123c;
+}
+
+.result-header span {
+  color: #5c6a86;
+}
+
+.result-summary {
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr;
+  gap: 24px;
+}
+
+.summary-card,
+.details-card {
+  background: white;
+  border-radius: 28px;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+  box-shadow: 0 24px 70px rgba(0, 18, 60, 0.08);
+  padding: 32px;
+}
+
+.score-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #00123c 0%, #000e68 100%);
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0 auto 18px;
+}
+
+.details-card h2,
+.summary-card h2 {
+  margin: 0 0 16px;
+  color: #00123c;
+}
+
+.details-card p,
+.summary-card p {
+  margin: 0;
+  color: #5c6a86;
+  line-height: 1.85;
+}
+
+.details-list {
+  margin-top: 22px;
+  display: grid;
+  gap: 14px;
+}
+
+.details-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  background: #f8f9fd;
+  border-radius: 18px;
+}
+
+.details-item span:first-child {
+  color: #00123c;
+  font-weight: 700;
+}
+
+.result-actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #00123c 0%, #000e68 100%);
+  color: white;
+}
+
+.secondary-button {
+  background: white;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+  color: #00123c;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(0, 18, 60, 0.12);
+}
+
+@media (max-width: 900px) {
+  .result-summary {
+    grid-template-columns: 1fr;
+  }
+}

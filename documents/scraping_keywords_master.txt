@@ -1,0 +1,88 @@
+================================================================================
+🚀 MASTER SCRAPING KEYWORDS & SALES EXECUTIVE DATA EXTRACTION MANUAL
+================================================================================
+
+1. DEDICATED GOOGLE SPREADSHEETS:
+--------------------------------------------------------------------------------
+• ODOO SALES EXECUTIVE LEADS (SHEET 1):
+  URL: https://docs.google.com/spreadsheets/d/1X_8LbsHisyvoCfjSuTX5yRVsRgXPDEmu3W5RWXuAC1o/edit?usp=sharing
+  Spreadsheet ID: 1X_8LbsHisyvoCfjSuTX5yRVsRgXPDEmu3W5RWXuAC1o
+  Target Entity: Odoo Direct Sales Executives & Certified Partners
+  GitHub Repo: https://github.com/mdyasar49/odoo-lead-generator.git
+
+• ZOHO SALES EXECUTIVE LEADS (SHEET 2):
+  URL: https://docs.google.com/spreadsheets/d/18oHqPuo6BhAgI5e_GLSSps5fSc_DpzYEYofgPKxBv9o/edit?usp=sharing
+  Spreadsheet ID: 18oHqPuo6BhAgI5e_GLSSps5fSc_DpzYEYofgPKxBv9o
+  Target Entity: Zoho Direct Sales Executives & Certified Partners
+  GitHub Repo: https://github.com/mdyasar49/zoho-lead-generator.git
+
+================================================================================
+2. ODOO SALES EXECUTIVE EXTRACTION KEYWORDS & SEARCH DORKS:
+================================================================================
+Primary Web Source URL: https://www.odoo.com/contactus
+Official Directory    : https://www.odoo.com/partners/country/india-101
+
+Search Dorks & Keywords Used for Odoo Sales Executives:
+- "Odoo India" "Territory Sales Manager" "Tamil Nadu" OR "Chennai" OR "Coimbatore"
+- "Odoo India" "Senior Business Development Executive" "Coimbatore Zone"
+- "Odoo India" "Regional Sales Executive" "Chennai Office"
+- "Odoo India" "Senior Account Executive" "South India Regional Sales"
+- "Odoo India" "Sales Manager" "Enterprise Accounts India"
+- "Oodu Implementers Private Limited" "Odoo Lead Sales Representative" "Coimbatore"
+- "Softhealer Technologies Private Limited" "Senior Odoo Sales Manager" "Coimbatore"
+- "TechUltra Solutions Pvt. Ltd." "Business Development Manager" "Odoo Sales"
+- "Ksolves India Ltd." "Odoo Account Sales Executive" "India"
+- "Closyss Technologies LLP" "Managing Sales Partner" "Odoo ERP" "Chennai"
+
+================================================================================
+3. ZOHO SALES EXECUTIVE EXTRACTION KEYWORDS & SEARCH DORKS:
+================================================================================
+Primary Web Source URL: https://www.zoho.com/contactus.html & https://www.zohocorp.com/
+Official Directory    : https://www.zoho.com/partners/find-partner.html
+
+Search Dorks & Keywords Used for Zoho Sales Executives:
+- "Zoho Corporation" "Senior Business Development Manager" "Chennai HQ" OR "India Sales"
+- "Zoho Corporation" "Business Development Executive" "Tamil Nadu Territory"
+- "Zoho Corporation" "Territory Sales Manager" "Coimbatore" OR "West TN"
+- "Zoho Corporation" "Strategic Sales Executive" "Tenkasi Campus"
+- "Zoho Corporation" "Enterprise Account Executive" "Chennai Sales Desk"
+- "Zoho Corporation" "Regional Account Manager" "Madurai" OR "South TN Zone"
+- "FOSS INFOTECH PRIVATE LIMITED" "Zoho Regional Sales Executive" "Coimbatore"
+- "CloudNext Solutions" "Zoho Enterprise Account Manager" "Chennai"
+- "Kinetic IT Solutions" "Zoho Sales Lead & Consultant" "Chennai"
+- "Softlanding Software Solutions" "Zoho Sales & Licensing Manager" "Chennai"
+
+================================================================================
+4. 21-COLUMN CRM IMPORT SCHEMA (COLUMNS A1 TO U1):
+================================================================================
+A: Scraped Date
+B: Lead Source
+C: Scraped Website Source URL (Live Tested Source Portal - HTTP 200 OK)
+D: Company Name
+E: Contact Person
+F: First Name
+G: Last Name
+H: Job Title
+I: Work Email (RFC Validated Email Address)
+J: Phone Number (Direct Mobile or Desk Line)
+K: Company Website URL (Verified Active Company Web Portal - HTTP 200 OK)
+L: LinkedIn / Social Profile URL (Verified Active Profile Link - HTTP 200 OK)
+M: City
+N: State
+O: Country
+P: Industry / Module Focus
+Q: Partner Grade
+R: Lead Status (New / Active Lead)
+S: Call Status (New / Pending Call)
+T: Follow Up Notes
+U: Description
+
+================================================================================
+5. AUTOMATION TIMING & CRON SCHEDULE:
+================================================================================
+Cron Schedule: 0 * * * * (Runs at minute 0 of every hour)
+Frequency    : Every 1 Hour automatically via GitHub Actions
+Repositories :
+- Odoo: https://github.com/mdyasar49/odoo-lead-generator.git
+- Zoho: https://github.com/mdyasar49/zoho-lead-generator.git
+================================================================================

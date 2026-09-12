@@ -1,0 +1,56 @@
+================================================================================
+  CANADIAN CRYSTALLINE ODOO ERP - COMPLETE SYSTEM URLS & LINKS BLUEPRINT
+================================================================================
+
+1. PRIMARY PUBLIC & AUTHENTICATION ENDPOINTS
+--------------------------------------------------------------------------------
+- Base System Domain        : https://app.canadiancrystalline.info
+- User Login Page           : https://app.canadiancrystalline.info/web/login
+- User Registration         : https://app.canadiancrystalline.info/web/signup
+- Password Reset Page       : https://app.canadiancrystalline.info/web/reset_password
+- Database Manager Portal   : https://app.canadiancrystalline.info/web/database/manager
+- Custom Window Action 808  : https://app.canadiancrystalline.info/canadian/action-808
+- Technical Developer Mode  : https://app.canadiancrystalline.info/canadian/settings?debug=1
+
+
+2. CORE BUSINESS MODULE URLS & ACTIONS
+--------------------------------------------------------------------------------
+- CRM Leads & Pipeline      : https://app.canadiancrystalline.info/web#action=crm.crm_lead_action_pipeline
+- Sales Orders & Quotes     : https://app.canadiancrystalline.info/web#action=sale.action_orders
+- Customers Directory (B2B) : https://app.canadiancrystalline.info/web#action=base.action_partner_form
+- Purchase Orders           : https://app.canadiancrystalline.info/web#action=purchase.purchase_form_action
+- Vendors & Suppliers       : https://app.canadiancrystalline.info/web#action=purchase.act_res_partner_2_supplier_invoices
+- Inventory Operations      : https://app.canadiancrystalline.info/web#action=stock.action_picking_tree_all
+- Product Master Catalog    : https://app.canadiancrystalline.info/web#action=stock.stock_product_normal_action
+- Manufacturing Orders (MRP): https://app.canadiancrystalline.info/web#action=mrp.mrp_production_action
+- Invoicing & Customer Bills: https://app.canadiancrystalline.info/web#action=account.action_move_out_invoice_type
+- Accounting General Ledger : https://app.canadiancrystalline.info/web#action=account.action_account_moves_all_a
+
+
+3. TECHNICAL ADMINISTRATION & CUSTOMIZATION URLS
+--------------------------------------------------------------------------------
+- System Settings Dashboard : https://app.canadiancrystalline.info/web#action=base.action_settings
+- Users & Access Rights     : https://app.canadiancrystalline.info/web#action=base.action_res_users
+- Companies Management      : https://app.canadiancrystalline.info/web#action=base.action_res_company_form
+- Email Templates Manager   : https://app.canadiancrystalline.info/web#action=mail.action_email_template_tree
+- Technical QWeb Views      : https://app.canadiancrystalline.info/web#action=base.action_ui_view
+- Scheduled Server Actions  : https://app.canadiancrystalline.info/web#action=base.action_server_action
+- Automated Cron Jobs       : https://app.canadiancrystalline.info/web#action=base.action_ir_cron
+
+
+4. EXTERNAL XML-RPC & JSON-RPC API ENDPOINTS
+--------------------------------------------------------------------------------
+- Authentication Gateway    : https://app.canadiancrystalline.info/xmlrpc/2/common
+- Object Manipulation API   : https://app.canadiancrystalline.info/xmlrpc/2/object
+- Web Session API           : https://app.canadiancrystalline.info/web/session/authenticate
+- Web API Dataset Call      : https://app.canadiancrystalline.info/web/dataset/call_kw
+
+
+5. EXTERNAL CORPORATE & IMPLEMENTATION LINKS
+--------------------------------------------------------------------------------
+- Official Corporate Website: https://canadiancrystalline.com
+- Implementation Partner    : https://www.infogenx.com
+- Local Integration Engine  : file:///d:/infonix/odoo_uploader/odoo_sync_engine.py
+- Debranding Notes Document : file:///d:/infonix/ODOO_CHANGES_NOTES.md
+
+================================================================================

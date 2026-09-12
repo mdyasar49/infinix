@@ -1,0 +1,1 @@
+Stop-Process -Name node -Force -ErrorAction SilentlyContinue; Remove-Item -Recurse -Force -ErrorAction SilentlyContinue d:\infonix\dev\node_modules\.cache, d:\infonix\infogenx.com\node_modules\.cache, d:\infonix\infogenx.com.au\node_modules\.cache, d:\infonix\infogenx-blog-admin\node_modules\.cache; Clear-RecycleBin -Confirm:$false -ErrorAction SilentlyContinue

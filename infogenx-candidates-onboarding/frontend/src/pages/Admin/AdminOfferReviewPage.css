@@ -1,0 +1,299 @@
+.admin-review-shell {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  padding: 30px 20px 80px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  color: #1e293b;
+}
+
+.admin-review-container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* Header Banner */
+.admin-review-header {
+  background: linear-gradient(135deg, #00123C 0%, #000E68 60%, #E65525 100%);
+  color: #ffffff;
+  padding: 28px 36px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 30px rgba(0, 18, 60, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-header-title h1 {
+  margin: 0 0 6px 0;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.admin-header-title p {
+  margin: 0;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.admin-badge {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Candidate Profile Card */
+.candidate-summary-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px 30px;
+  margin-bottom: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 18px rgba(0, 18, 60, 0.04);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cand-info-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cand-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00123C 0%, #E65525 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.cand-text h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  color: #00123C;
+  font-weight: 700;
+}
+
+.cand-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.cand-meta-badges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge-score {
+  background: #F0FDF4;
+  color: #166534;
+  border: 1px solid #BBF7D0;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.badge-status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.badge-status.pending {
+  background: #FFFBEB;
+  color: #B45309;
+  border: 1px solid #FDE68A;
+}
+
+.badge-status.approved {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+}
+
+/* Form & Configuration Panel */
+.approval-form-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 28px 32px;
+  margin-bottom: 28px;
+  border: 1px solid #cbd5e1;
+  border-top: 4px solid #E65525;
+  box-shadow: 0 4px 20px rgba(0, 18, 60, 0.05);
+}
+
+.form-section-title {
+  margin: 0 0 20px 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #00123C;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .form-grid-2col {
+    grid-template-columns: 1fr;
+  }
+}
+
+.admin-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.admin-field-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #334155;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.admin-field-input, .admin-field-select, .admin-field-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #00123C;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.admin-field-input:focus, .admin-field-select:focus, .admin-field-textarea:focus {
+  border-color: #00123C;
+  box-shadow: 0 0 0 3px rgba(0, 18, 60, 0.1);
+}
+
+.admin-field-textarea {
+  resize: vertical;
+  min-height: 70px;
+  font-family: inherit;
+}
+
+/* Action Bar */
+.admin-action-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.btn-admin-approve {
+  background: linear-gradient(135deg, #16A34A 0%, #15803D 100%);
+  color: #ffffff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(22, 163, 74, 0.28);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-admin-approve:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(22, 163, 74, 0.38);
+}
+
+.btn-admin-approve:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Requests Table (All Requests view) */
+.admin-table-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px rgba(0, 18, 60, 0.05);
+  overflow-x: auto;
+}
+
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+.requests-table th {
+  background: #f8fafc;
+  padding: 14px 16px;
+  font-weight: 700;
+  color: #475569;
+  border-bottom: 2px solid #e2e8f0;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.requests-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+}
+
+.requests-table tr:hover td {
+  background: #f8fbff;
+}
+
+.btn-review-action {
+  background: #00123C;
+  color: #ffffff;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-review-action:hover {
+  background: #E65525;
+}

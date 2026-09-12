@@ -1,0 +1,191 @@
+ODOO
+Identifying companies using Odoo externally requires technographic data, footprint tracking, public references, and intent signals. Unlike proprietary SaaS platforms, Odoo’s unique mix of open-source installations, cloud-hosted instances, and local partner networks creates specific digital signals you can target.
+1. Direct Technographic & Domain Scraping
+Technographic providers scrape website code, script signatures, and DNS records to index active Odoo deployments:
+* BuiltWith & Wappalyzer: Search directly for domains running Odoo tech stacks (e.g., Odoo, OpenERP, or specific Odoo Web modules). You can filter these lists by revenue, country, and web traffic rank.
+* Apollo.io / ZoomInfo / Ocean.io: Use the Technologies Used filter in your B2B database. Filter by "Odoo" + your target Ideal Customer Profile (ICP), such as Manufacturing companies in Europe with 20–200 employees.
+* Custom Footprint Scraping: Self-hosted Odoo instances often leak predictable URL patterns or server responses:
+   * Port 8069 signatures (default Odoo HTTP port).
+   * Web paths like /web/login, /web/database/selector, or /shop running on Odoo e-commerce.
+   * Web scrapers (like httpx or custom Python scripts using Google Dorks) can query terms like inurl:/web/login "Odoo" to map public-facing portals.
+2. Odoo’s Public Ecosystem & Partner Network
+Odoo’s own public-facing network is a high-intent list of companies actively spending money on the ecosystem:
+* Official Odoo References: Scrape or analyze the Odoo Customer References Directory. This yields verified case studies of enterprise and mid-market users.
+* Odoo App Store (Apps Marketplace): Search reviews and vendor pages on the Odoo Apps Marketplace. Module developers, reviewers, and third-party integration clients publicly post feedback tied to their real company names.
+* Certified Partner Portals: Target Odoo Implementation Partners. Gold, Silver, and Ready partners showcase their client portfolios directly on their agency websites.
+3. Hiring & Role-Based Intent Signals
+Companies hiring for Odoo skills are either undergoing a new implementation or actively expanding their existing setup:
+* Job Board Keyword Searches: Monitor LinkedIn Recruiter, Indeed, and Seek using Boolean queries:
+   * "Odoo Developer" OR "Odoo Functional Consultant" OR "Odoo Administrator"
+   * "Odoo ERP" AND ("Implementation" OR "Migration")
+* LinkedIn Sales Navigator: Use account-level filters combined with spot searches. Look for decision-makers (CTOs, Operations Directors, Supply Chain Managers) whose profiles mention migrating to or managing Odoo.
+4. Recommended Workflow for Lead Generation
+Step
+	Action
+	Tools Used
+	1. Extract
+	Pull domain lists matching the Odoo technographic signature.
+	BuiltWith, Wappalyzer, Google Dorks
+	2. Enrich
+	Import domain lists to reveal company headcount, revenue, and decision-maker contacts.
+	Apollo.io, ZoomInfo, Clay
+	3. Filter
+	Narrow down by relevant titles (e.g., Head of IT, Operations Manager, CEO).
+	LinkedIn Sales Navigator
+	4. Verify
+	Run email address list through verification tools to protect deliverability.
+	NeverBo
+	
+
+******************************************************************************************************
+ZOHO
+Finding individuals and organizations using Zoho requires a mix of direct community sourcing, digital footprint analysis, and intent-based search strategies.
+1. Track Digital Footprints (Tech Stack Scraping)
+Companies using Zoho products like SalesIQ, Zoho Forms, or Zoho CRM leave unique code footprints on their websites.
+* Tech Lookup Engines (BuiltWith, Wappalyzer):
+   * Use BuiltWith or Wappalyzer to filter companies by technology. You can generate targeted lead lists by searching for domains running:
+      * Zoho SalesIQ
+      * Zoho Forms
+      * Zoho CRM Web-to-Lead
+      * Zoho Desk
+* Google Advanced Search Operators (Footprint Hunting):
+   * Search directly for websites embedding Zoho tools on their frontend:
+      * Zoho SalesIQ Chat Widget: inurl:"salesiq.zoho.com" or "[salesiq.zoho.com/widget](https://salesiq.zoho.com/widget)"
+      * Zoho Forms Embeds: inurl:"forms.zohopublic.com" or site:[zohopublic.com/forms/](https://zohopublic.com/forms/)
+      * Zoho CRM Forms: action*="[crm.zoho.com/crm/WebToLeadForm](https://crm.zoho.com/crm/WebToLeadForm)"
+2. Direct Community Sourcing (Zoho Official Ecosystem)
+Zoho operates dedicated communities where power users, admins, and business owners interact daily.
+* Zoho User Groups (ZUG):
+   * Zoho runs official city-based and industry-based Zoho User Groups (e.g., ZUG Real Estate, ZUG eCommerce).
+   * Attend local or virtual meetups listed on [community.zoho.com/meetups](https://community.zoho.com/meetups) to connect directly with active admins and business owners.
+* Zoho Community Forums:
+   * Search the Zoho Product Forums (community.zoho.com). Look at top posters, thread creators asking advanced setup questions, and users seeking custom Deluge scripts.
+* Zoho Marketplace Directory:
+   * Search the Zoho Partner Directory or marketplace reviews. Companies that review third-party Zoho Marketplace extensions are active Zoho clients.
+3. Professional Social Sourcing (LinkedIn & B2B Data)
+* LinkedIn Boolean Searches:
+   * By Job Title / Skills: Search for employees listing specific Zoho skill sets:
+      * "Zoho Administrator" OR "Zoho Developer" OR "Zoho CRM" OR "Deluge Scripting"
+   * By Technology Mention: Search posts or company profiles containing:
+      * "We use Zoho" OR "Migrated to Zoho" OR "Zoho One"
+* Sales Intelligence Tools (Apollo.io, ZoomInfo):
+   * Use platform tech-stack filters in tools like Apollo.io to filter companies where the primary CRM is set to Zoho CRM or Zoho One.
+4. Third-Party Integration Platforms
+Businesses that integrate Zoho Forms or CRM with other platforms often ask for help on public forums or leave public API traces.
+* Zapier & Make (Integromat) Communities:
+   * Search Zapier/Make forums for threads tagged with Zoho CRM, Zoho Forms, or Zoho Books. Users posting here are actively configuring Zoho workflows for their organizations.
+* WordPress Plugin Reviews & Forums:
+   * Look at support threads for popular WordPress integration plugins (e.g., Gravity Forms Zoho CRM Add-On, Zoho CRM Lead Magnet, Elementor Zoho Integrations)
+Summary Matrix
+Source
+	Target Asset
+	Best Method
+	Website Code
+	Live Sites using SalesIQ / Forms / CRM
+	BuiltWith, Wappalyzer, Google inurl: search
+	Events
+	Local Businesses & Admins
+	Zoho User Group (ZUG) Meetups & Events
+	Social / B2B
+	Decision Makers & Zoho Specialists
+	LinkedIn Boolean + Apollo Tech Stack Filters
+	Developers/Admins
+	Power Users & Technical Staff
+	Zoho Community Forums & Zapier Community
+	
+
+
+
+
+
+
+
+
+
+MICROSOFT
+If you want to determine whether an external organisation is using Microsoft 365, SDS, Fabric, Dynamics 365, or other Microsoft products, there is no single public tool that shows everything. However, you can often gather strong evidence using these methods:
+1. Check DNS Records (Best for Microsoft 365)
+Use: https://mxtoolbox.com
+Look up the domain (e.g., company.com).
+Microsoft 365 indicators:
+MX record: company-com.mail.protection.outlook.com
+Autodiscover:  autodiscover.outlook.com
+SPF record contains:include:spf.protection.outlook.com
+These usually indicate Exchange Online / Microsoft 365.
+2. Check Login Pages
+Try:https://portal.office.com
+Enter the organisation's email address.
+If Microsoft redirects to their tenant-branded sign-in page, they are likely using Microsoft 365.
+3. Check Their Job Advertisements
+Search: site:seek.com.au "Microsoft 365" "Organisation Name"
+site:linkedin.com/jobs "Power Platform" "Organisation Name"
+Look for mentions of:
+* Microsoft 365
+* Entra ID
+* Intune
+* Power BI
+* Dynamics 365
+* Fabric
+* Azure
+Job ads often reveal their technology stack.
+4. LinkedIn Employee Profiles
+Search LinkedIn for employees and IT staff.
+Look for skills or project descriptions mentioning:
+* Microsoft Fabric
+* Power BI
+* Dynamics 365
+* Azure
+* Microsoft 365
+* School Data Sync (education sector)
+5. Education Organisations (Schools)
+For schools, SDS usage is difficult to determine publicly.
+Clues include:
+* Microsoft Teams used for classes
+* OneNote Class Notebooks
+* Microsoft Education case studies
+* Public presentations mentioning School Data Sync
+________________
+
+
+6. Check Microsoft Customer Stories
+Microsoft publishes customer references:
+https://customers.microsoft.com
+Show more lines
+Search for the organisation name.
+You may find references to:
+* Dynamics 365
+* Fabric
+* Power Platform
+* Azure
+* Microsoft 365
+7. Look for Public URLs
+Some products expose recognizable URLs:
+Dynamics 365
+https://orgname.crm6.dynamics.com
+Power Pages
+https://orgname.powerappsportals.com
+Show more lines
+Azure
+https://orgname.azurewebsites.net
+
+
+These indicate Microsoft services are being used.
+8. WHOIS and DNS Technology Detection
+Sites like:https://builtwith.com
+https://www.wappalyzer.com
+can sometimes reveal:
+* Microsoft Azure
+* Office 365
+* Dynamics 365
+* Power Pages
+* Azure Front Door
+9. Microsoft Fabric (Hardest to Detect)
+Fabric is generally not publicly visible.
+You typically need one of:
+* Job advertisements
+* LinkedIn profiles
+* Conference presentations
+* Microsoft customer stories
+* Discussions mentioning Power BI Premium/Fabric
+to infer its use.
+*******************************************************************************************************

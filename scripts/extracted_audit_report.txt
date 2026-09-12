@@ -1,0 +1,332 @@
+=== PARAGRAPHS ===
+P1: INFOGENX
+P2: ProblemFirst Website Audit
+P3: SEO + Performance + UX/CRO + AEO/AI Search + Security + Business Impact
+P5: Website audited: www.infogenx.com → current primary site: www.infogenx.com.au
+P6: Audit evidence includes: livesite review, supplied PageSpeed Insights screenshots, and supplied Semrush Domain Overview PDF.
+P7: Report date: 8 September 2026
+P9: 1. How to Read This Report
+P10: This is deliberately written for a nontechnical decision maker. Each major issue is explained in plain language first, followed by the technical action a developer/SEO specialist should take.
+P12: 2. Executive Summary  - What Is Wrong?
+P13: The website has a solid service foundation and decent onpage structure, but the current growth problem is not simply “the website needs more SEO.” The bigger issue is that the site has weak measurable organic visibility, slow mobile loading, technical/domain inconsistencies, broad positioning, and not enough proof to convert or earn authority at the level an IT/AI consultancy needs.
+P15: Bottom line: do not rebuild the entire website first. Fix the technical foundation, sharpen the commercial message, add proof, improve mobile performance, and build a focused search/content strategy.
+P16: 3. Actual Data From the Evidence You Supplied
+P17: Semrush Domain Overview  - supplied PDF snapshot (7 September 2026):
+P19: Important: Semrush numbers are thirdparty estimates, not Google Search Console numbers. They are strong evidence of a visibility problem, but the final traffic/queries truth should be confirmed in Google Search Console and GA4.
+P20: PageSpeed Insights  - supplied screenshots:
+P22: Google considers LCP good at 2.5 seconds or less, INP below 200ms, and CLS at 0.1 or less. The supplied test shows mobile LCP at 5.1s, so this is the clearest performance issue in the evidence. These are labstyle measurements from the supplied PageSpeed report, not realuser field data.
+P23: 4. Problems  - Technical + SEO
+P24: Finding #1: Mobile loading is too slow
+P25: Evidence: Supplied PageSpeed mobile test: Performance 70, FCP 3.3s, LCP 5.1s, Speed Index 3.7s. The report also flags items such as image delivery, unused/legacy JavaScript and LCP request discovery.
+P26: Why this is a problem: The visitor has to wait too long for the main part of the page to appear. On mobile, this can increase abandonment before the user even understands the offer.
+P27: Business impact: High. Slower first impression can reduce engagement and lead generation and can worsen user experience on mobile networks/devices.
+P28: Recommended fix: Reduce the amount of JavaScript needed at first load, optimise the hero/LCP asset, compress and resize images, remove unused JS, improve caching, and make the main content render earlier.
+P29: Developer action: Developer should identify the exact LCP element, then reduce its transfer size and request chain. Use modern image formats, responsive images, width/height attributes, and preload only the actual LCP asset. Split noncritical JS and defer thirdparty code.
+P30: How to validate: Rerun PageSpeed on mobile. Target LCP ≤2.5s, while also checking field data in Search Console/CrUX where available.
+P31: Priority: P1  - High
+P32: Finding #2: The site relies heavily on JavaScript for public content
+P33: Evidence: Direct retrieval of the live site can expose an application shell rather than the full marketing content, while searchenginerendered views can show the page content.
+P34: Why this is a problem: If a crawler, social preview system, or other consumer does not execute the JavaScript path correctly, the useful content may be harder to access. It also adds work before the user gets the page.
+P35: Business impact: High. It creates technical dependency and can increase rendering cost and performance risk.
+P36: Recommended fix: Serve important marketing content in the initial HTML using serverside rendering or static generation, then use JavaScript only for interaction.
+P37: Developer action: Developer should ensure title, description, canonical, H1, main copy, internal links and essential schema exist in the initial response—not only after JavaScript runs.
+P38: How to validate: Compare `curl`/viewsource output against the browser DOM. The initial response should contain the essential marketing content.
+P39: Priority: P1  - High
+P40: Finding #3: The .com and .com.au domain setup needs cleanup
+P41: Evidence: The main site resolves to the .com.au domain, while the SEO evidence also shows http://infogenx.com/, http://www.infogenx.com/ and https://dev.infogenx.com/ in the indexedpage dataset. Prior live review also found internal links still pointing to infogenx.com.
+P42: Why this is a problem: Multiple URL versions create extra redirect/canonical decisions and make the preferred site address less clean for users, crawlers and analytics.
+P43: Business impact: MediumHigh. It can waste crawl effort and weaken URL consolidation if the signals are inconsistent.
+P44: Recommended fix: Choose one canonical public website host and consistently link to it. Redirect old public variants to the preferred host with a permanent redirect.
+P45: Developer action: Replace old internal .com links with siterelative links or the final .com.au URLs. Review dev subdomain indexability and robots rules; keep development environments out of search.
+P46: How to validate: Crawl all internal links and confirm there are no unintended domain changes or redirect hops.
+P47: Priority: P1  - High
+P48: Finding #4: The site's keyword footprint is extremely small
+P49: Evidence: Semrush supplied snapshot shows 7 organic keywords and 0 estimated organic traffic.
+P50: Why this is a problem: A business can have a technically healthy website and still be almost invisible if the pages are not targeting important searches strongly enough or have not built authority.
+P51: Business impact: Very high. This is directly connected to lead generation from unpaid search.
+P52: Recommended fix: Build focused commercial landing pages around highvalue search intent and support them with useful informational content and internal links.
+P53: Developer action: Create and optimise pages such as /itconsultingbrisbane/, /aiconsultingbrisbane/, /businessautomation/, /systemsintegration/, and /customsoftwaredevelopment/ only where each page has a genuinely distinct offer and sufficient content.
+P54: How to validate: Track impressions, clicks, average position and conversions in Google Search Console and GA4 monthly.
+P55: Priority: P0/P1  - Critical to growth
+P56: Finding #5: The backlink profile needs quality/relevance review
+P57: Evidence: Semrush shows 1.3K backlinks and 260 referring domains, but Authority Score is only 10.
+P58: Why this is a problem: Backlink count alone is not authority. Lowquality, weakly relevant, legacy, sitewide or otherwise lowvalue links can add little ranking strength.
+P59: Business impact: High. Poor link quality limits how strongly commercial pages can compete.
+P60: Recommended fix: Audit the top referring domains and top anchors. Keep earning relevant, editorial links from Australian business, technology, industry and partner sources. Avoid mass directory/link schemes.
+P61: Developer action: SEO specialist exports referring domains, checks relevance/quality, identifies suspicious patterns and creates a priority list of 20–50 realistic link opportunities.
+P62: How to validate: Measure referringdomain quality, relevant links to money pages, and organic growth—not just the number of backlinks.
+P63: Priority: P1  - High
+P64: 5. Problems  - Content, Trust & Authority
+P65: Finding #6: Some content claims need sourcing or correction
+P66: Evidence: A 2026 article references a “2028 Enterprise Automation Report”, which is logically inconsistent unless it is explicitly a forecast/projection or the date/title is otherwise justified. Other content contains numerical claims that need identifiable sources.
+P67: Why this is a problem: A B2B technology buyer can question the credibility of the whole brand when statistics cannot be verified.
+P68: Business impact: High. Trust is a conversion factor and also supports expert authority for search/AI systems.
+P69: Recommended fix: Every external statistic needs a real source. Where a number is an internal result, label it as a firstparty result and explain the context.
+P70: Developer action: Content owner should maintain a source register: claim, source, publication date, URL, access date, and whether the figure is firstparty or thirdparty.
+P71: How to validate: Click every cited source and confirm the number, context and date before publication.
+P72: Priority: P1  - High
+P73: Finding #7: Expert authorship is not strong enough
+P74: Evidence: Technical articles have been observed using generic editorial attribution such as “InfogenX Editorial Team.”
+P75: Why this is a problem: AI, automation, software architecture and enterprise technology content is stronger when a real expert owns the information.
+P76: Business impact: MediumHigh. Strong authorship improves trust and gives the company stronger entity signals.
+P77: Recommended fix: Use named authors and reviewers with real roles, experience, certifications where relevant, and professional profiles.
+P78: Developer action: Add “Written by” and “Reviewed by” blocks with profile pages and consistent organization/Person schema where appropriate.
+P79: How to validate: Check that author names, roles and bios appear onpage and match the structured data.
+P80: Priority: P1  - High
+P81: Finding #8: The value proposition is too broad
+P82: Evidence: The site offers many capabilities: AI, automation, analytics, application development, cloud, DevOps, integration, digital marketing, Microsoft, Zoho, Odoo, Shopify and multiple industries.
+P83: Why this is a problem: The more choices a visitor sees at once, the harder it is to understand the primary problem the company solves.
+P84: Business impact: MediumHigh. Confusion hurts conversion and can weaken topical focus.
+P85: Recommended fix: Lead with 2–3 business outcomes, then show the capabilities that support those outcomes. Keep the broader service catalogue underneath.
+P86: Developer action: Rewrite the homepage headline/subheadline around a clear commercial promise and route visitors into problemled pathways.
+P87: How to validate: Run a fivesecond comprehension test with 5–10 external people: ask what the company does, who it serves, and what to click next.
+P88: Priority: P1  - High
+P89: Finding #9: The site needs stronger casestudy proof
+P90: Evidence: Current pages contain outcomeoriented marketing statements, but the evidence layer is not as strong as a B2B technology consultancy should have: quantified before/after results, project scope, timeline, technology choices and client proof.
+P91: Why this is a problem: Claims without concrete examples are less persuasive than documented outcomes.
+P92: Business impact: High. Case studies can improve sales conversion and support SEO/AEO authority.
+P93: Recommended fix: Create 5 strong case studies with a standard structure: client situation → problem → solution → implementation → measurable result → technology → timeline → quote.
+P94: Developer action: Ask sales/delivery teams for real project numbers and obtain permission for named or anonymised case studies.
+P95: How to validate: Track casestudy engagement and assisted conversions.
+P96: Priority: P1  - High
+P97: 6. Problems  - OnPage SEO & Page Intent
+P98: Finding #10: Some URLs and page topics are not tightly aligned
+P99: Evidence: The /predictiveanalytics/ route is used for a broader consulting/AI/automation proposition. The API Integration page has previously been observed with an H1 focused on AI automation rather than matching the API Integration intent.
+P100: Why this is a problem: Search engines and visitors both benefit when the URL, title, H1 and main content clearly answer the same search intent.
+P101: Business impact: MediumHigh. Misalignment can weaken relevance and confuse users.
+P102: Recommended fix: Make each commercial page about one clear intent. Either rename/migrate the page or rewrite it to genuinely satisfy the existing URL topic.
+P103: Developer action: For each page, define one primary intent, one primary topic, a unique title, unique H1, supporting headings, internal links and conversion offer.
+P104: How to validate: Crawl the site and produce a spreadsheet with URL, title, H1, primary topic and intended query. Flag mismatches.
+P105: Priority: P1  - High
+P107: 7. Problems  - AEO / AI Search
+P108: AEO means Answer Engine Optimization: making important information easy for answer systems to understand and use. This does not replace normal SEO. Google's current guidance says strong fundamentals—crawlability, indexability, helpful content, internal linking, page experience and clear structured data—remain foundational for its AI search experiences.
+P109: Finding #11: Current measurable AIsearch visibility is zero in the supplied Semrush snapshot
+P110: Evidence: Semrush supplied PDF shows AI Visibility 0 and no measurable mentions in the selected dataset.
+P111: Why this is a problem: The site may still be understood by some AI systems, but the supplied evidence shows no measurable presence in Semrush's tracked AI visibility environment.
+P112: Business impact: High as a growth signal. AI search is becoming an additional discovery channel for commercial questions.
+P113: Recommended fix: Build stronger entity clarity, directanswer content, expert authorship, original research, real case evidence and consistent company facts. Do not rely on an “AI file” alone.
+P114: Developer action: Create pages answering questions buyers actually ask: what InfogenX does, who it serves, what systems it integrates, automation costs, project timelines, Odoo vs Zoho vs Microsoft, and expected ROI.
+P115: How to validate: Track branded and category prompts manually in major AI search products and use Semrush AI visibility tracking where available.
+P116: Priority: P1  - High
+P117: Finding #12: The site needs more answerfirst content
+P118: Evidence: The site contains FAQs and explanatory content, but it can be stronger at answering buyer questions in the first paragraph with concise definitions and followed by evidence.
+P119: Why this is a problem: Answer engines work with clear, selfcontained passages. Dense marketing copy is harder to quote than direct factual answers.
+P120: Business impact: MediumHigh.
+P121: Recommended fix: For important questions, put a 40–80 word direct answer near the top, then supporting details, examples, evidence and a clear next step.
+P122: Developer action: Build FAQ sections around real sales questions, but keep the answers genuinely useful and visible; use FAQ schema only where appropriate.
+P123: How to validate: Search for the target question and inspect whether the answer is immediately understandable without reading the full page.
+P124: Priority: P1  - High
+P125: 8. AEO Content to Create
+P126: What does InfogenX do?
+P127: Who does InfogenX serve in Australia?
+P128: What systems can InfogenX integrate?
+P129: How much does business automation cost in Australia?
+P130: How long does an AI automation project take?
+P131: What is the ROI of workflow automation?
+P132: Odoo vs Zoho vs Microsoft for an Australian SME
+P133: How do I know whether my business is ready for AI automation?
+P134: What is the difference between RPA and AI agents?
+P135: Which business processes should be automated first?
+P136: 9. Problems  - Conversion & Lead Generation
+P137: Finding #13: Callstoaction are too generic
+P138: Evidence: The site uses CTAs such as “Talk to an Expert”, “Start Your Transformation” and consultationstyle wording.
+P139: Why this is a problem: Generic CTAs ask the visitor for commitment before giving them a concrete reason to take the next step.
+P140: Business impact: MediumHigh. This affects lead conversion even when traffic improves.
+P141: Recommended fix: Use a concrete, lowfriction commercial offer.
+P142: Developer action: Primary CTA: “Get a Free Automation Opportunity Assessment.” Secondary: “Book a 30Minute Strategy Call.” Lowintent: “See Relevant Case Studies.”
+P143: How to validate: Track CTA clicks → form starts → form submissions → booked calls → qualified opportunities.
+P144: Priority: P1  - High
+P145: Finding #14: Lead funnel lacks enough proof and friction reduction
+P146: Evidence: Pages ask visitors to contact the company, but the site would benefit from more visible proof, clearer expectations and a lighter first step.
+P147: Why this is a problem: B2B buyers often need evidence and clarity before sharing details or booking time.
+P148: Business impact: High.
+P149: Recommended fix: Add a short assessment, expected response time, what happens after submission, client outcomes, and at least 3 detailed case studies.
+P150: Developer action: Keep the first form short: name, company, work email, business problem, optional budget/timeline. Move deeper qualification to the next step.
+P151: How to validate: Compare conversion rates before and after the new offer.
+P152: Priority: P1  - High
+P153: 10. Problems  - Security & Technical Hygiene
+P154: Finding #15: Security headers are not directly verifiable from the available access
+P155: Evidence: The supplied audit access did not expose a trustworthy full set of production response headers for independent confirmation.
+P156: Why this is a problem: Important browser protections may exist, but they need to be measured rather than assumed.
+P157: Business impact: Medium. Security configuration should be confirmed for a production B2B site.
+P158: Recommended fix: Verify HSTS, CSP, XContentTypeOptions, ReferrerPolicy, clickjacking protection, cookie flags, TLS configuration and cache behaviour.
+P159: Developer action: Use a safe HTTP header scan against production, then tune the policy. Start CSP in ReportOnly before enforcement.
+P160: How to validate: Save before/after header results and confirm no production functionality breaks.
+P161: Priority: P1  - High (verification)
+P162: OWASP recommends protections such as HSTS, ContentSecurityPolicy, XContentTypeOptions: nosniff and an explicit ReferrerPolicy; these are defenseindepth controls and must be configured to fit the actual application.
+P163: 11. Problems  - Robots.txt, Sitemap, Canonical & Indexing
+P164: The exact contents of robots.txt and the sitemap XML were not directly recoverable through the available browsing method. That is a verification gap, not proof that they are wrong.
+P166: 12. Problems  - Internal Linking
+P167: The site has a usable hierarchy, but contextual links should push more authority toward commercial pages.
+P169: 13. Problems  - Accessibility
+P170: The supplied PageSpeed tests show Accessibility 100 on both desktop and mobile, which is a strong automated result. However, an automated score is not a full accessibility audit.
+P171: Manual keyboard navigation still needs testing.
+P172: Focus visibility needs direct testing.
+P173: Form error states and accessible labels need direct testing.
+P174: Screenreader navigation and accessible names need manual testing.
+P175: Contrast should be confirmed across all components/states, not only tested pages.
+P176: Priority: P2  - Medium, unless a manual test reveals a blocker.
+P177: 14. Performance  - Exact Fix Plan
+P179: 15. PagebyPage Priority View
+P181: 16. Scoring
+P183: 17. Quick Wins  - Do These First
+P184: Replace every internal link that still points to infogenx.com with the preferred .com.au or relative URL.
+P185: Audit all commercial page title + H1 pairs and fix obvious intent mismatches.
+P186: Fix the API Integration page H1/intent alignment.
+P187: Decide whether /predictiveanalytics/ should become a genuine predictive analytics page or be migrated to a more accurate URL.
+P188: Add named article authors and technical reviewers.
+P189: Remove or properly source every questionable statistic.
+P190: Publish 3 detailed case studies before producing another large batch of generic blog posts.
+P191: Change the main CTA to a concrete assessment/strategy offer.
+P192: Implement tracking for CTA click, form start, form submit, call click, WhatsApp click and booked call.
+P193: Create one Brisbanefocused primary commercial page instead of spreading the location intent across too many generic pages.
+P194: 18. 30 / 60 / 90 Day Action Plan
+P196: 19. What I Would Do If This Were My Website
+P197: Fix domain consistency and eliminate internal redirects.
+P198: Fix mobile LCP and reduce the initial JavaScript workload.
+P199: Make the homepage answer one commercial question: what does InfogenX solve and for whom?
+P200: Turn AI + business automation + integration into the primary growth story, with other capabilities supporting it.
+P201: Publish real case studies with numbers.
+P202: Build Brisbane commercial pages around real service intent.
+P203: Make every technical article evidenceled and expertauthored.
+P204: Create answerfirst content for AEO/AI search.
+P205: Use an assessmentbased lead funnel instead of only generic contact CTAs.
+P206: Use Search Console + GA4 as the primary source of truth for actual search performance and conversions.
+P207: 20. Research & Evidence Notes
+P208: Evidence supplied by the client/user:
+P209: Semrush Domain Overview PDF, dated 7 September 2026, for infogenx.com.
+P210: PageSpeed Insights desktop and mobile screenshots supplied in this conversation.
+P211: Key web research used for recommended standards:
+P212: Google Search Central  - JavaScript SEO basics and rendering guidance.
+P213: Google Search Central  - AI features / generative AI guidance.
+P214: Google Search Central  - Core Web Vitals guidance.
+P215: Google Search Central  - canonicalization guidance.
+P216: OWASP  - HTTP Security Response Headers Cheat Sheet.
+P217: OWASP  - Content Security Policy Cheat Sheet.
+P218: Source URLs:
+P219: Google  - JavaScript SEO basics: https://developers.google.com/search/docs/crawlingindexing/javascript/javascriptseobasics
+P220: Google  - AI features in Search: https://developers.google.com/search/docs/appearance/aifeatures
+P221: Google  - Core Web Vitals: https://developers.google.com/search/docs/appearance/corewebvitals
+P222: Google  - Canonicalization: https://developers.google.com/search/docs/crawlingindexing/canonicalization
+P223: OWASP  - HTTP Headers: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html
+P224: OWASP  - CSP: https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html
+P226: FINAL VERDICT
+P227: InfogenX does not need a complete rebuild. The business has a workable website foundation, but it is not yet operating as a highauthority organic acquisition machine. The most important move is to stop treating SEO as a checklist and fix the underlying commercial system: clear positioning, faster mobile experience, strong proof, focused commercial pages, reliable technical delivery and evidenceled content.
+P228: Priority sequence: Technical cleanup → Mobile performance → Positioning → Proof/case studies → Conversion funnel → SEO content → AEO/original research → Authority building.
+
+=== TABLES ===
+
+--- TABLE 1 ---
+R1: Label | Meaning
+R2: 🔴 P0  - Critical | Can materially affect visibility, revenue, trust or core website stability. Fix first.
+R3: 🟠 P1  - High | Important problem with meaningful SEO, performance or conversion impact.
+R4: 🟡 P2  - Medium | Worth fixing after the major issues are under control.
+R5: 🟢 P3  - Low | Polish or lowerimpact improvements.
+
+--- TABLE 2 ---
+R1: Priority | Problem | What it means in simple language | Impact
+R2: P0/P1 | Organic visibility is weak | Semrush shows only 7 organic keywords and 0 estimated organic traffic in the supplied snapshot. | HIGH
+R3: P1 | Mobile page is slow | Mobile Performance is 70 and LCP is 5.1s; the main visible content is taking too long to appear. | HIGH
+R4: P1 | Authority is weak | Authority Score is 10 despite 260 referring domains and 1.3K backlinks; link quality/relevance needs investigation. | HIGH
+R5: P1 | AI visibility is currently 0 | Semrush's AI visibility snapshot shows no measurable visibility/mentions. | HIGH
+R6: P1 | Domain/URL cleanup needed | Older .com and other URL variants appear in the SEO dataset and some internal links still use .com. | HIGH
+R7: P1 | Content credibility issues | Some articles use claims/statistics that need stronger sourcing or correction. | HIGH
+R8: P1 | Positioning is too broad | The business presents many capabilities; a buyer can struggle to understand the primary reason to choose InfogenX. | MEDIUMHIGH
+R9: P1 | Proof is not strong enough | The site needs more detailed case studies, results, testimonials and named experts. | HIGH
+R10: P1 | CTA is too generic | “Talk to an Expert” is weaker than a concrete diagnostic/assessment offer. | MEDIUMHIGH
+R11: P2 | Technical controls need direct verification | Robots, sitemap contents, security headers, exact schema and some HTTP values were not directly verifiable with available access. | MEDIUM
+
+--- TABLE 3 ---
+R1: Metric | Observed value | What it means
+R2: Authority Score | 10 | The domain has low overall authority in Semrush's model.
+R3: Organic Traffic | 0 | Semrush currently estimates no meaningful organic traffic for the selected database/scope.
+R4: Organic Keywords | 7 | Very small keyword footprint in the supplied snapshot.
+R5: Referring Domains | 260 | There are many linking domains, but they are not translating into strong authority/visibility.
+R6: Backlinks | 1.3K | Backlink quantity exists; quality and relevance need investigation.
+R7: AI Visibility | 0 | No measurable AIsearch visibility in the supplied Semrush snapshot.
+R8: Paid Traffic | 0 | No paid traffic detected in that snapshot.
+
+--- TABLE 4 ---
+R1: Metric | Desktop | Mobile | Assessment
+R2: Performance | 80 | 70 | Desktop is acceptable; mobile needs work.
+R3: Accessibility | 100 | 100 | Strong score in this automated test.
+R4: Best Practices | 92 | 96 | Generally strong, but not perfect.
+R5: SEO | 100 | 100 | Automated technical SEO checks pass; this does not mean rankings are strong.
+R6: FCP | 0.9s | 3.3s | Mobile first paint is too slow.
+R7: LCP | 1.3s | 5.1s | Major mobile issue.
+R8: TBT | 300ms | 210ms | JavaScript work can still be reduced.
+R9: CLS | 0.004 | 0.047 | Layout stability is good in this test.
+R10: Speed Index | 1.8s | 3.7s | Mobile is materially slower.
+
+--- TABLE 5 ---
+R1: Page type | What should be clear | Common failure to avoid
+R2: Service page | What service, for whom, what outcome, how delivered | Generic list of technologies
+R3: Industry page | Specific industry problems and solutions | Same content with industry name swapped
+R4: Platform page | Why choose platform + what InfogenX implements | Platform marketing copied from vendor
+R5: Blog article | One question/topic, evidence, expert voice | Generic AIstyle summary
+R6: About page | Who the company is, leadership, location, proof | Generic company story without evidence
+
+--- TABLE 6 ---
+R1: Item | Status | What to do
+R2: robots.txt | Not verifiable | Confirm crawl permissions and sitemap declaration.
+R3: XML sitemap | Not verifiable | Check that only preferred, indexable 200 URLs are included.
+R4: Canonical tags | Partially observed / needs full crawl | Every important page should have the intended canonical URL.
+R5: Noindex / XRobotsTag | Not fully verifiable | Check important pages are indexable and junk pages are controlled.
+R6: Hreflang | Not established as required | Use only if genuine language/country variants exist.
+R7: Development subdomain | Needs review | Keep nonproduction environments out of search.
+
+--- TABLE 7 ---
+R1: From | Link to | Suggested anchor | Why
+R2: /industries/retailsolutions/ | /solutions/intelligentautomation/ | retail process automation | Connect industry problem to solution.
+R3: /industries/retailsolutions/ | /platforms/shopify/ | Shopify integration | Connect industry demand to platform capability.
+R4: /services/managedservices/ | /solutions/apiintegration/ | CRM and ERP integration | Build topical relevance between service and solution.
+R5: /aidevelopment/ | /solutions/intelligentautomation/ | AI workflow automation | Connect AI development to a commercial outcome.
+R6: /industries/wholesaledistribution/ | /platforms/odoo/ | Odoo implementation | Support platform + industry relevance.
+R7: Blog articles | Relevant service pages | Natural, descriptive anchors | Turn informational traffic into commercial journeys.
+
+--- TABLE 8 ---
+R1: Area | Current evidence | Fix | Expected result
+R2: LCP | Mobile 5.1s | Optimise LCP element, preload only when appropriate, reduce image/request cost. | Faster main content.
+R3: Images | PageSpeed flags image delivery | AVIF/WebP, responsive sizes, dimensions, lazyload below fold. | Lower transfer and faster rendering.
+R4: JavaScript | Unused/legacy JS findings | Code splitting, defer noncritical scripts, remove unused dependencies. | Less mainthread work.
+R5: Thirdparty | Tracking is present/possible | Delay nonessential tags until after core content or consent where appropriate. | Lower blocking/CPU cost.
+R6: Caching | Needs verification | Longcache fingerprinted static assets and CDN caching where appropriate. | Fewer repeat downloads.
+R7: Server delivery | Needs measurement | Measure TTFB and improve hosting/CDN/server rendering if needed. | Earlier first response.
+
+--- TABLE 9 ---
+R1: Page | Main problem | Business effect | Priority
+R2: / | Message is broad; needs stronger primary promise and proof. | Visitor clarity + conversion. | P1
+R3: /predictiveanalytics/ | URL and page intent are not tightly aligned. | Relevance + user clarity. | P1
+R4: /about/ | Needs stronger expert/entity proof and consistent company facts. | Trust. | P1
+R5: /aidevelopment/ | Good topic but needs more case evidence and sharper differentiation. | AI commercial growth. | P1
+R6: /services/managedservices/ | Strong commercial topic; reinforce outcomes and case studies. | Lead generation. | P1
+R7: /solutions/intelligentautomation/ | Strong cluster opportunity; connect better to industries and proof. | SEO + CRO. | P1
+R8: /solutions/apiintegration/ | Intent/H1 alignment should be tightened. | SEO relevance. | P1
+R9: /industries/retailsolutions/ | Strong local/commercial opportunity; needs more proof. | Industry lead generation. | P1
+R10: /platforms/shopify/ | Needs clearer service packages and case examples. | Platform leads. | P2
+R11: /careers/ | Lower commercial priority; keep simple. | Low direct revenue impact. | P3
+
+--- TABLE 10 ---
+R1: Area | Score / 100 | Comment
+R2: Technical SEO | 66 | Good foundation, but domain/rendering issues need cleanup.
+R3: Crawlability | 58 | JavaScript dependency makes rendering an important risk area.
+R4: Indexability | 68 | Content is discoverable, but full technical verification is incomplete.
+R5: Onpage SEO | 75 | Generally good commercial page structure with some intent mismatches.
+R6: Content | 70 | Good breadth; evidence and differentiation need strengthening.
+R7: Internal linking | 72 | Good structure, stronger contextual linking needed.
+R8: Performance | 60 | Desktop is acceptable; mobile needs work.
+R9: Mobile UX | 60 | Main concern is performance; full manual UX testing remains.
+R10: Accessibility | 82 | Excellent automated score, but manual testing is still required.
+R11: Security | 55 | No critical public exploit was attempted; configuration needs direct verification.
+R12: Structured data | 55 | Recommended architecture is clear, implementation needs verification.
+R13: AI Search / AEO | 64 | Good content base, weak measurable AI visibility and evidence depth.
+R14: CRO | 67 | Functional CTA system, but offer/proof/funnel can be much stronger.
+R15: Local SEO | 74 | Brisbane/Australia positioning is a real opportunity.
+R16: Overall health | 64 | Commercially promising, but technical + authority + conversion improvements are needed.
+
+--- TABLE 11 ---
+R1: Period | Tasks | Owner | Effort | Expected impact
+R2: Days 0–7 | Domain/link cleanup, title/H1 audit, source questionable claims, confirm robots/sitemap/security headers. | Developer + SEO + Content | MEDIUM | HIGH
+R3: Days 8–30 | Homepage messaging, CTA redesign, 3 case studies, author system, core schema, first Brisbane commercial page. | Marketing + Sales + Dev | HIGH | HIGH
+R4: Days 31–60 | Reduce JS cost, improve mobile LCP, rebuild internal links, create 5–8 focused commercial pages. | Developer + SEO | HIGH | HIGH
+R5: Days 61–90 | Original research asset, comparison content, automation calculator, PR/link acquisition, CRO experiments. | Marketing + SEO + Sales | HIGH | HIGH

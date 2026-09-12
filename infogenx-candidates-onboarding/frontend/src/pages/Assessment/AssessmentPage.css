@@ -1,0 +1,102 @@
+/* ==========================================================
+   INFOGENX ASSESSMENT PAGE — CENTERED RESPONSIVE LAYOUT
+   ========================================================== */
+
+.assessment-shell {
+  width: 100%;
+  min-height: 100vh;
+  background: #FFFFFF !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 20px;
+}
+
+.assessment-main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.assessment-card {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px 36px;
+  border: 1.5px solid transparent;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, #00123C 0%, #E65525 100%);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  box-shadow: 0 20px 50px rgba(0, 18, 60, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Intro Cards & Instructions */
+.intro-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.stat-card {
+  background: #FFF8F3;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Question & Option Styles */
+.option-item-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option-item-card:hover {
+  border-color: #E65525;
+  background: #FFF8F3;
+}
+
+.option-item-card.selected {
+  border: 2px solid #E65525;
+  background: #FFF8F3;
+}
+
+/* Question Palette Grid */
+.q-palette-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 130px;
+  overflow-y: auto;
+  padding: 14px;
+  background: #F8FAFC;
+  border-radius: 12px;
+  border: 1px solid #E2E8F0;
+}
+
+/* Responsiveness */
+@media (max-width: 640px) {
+  .assessment-shell {
+    padding: 16px 12px;
+  }
+
+  .assessment-card {
+    padding: 24px 18px;
+    border-radius: 16px;
+  }
+}
+

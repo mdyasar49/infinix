@@ -1,0 +1,2620 @@
+================================================================================
+           FULL CODEBASE SCRAPING KEYWORDS & SEARCH PATTERNS MASTER NOTES
+================================================================================
+Scanned Files Count: 1132 files across workspace
+
+--------------------------------------------------------------------------------
+1. 🚀 PRE-LAUNCH & STARTUP TRIGGER KEYWORDS (சமூக வலைத்தள புதிய நிறுவனங்கள்)
+--------------------------------------------------------------------------------
+- beta launch
+- coming soon
+- early access
+- getting ready to launch
+- grand opening
+- launching soon
+- launching this month
+- new launch
+- opening soon
+- pre-launch
+- pre-register now
+- we are launching
+- website launching
+
+--------------------------------------------------------------------------------
+2. 💼 TARGET JOB ROLES & VACANCY KEYWORDS (வேலைவாய்ப்பு & Hiring)
+--------------------------------------------------------------------------------
+- Full Stack Developer
+- Gemini AI
+- LLM/Gemini API integrations
+- MERN Stack Developer
+- Microservices
+- Node.js
+- Python
+- Python Developer
+- React Developer
+- RemoteOK
+- Software Developer
+- Vite
+- WeWorkRemotely
+- Wellfound
+- and scalable REST backends.
+- c.role for c in h.session.chat_history
+- pitch_highlights": "5+ years architecting full-stack web applications
+- target_platforms": ["LinkedIn Jobs
+- tech_focus": "React
+- w.title for w in sh.worksheets()
+- {
+        "role_title": "Senior Full-Stack AI Engineer (Remote)
+
+--------------------------------------------------------------------------------
+3. 🤖 UPWORK AUTOMATION & INTENT DETECTION KEYWORDS (Upwork & Web Projects)
+--------------------------------------------------------------------------------
+Exact Keywords Matched in Code (upwork_new.py :: KEYWORDS):
+- scrap
+- scrape
+- scraping
+- extractor
+- migration
+- migrate
+- redesign
+- upgrade
+- http
+- https
+- www
+- .com
+- domain
+- url
+- site link
+- web address
+- landing page
+
+Upwork Data Points Scraped & Stored:
+- Job Title & Full Description
+- Fixed Budget ($) & Hourly Rate ($/hr Min/Max)
+- Total Client Spent ($ Spent)
+- Client Location (Australia & Global)
+- Proposal Count Tier & Client Payment Verification
+- Client Hiring History & Past Freelancer Billed Rates
+
+--------------------------------------------------------------------------------
+4. 🏢 TARGET INDUSTRIES (12 தொழில்துறை பிரிவுகள்)
+--------------------------------------------------------------------------------
+1. Accounting Firms
+2. Australia")
+3. Consulting
+4. Director of IT
+5. Education
+6. Healthcare
+7. Hospital Administrator
+8. ICT
+9. IT / Software
+10. ITES / BPO
+11. Managing Director
+12. Managing Partner
+13. Manufacturing
+14. Operations Head
+15. Operations Manager
+16. Partner
+17. Plant Manager
+18. Principal
+19. Professional Services
+20. Property Manager
+21. Real Estate
+22. Retail / E-commerce
+23. Software Developer
+24. Wholesale & Distribution
+
+--------------------------------------------------------------------------------
+5. 🔍 SEARCH DORKS & PLATFORM TARGETS (தேடல் பாணிகள் & தளங்கள்)
+--------------------------------------------------------------------------------
+Active Site Dorks Found in Codebase:
+- site:.co.in
+- site:.com.au
+- site:.in
+- site:.net.au
+- site:</strong>
+- site:[^
+- site:[^\s
+- site:au
+- site:facebook.com
+- site:facebook.com/permalink.php
+- site:freelancer.com/projects
+- site:instagram.com
+- site:linkedin.com
+- site:linkedin.com/company
+- site:linkedin.com/company/
+- site:linkedin.com/in
+- site:linkedin.com/in/
+- site:linkedin.com/posts
+- site:pinterest.com
+- site:r=!1,tabIndex:o=0,isNativeButton:i}=e,l=r&&!1!==t,s=r&&!1===t;return
+- site:r=!1,tabIndex:o=0,isNativeButton:i}=e,s=r&&!1!==t,l=r&&!1===t;return
+- site:reddit.com
+- site:twitter.com
+- site:upwork.com/jobs
+- site:x.com
+- site:youtube.com
+- site:{domain}
+
+Scraped Platforms & Directories:
+- LinkedIn Profiles & Jobs
+- Instagram Business Profiles
+- Facebook Business Pages
+- X (Twitter)
+- YouTube Channels
+- Pinterest
+- Clutch.co (au/developers)
+- DesignRush
+- Upwork
+- Freelancer
+- PeoplePerHour
+- Google Serper.dev Live Search
+- Gemini AI Search Grounding
+- HackerNews Algolia API
+- OpenStreetMap Nominatim API
+
+--------------------------------------------------------------------------------
+6. 📍 TARGET LOCATION & GEOGRAPHIC SCOPE (பிராந்தியம்)
+--------------------------------------------------------------------------------
+- Primary Target Location: Australia (Sydney, Melbourne, Brisbane, Perth, Adelaide)
+- Secondary Targets: India, USA, Global
+
+--------------------------------------------------------------------------------
+7. 🚫 EXCLUDED FILTERS (போலி & ஸ்பேம் மின்னஞ்சல் வடிகட்டிகள்)
+--------------------------------------------------------------------------------
+Invalid / Blacklisted Domains:
+  - bing
+  - domain.com
+  - email.com
+  - example.com
+  - facebook
+  - google
+  - instagram
+  - linkedin
+  - myshopify.com
+  - reddit
+  - sample.com
+  - seek
+  - sentry.io
+  - test.com
+  - twitter
+  - wixpress.com
+  - wordpress.com
+  - x.com
+  - yahoo
+  - youtube
+
+Blacklisted No-Reply Aliases:
+  - noreply
+  - no-reply
+  - donotreply
+
+Static Asset & Image Extensions Skipped:
+  - .css
+  - .gif
+  - .ico
+  - .jpeg
+  - .jpg
+  - .js
+  - .mp4
+  - .pdf
+  - .png
+  - .svg
+  - .webp
+  - .zip
+
+--------------------------------------------------------------------------------
+8. 📊 LEAD SOURCES & CRM DATA FIELDS
+--------------------------------------------------------------------------------
+- Advertisement
+- Apollo.io
+- Brevo / SendInBlue
+- Cold Call
+- Crunchbase
+- Directories
+- Email Campaign
+- Google Maps / Places
+- Google Search
+- LinkedIn
+- Lusha / ZoomInfo / Hunter.io
+- Referral
+- Upwork / Fiverr
+- Website
+- Zoho Sheet / CRM
+
+--------------------------------------------------------------------------------
+9. 📜 ALL EXPLICIT LIST VARIABLES SCANNED FROM CODE FILES
+--------------------------------------------------------------------------------
+[Yelp Scraper.py -> temp]
+  3D Printing, Abruzzese, Absinthe Bars, Acai Bowls, Accessories, Accountants, Acne Treatment, Active Life, Acupuncture, Addiction Medicine, Adoption Services, Adult, Adult Education, Adult Entertainment, Advertising, Aerial Fitness, Aerial Tours, Aestheticians, Afghan, African...
+
+[Yelp Scraper.py -> name_temp]
+  term, location, str(datetime.now())
+
+[Yelp Scraper.py -> columns]
+  Name, Phone, Rating, Review, Address, YelpId, YelpURL
+
+[blog-api\audit_all_keys.js -> allKeys]
+  {
+    id: 1, name: "Paid Key (New), key: "YOUR_GEMINI_API_KEY, type: "Paid Billing Account (Prepaid / Pay-as-you-go)"
+  }, {
+    id: 2, name: "Key 2 (Previous Key A), key: "YOUR_GEMINI_API_KEY, type: "Free Tier / Active Quota"
+  }, {
+    id: 3, name: "Key 3 (Previous Key B), key: "YOUR_GEMINI_API_KEY, type: "Free Tier / Active Quota"
+  }, {
+    id: 4, name: "Key 4 (Previous Original Key), key: "YOUR_GEMINI_API_KEY, type: "Depleted Account (Credits Expired)"
+  }
+
+[blog-api\audit_all_keys.js -> modelsToTest]
+  gemini-3.5-flash, gemini-3.1-flash-lite, gemini-3.6-flash
+
+[blog-api\seed_db_keys.js -> settings]
+  { key: 'gemini_api_key_primary, val: primaryKey }, { key: 'gemini_api_key, val: primaryKey }, { key: 'gemini_api_key_secondary, val: secondaryKey }, { key: 'gemini_api_keys_backup, val: backupKeys }
+
+[blog-api\test_each_gemini_key.js -> keyList]
+  { name: "Server .env GEMINI_API_KEY, key: process.env.GEMINI_API_KEY }, { name: "Server .env GEMINI_API_KEY_SECONDARY, key: process.env.GEMINI_API_KEY_SECONDARY }, { name: "DB gemini_api_key_primary, key: dbSettings.gemini_api_key_primary }, { name: "DB gemini_api_key_secondary, key: dbSettings.gemini_api_key_secondary }, ...backupKeys.map((k, i) => ({ name: `DB Backup Key #${i + 1}`, key: k }))
+
+[blog-api\test_filter_and_upsert.js -> testRecords]
+  {
+      mail: "alex.turner@quantumdev.com.au, customer_company: "QuantumDev Australia, name: "Alex Turner, phone: "+61 411 222 333"
+    }, {
+      mail: "priya.nair@chennaitech.in, customer_company: "ChennaiTech Innovations, name: "Priya Nair"
+    }, {
+      // Missing company (MUST BE REJECTED)
+      mail: "no_company@gmail.com, customer_company:, name: "Incomplete User"
+    }, {
+      // Missing mail (MUST BE REJECTED)
+      mail:, customer_company: "No Mail Corp, name: "Anonymous"
+    }
+
+[blog-api\test_models.js -> keys]
+  { name: "Key 1 (Primary / .env), key: "YOUR_GEMINI_API_KEY" }, { name: "Key 2 (Secondary), key: "YOUR_GEMINI_API_KEY" }, { name: "Key 3 (Backup #1), key: "YOUR_GEMINI_API_KEY" }
+
+[blog-api\test_models.js -> models]
+  gemini-flash-latest, gemini-2.0-flash, gemini-2.5-flash, gemini-3.1-flash-lite
+
+[blog-api\test_paid_key.js -> models]
+  gemini-flash-latest, gemini-3.6-flash, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[blog-api\test_paid_key2.js -> models]
+  gemini-3.5-flash, gemini-3.1-flash-lite, gemini-3.6-flash
+
+[blog-api\test_zoho_flow_intake.js -> testPayload]
+  {
+      mail: "john.doe@innovatecorp.com, customer_company: "Innovate Corp Pty Ltd, name: "John Doe, phone: "+61 412 345 678"
+    }, {
+      mail: "sarah.smith@techflow.io, customer_company: "TechFlow Systems, name: "Sarah Smith"
+    }, customer_company:, name: "No Company User"
+    }, {
+      // INVALID: Missing email (must be skipped!)
+      mail:, customer_company: "Ghost Enterprises, name: "Ghost User"
+    }
+
+[blog-api\websocket.js -> validPaths]
+  /ws, /ws/autoblog, /ws/admin, /ws/live
+
+[blog-api\cron\daily-infogenx-digest.js -> POSITIVE_INFOGENX_SPOTLIGHTS_FALLBACK]
+  {
+    day: 0, title: "Autonomous Systems & AI Data Agents, headline: "Building Tomorrow's Intelligent Software Infrastructure, description: "At InfogenX, tag: "SUNDAY INSPIRATION, gradient: "linear-gradient(135deg, #00123c 0%, #d33e00 100%), }, {
+    day: 1, title: "Enterprise Digital Transformation, headline: "Accelerating Growth Through Modern Cloud & Microservices, scalable, and resilient software solutions tailored to enterprise growth., tag: "MONDAY SPOTLIGHT, gradient: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%), }, {
+    day: 2...
+
+[blog-api\cron\daily-infogenx-digest.js -> apiKeysPool]
+  process.env.GEMINI_API_KEY, process.env.GEMINI_API_KEY_SECONDARY, process.env.GEMINI_API_KEY_BACKUP_1, process.env.GEMINI_API_KEY_BACKUP_2
+
+[blog-api\cron\daily-infogenx-digest.js -> days]
+  Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
+[blog-api\cron\daily-infogenx-digest.js -> modelsToTry]
+  gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-2.5-flash, gemini-flash-latest
+
+[blog-api\cron\daily-infogenx-digest.js -> allowedDays]
+  1
+
+[blog-api\cron\daily-infogenx-digest.js -> permanentlyExcludedStatuses]
+  lost lead, junk lead, not interested, do not contact, unsubscribed, spam, closed, converted
+
+[blog-api\cron\weekly-publisher.js -> daysOfWeek]
+  Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
+[blog-api\database\migrate.js -> newCols]
+  { name: 'seo_keywords, type: 'VARCHAR(500) NULL' }, { name: 'meta_description, type: 'VARCHAR(300) NULL' }, { name: 'auto_generated, type: 'TINYINT(1) DEFAULT 0' }, { name: 'scheduled_at, type: 'TIMESTAMP NULL' }, { name: 'published_at, type: 'TIMESTAMP NULL' }
+
+[blog-api\database\migrate.js -> defaultSettings]
+  { key: 'gemini_model, value: 'gemini-flash-latest' }, { key: 'auto_publish_enabled, value: 'false' }, { key: 'master_auto_ai_enabled, value: 'true' }, { key: 'auto_blog_enabled, value: 'true' }, { key: 'zoho_crm_sync_enabled, value: 'true' }, { key: 'daily_digest_enabled, value: 'true' }, { key: 'australia_campaign_enabled, value: 'true' }, { key: 'fb_access_token, value: '' }, { key: 'linkedin_access_token, value: '' }, { key: 'google_indexing_key, value: '' }...
+
+[blog-api\database\migrate.js -> metaCreds]
+  { key: 'fb_email, val: 'infogenx.meta@gmail.com' }, { key: 'fb_password, val: '!nfogenX123' }, { key: 'instagram_username, val: 'infogenx.meta@gmail.com' }, { key: 'instagram_password, val: '!nfogenX123' }, { key: 'threads_username, val: 'infogenx.meta@gmail.com' }, { key: 'threads_password, val: '!nfogenX123' }
+
+[blog-api\database\migrate.js -> defaultTemplates]
+  {
+        key: 'blog_post_generator, name: 'Enterprise SEO Blog Post Generator, category: 'blog, engaging, and highly structured articles with actionable business ROI., prompt: 'Write an exceptional, 4 detailed architecture sections with technical diagrams/bullet points, real-world enterprise use cases, ROI calculation table, model: 'gemini-flash-latest, temp: 0.7
+      }, {
+        key: 'ai_tech_spotlight, name: 'Executive Tech Spotlight Email Generator, category: 'email, inspiring, \n  "headline": "Punchy 1-line hook, \n  "description": "2 engaging paragraphs on the business impact, \n  "tag": "e.g. AI INNOVATION / CLOUD SPOTLIGHT"\n}, model: 'gemini-flash-latest, temp: 0.65
+      }...
+
+[blog-api\database\migrate.js -> execSettings]
+  { key: 'executive_name, val: 'Nithy Anand' }, { key: 'executive_title, val: 'Director — InfogenX Group' }, { key: 'executive_phone, val: '0403 339 424' }, { key: 'executive_email, val: 'business@infogenx.com' }, { key: 'executive_booking_url, val: 'https://infogenx.com/contact-us/get-in-touch' }, { key: 'executive_company_name, val: 'InfogenX Group' }, { key: 'google_indexing_auto_submit, val: 'true' }
+
+[blog-api\database\migration_v2.js -> columnsToAdd]
+  { name: 'seo_keywords, type: 'VARCHAR(500) NULL' }, { name: 'meta_description, type: 'VARCHAR(300) NULL' }, { name: 'auto_generated, type: 'TINYINT(1) DEFAULT 0' }, { name: 'scheduled_at, type: 'TIMESTAMP NULL' }, { name: 'published_at, type: 'TIMESTAMP NULL' }
+
+[blog-api\routes\api_usage_history.js -> keysToAudit]
+  {
+        id: 1, name: "Primary Paid Gemini Key (Blog API), key: process.env.GEMINI_API_KEY || "YOUR_GEMINI_API_KEY, type: "Prepaid Pay-as-you-go (Unlimited), assignedTo: "Blog Generator & Multimodal AI"
+      }, {
+        id: 2, name: "Secondary Gemini Key A, key: process.env.GEMINI_API_KEY_BACKUP_1 || "YOUR_GEMINI_API_KEY, type: "Free Tier Active Quota, assignedTo: "Fallback & Social Grounding"
+      }, {
+        id: 3, name: "Secondary Gemini Key B, key: process.env.GEMINI_API_KEY_BACKUP_2 || "YOUR_GEMINI_API_KEY, type: "Free Tier Active Quota, assignedTo: "Fallback & Lead Enrichment"
+      }, {
+        id: 4, name: "Original Gemini Key (Depleted), key: process.env.GEMINI_API_KEY_SECONDARY || "YOUR_GEMINI_API_KEY, type: "Prepayment Expired, assignedTo: "Deactivated"
+      }
+
+[blog-api\routes\auto-blog.js -> keyCandidates]
+  primaryKey, secondaryKey, ...backupKeys
+
+[blog-api\routes\auto-blog.js -> modelsToTry]
+  gemini-3.1-flash-lite, gemini-2.5-flash, gemini-flash-latest
+
+[blog-api\routes\leads.js -> queryParams]
+  email
+
+[blog-api\routes\leads.js -> validSorts]
+  created_at, name, email, status, company
+
+[blog-api\routes\leads.js -> checkParams]
+  lead.email
+
+[blog-api\routes\leads.js -> monthsShort]
+  Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
+
+[blog-api\routes\posts.js -> params]
+  req.params.slug
+
+[blog-api\routes\social-analytics.js -> TRACKED_CHANNELS]
+  facebook, instagram, linkedin, twitter, threads, whatsapp, newsletter, direct
+
+[blog-api\routes\social-analytics.js -> channels]
+  facebook, instagram, linkedin, twitter, threads, whatsapp, newsletter, direct
+
+[blog-api\routes\zoho-flow.js -> rawRecords]
+  body
+
+[blog-api\services\auto-blog-generator.js -> TOPIC_CATEGORIES]
+  {
+    category: 'Custom Software Development, topics: [
+      'How Custom Software Solutions Drive Business Growth in 2026, Top 10 Benefits of Custom Software Over Off-the-Shelf Products, How to Choose the Right Custom Software Development Partner, Best Custom Software Development Companies Brisbane 2026, Top Custom Software Development Companies in Chennai & India 2026, Why Enterprises Are Shifting to Bespoke Software Solutions, Custom Software Development: A Complete Guide for Businesses, The ROI of Custom Software: What Business Leaders Need to Know, Agile vs Waterfall: Choosing the Right Methodology for Custom Software, Microservices Architecture: Building Scalable Custom Applications
+
+[blog-api\services\auto-blog-generator.js -> uniqueKeys]
+  ...new Set(apiKeysPool.filter(Boolean))
+
+[blog-api\services\auto-blog-generator.js -> MODELS_TO_TRY]
+  gemini-3.1-flash-lite
+
+[blog-api\services\auto-blog-generator.js -> defaultModels]
+  gemini-3.1-flash-lite, gemini-2.5-flash, gemini-flash-latest
+
+[blog-api\services\auto-blog-generator.js -> currentExclusions]
+  ...existingTitles, ...tempExclusions
+
+[blog-api\services\auto-blog-generator.js -> restModels]
+  gemini-3.1-flash-lite, gemini-2.5-flash, gemini-flash-latest
+
+[blog-api\services\auto-blog-generator.js -> highlights]
+  custom, software, lock-in, roi, migration, devops, kubernetes, automation, learning, intelligence, analytics, transformation, erp, zoho, odoo, rpa, ai, cloud, multicloud, multi-cloud...
+
+[blog-api\services\auto-blog-generator.js -> photoPrompts]
+  // Style 1: Boardroom Executive Photography
+        `${topicKeywords}, ${categoryUpper}, 8k resolution photorealistic B2B corporate photography, executive board meeting in high rise glass office with city view, dark executive table with laptops, professional architectural digest studio lighting`, // Style 2: Modern Daylight Tech Desk
+        `${topicKeywords}, ${categoryUpper}, 8k resolution photorealistic corporate photography, modern laptop on clean wooden desk with leather notebook, coffee cup and indoor plant, bright soft daylight office ambient`, // Style 3: Dark Developer Analytics Workspace
+        `${topicKeywords}, ${categoryUpper}, 8k resolution photorealistic technology photography, developer dark workspace with sleek laptop showing analytics dashboard, glowing blue and orange ambient lighting, 3d digital network`, // Style 4: Collaborative Innovation Lab
+        `${topicKeywords}, ${categoryUpper}...
+
+[blog-api\services\auto-blog-generator.js -> candidates]
+  ...allLayouts.slice(rotateIndex), ...allLayouts.slice(0, rotateIndex)
+
+[blog-api\services\auto-blog-generator.js -> allLayouts]
+  LayoutC1, LayoutB, LayoutA, LayoutC3, LayoutC0, LayoutC2
+
+[blog-api\services\auto-blog-generator.js -> timelineIcons]
+  briefcase, gear, rocket, database, cloud
+
+[blog-api\services\auto-blog-generator.js -> metricIcons]
+  rocket, dollar, shield, database
+
+[blog-api\services\seo-optimizer.js -> staticPages]
+  { loc: '/, priority: '1.0, changefreq: 'daily' }, { loc: '/blog, priority: '0.9, changefreq: 'daily' }, { loc: '/about, priority: '0.7, changefreq: 'monthly' }, { loc: '/contact-us, priority: '0.8, changefreq: 'monthly' }, { loc: '/request-quote, priority: '0.8, changefreq: 'monthly' }, { loc: '/custom-software-development, priority: '0.8, changefreq: 'monthly' }, { loc: '/ai-development, priority: '0.8...
+
+[blog-api\services\social-auto-share.js -> webhookUrls]
+  settings.social_webhook_url, process.env.SOCIAL_WEBHOOK_URL, settings.zapier_webhook_url, process.env.ZAPIER_WEBHOOK_URL, settings.make_webhook_url, process.env.MAKE_WEBHOOK_URL, settings.buffer_webhook_url, process.env.BUFFER_WEBHOOK_URL, settings.pabbly_webhook_url, process.env.PABBLY_WEBHOOK_URL, settings.n8n_webhook_url, process.env.N8N_WEBHOOK_URL
+
+[blog-api\utils\sessionHelper.js -> parts]
+  data.city, data.country
+
+[blog-react\build\static\js\main.f1198d71.js -> _listeners]
+  e
+
+[blog-react\build\static\js\main.f1198d71.js -> deletions]
+  e
+
+[blog-react\build\static\js\main.f1198d71.js -> effects]
+  s
+
+[blog-react\build\static\js\main.f1198d71.js -> stores]
+  e
+
+[blog-react\build\static\js\main.f1198d71.js -> memoizedState]
+  e, t
+
+[blog-react\build\static\js\main.f1198d71.js -> mutableSourceEagerHydrationData]
+  n, o
+
+[blog-react\build\static\js\main.f1198d71.js -> current]
+  r, i
+
+[blog-react\build\static\js\main.f1198d71.js -> filterProps]
+  sx
+
+[blog-react\build\static\js\main.f1198d71.js -> raw]
+  ...n, ...e.raw, ...r
+
+[blog-react\build\static\js\main.f1198d71.js -> transition]
+  j.transitions.create("opacity, {duration:i, delay:r}), j.transitions.create("transform, {duration:Kc?i:.666*i, delay:Kc?r:r||.333*i, easing:o})
+
+[blog-react\src\data\blogData.js -> STATIC_POSTS]
+  {
+    slug: "ai-for-australian-businesses, title: "AI for Australian Businesses: A Practical Getting-Started Guide, category: "AI & Automation, tags: ["AI, Automation, Fintech, Business Growth
+
+[Data-Scraping\lead_verifier.py -> INVALID_PHONE_PATTERNS]
+  r'^(?:\+?\d{1, 3})?0{7, }$, # All zeros
+    r'^(?:\+?\d{1, 3})?1{7, }$, # All ones
+    r'^(?:\+?\d{1, 3})?9{7, }$, # All nines
+    r'12345678, # Sequential dummy
+    r'555[-.
+
+[Data-Scraping\lead_verifier.py -> nameservers]
+  8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1
+
+[Data-Scraping\lead_verifier.py -> candidate_regions]
+  default_country, AU, IN, US, GB, None
+
+[Data-Scraping\run_all.py -> targets]
+  3, 2
+
+[Data-Scraping\sync_to_google_sheet.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[Data-Scraping\sync_to_google_sheet.py -> candidate_filenames]
+  sheet-sync-504707-85df40232946.json, credentials.json
+
+[Data-Scraping\sync_to_google_sheet.py -> client_candidates]
+  os.path.join(BASE_DIR, self_client.json"), os.path.join(parent_dir, infogenx-twilio-dialer, self_client.json"), os.path.join(parent_dir, self_client.json")
+
+[Data-Scraping\sync_to_google_sheet.py -> garbage_patterns]
+  r'\b(?:review|ratings?|pricing|guide|blog|portfolio|overview|website)\b.*$, r'^(?:contact us|home|about us|get in touch|request a quote)$
+
+[Data-Scraping\sync_to_google_sheet.py -> australia_queries]
+  Sydney, New South Wales, Australia"), Sydney, New South Wales, Australia"), Sydney, New South Wales, Australia"), Melbourne, Victoria, Australia"), Melbourne, Victoria, Australia"), Melbourne, Victoria, Australia"), Brisbane, Queensland...
+
+[Data-Scraping\sync_to_google_sheet.py -> india_queries]
+  Bengaluru, Karnataka, India"), Chennai, Tamil Nadu, India"), Mumbai, Maharashtra, India"), Hyderabad, Telangana, India"), New Delhi, Delhi, India"), Pune, Maharashtra, India")
+
+[Data-Scraping\sync_to_google_sheet.py -> row]
+  today_str, today_str, url, url, source_name, company, 2018, 2020, first_name, last_name, client_name, designation, email, phone_sheet, mobile_sheet, industry, 50-200 employees, skills, Attempted Contact, rating...
+
+[Data-Scraping\facebook\extract.py -> selectors]
+  h3 strong a, h2 strong a, span[dir='auto
+
+[Data-Scraping\facebook\extract.py -> content_selectors]
+  div[data-ad-preview='message
+
+[Data-Scraping\facebook\extract.py -> time_selectors]
+  a[role='link
+
+[Data-Scraping\Freelancer\freelancer.py -> skills]
+  s.get_text(strip=True) for s in card.find_all("div, class_="Content")
+
+[Data-Scraping\Freelancer\freelancer.py -> tags]
+  t.get_text(strip=True) for t in tag_elements if t.get_text(strip=True)
+
+[Data-Scraping\Linked-In\data-extract.py -> valid_locations]
+  loc, re.I)
+
+[Data-Scraping\Linked-In\email-linkedin.py -> queries]
+  f'"{name}" "{company}" email, f'"{name}" "{company}" contact, f'"{name}" LinkedIn email, f'"{name}" phone number
+
+[Data-Scraping\Linked-In\job-search.py -> parts]
+  p.strip() for p in meta_text.split("·")
+
+[Data-Scraping\Upwork\upwork_freelanch.py -> urls]
+  row[0
+
+[Data-Scraping\Upwork\upwork_new.py -> KEYWORDS]
+  www, .com, domain, url, site link, web address, landing page, migration, redesign, upgrade, scrap, scrape, scraping, migrate
+
+[Data-Scraping\Upwork\upwork_profile_data.py -> urls]
+  row[0
+
+[dev\build\static\js\1474.400e5ad1.chunk.js -> transition]
+  F.transitions.create("opacity, {duration:r, delay:n}), F.transitions.create("transform, {duration:.666*r, delay:n||.333*r, easing:o})
+
+[dev\build\static\js\8206.20e4d783.chunk.js -> entries]
+  t
+
+[dev\build\static\js\8267.5209643e.chunk.js -> _listeners]
+  e
+
+[dev\build\static\js\main.7f51a989.js -> filterProps]
+  maxWidth
+
+[dev\build\static\js\main.7f51a989.js -> raw]
+  ...n, ...e.raw, ...r
+
+[dev\build\static\js\main.7f51a989.js -> current]
+  n, r
+
+[dev\build\static\js\main.7f51a989.js -> deletions]
+  e
+
+[dev\build\static\js\main.7f51a989.js -> effects]
+  s
+
+[dev\build\static\js\main.7f51a989.js -> stores]
+  e
+
+[dev\build\static\js\main.7f51a989.js -> memoizedState]
+  e, t
+
+[dev\build\static\js\main.7f51a989.js -> mutableSourceEagerHydrationData]
+  n, o
+
+[dev\scripts\validate_seo.js -> requiredCanonicalRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[dev\scripts\validate_seo.js -> requiredRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[dev\src\data\blogData.js -> STATIC_POSTS]
+  {
+    slug: "ai-for-australian-businesses, title: "AI for Australian Businesses: A Practical Getting-Started Guide, category: "AI & Automation, tags: ["AI, Automation, Fintech, Business Growth
+
+[google-apps-script\BrisbaneCrmPipeline.gs -> desc]
+  getVal(row, notes"), getVal(row, facebook") ? "FB:"+getVal(row, facebook") :, getVal(row, location") ? "Loc:"+getVal(row, location") :, getVal(row, addedBy") ? "By:"+getVal(row, addedBy") :
+
+[google-apps-script\BrisbaneCrmPipeline.gs -> fns]
+  syncSheetToZohoCRM, triggerZohoCampaignEmail, sendCampaignStatsViaSMS
+
+[google-apps-script\Code.gs -> TARGET_LOCATIONS]
+  Australia
+
+[google-apps-script\Code.gs -> LEAD_SOURCES]
+  Google Search, Google Maps / Places, LinkedIn, Apollo.io, Website, Referral, Cold Call, Email Campaign, SendInBlue, Brevo, Lusha, ZoomInfo, Seamless.ai, Hunter.io, Crunchbase, Upwork / Fiverr, Google Ads, Facebook Ads, Inbound Request, Event / Conference...
+
+[google-apps-script\Code.gs -> INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[google-apps-script\Code.gs -> STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[google-apps-script\Code.gs -> HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[google-apps-script\Code.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[google-apps-script\Code.gs -> invalidExts]
+  .png, .jpg, .jpeg, .gif, .webp, .svg, .css, .js, .pdf, .zip, .mp4, .ico
+
+[google-apps-script\Code.gs -> invalidDomains]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, wordpress.com, myshopify.com
+
+[google-apps-script\Code.gs -> generic]
+  gmail, yahoo, outlook, hotmail, icloud, zoho, protonmail
+
+[google-apps-script\Code.gs -> leadsColWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[google-apps-script\Code.gs -> settingsHeaders]
+  Industry, Role / Job Title, Location, Email Domain, Lead Source, Status, Last Run, Leads Found
+
+[google-apps-script\Code.gs -> settingsColWidths]
+  180, 200, 150, 150, 150, 100, 180, 100
+
+[google-apps-script\Code.gs -> queries]
+  cleanIndustry + ' ' + location + ' ' + role + ' phone contact, site:linkedin.com/in ' + role + ' ' + location + ' email contact
+
+[google-apps-script\Code.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit, yellowpages, truelocal, github
+
+[google-apps-script\Code.gs -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[google-apps-script\Code.gs -> models]
+  DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[google-apps-script\Code.gs -> class]
+  
+
+[google-apps-script\Code.gs -> href]
+  
+
+[google-apps-script\GeminiService.gs -> models]
+  DEFAULT_GLOBAL_GEMINI_MODEL, gemini-2.5-flash, gemini-3.1-flash-lite
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[google-apps-script\SocialScraper.gs -> SOCIAL_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Platform, Company / Page Name, Email, Phone Number / Mobile Number, Industry, Contact Name / Role, Status, Lead Added By, Notes
+
+[google-apps-script\SocialScraper.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[google-apps-script\SocialScraper.gs -> invalidExts]
+  .png, .jpg, .jpeg, .gif, .webp, .svg, .css, .js, .pdf, .zip, .mp4, .ico
+
+[google-apps-script\SocialScraper.gs -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[google-apps-script\SocialScraper.gs -> colWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[google-apps-script\SocialScraper.gs -> settingsHeaders]
+  Platform, Keyword / Trigger, Location, Target Industry, Status, Last Run, Leads Found
+
+[google-apps-script\SocialScraper.gs -> settingsColWidths]
+  150, 220, 150, 180, 100, 180, 100
+
+[google-apps-script\SocialScraper.gs -> platforms]
+  LinkedIn, Instagram, Facebook, X (Twitter), Google Search
+
+[google-apps-script\SocialScraper.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit
+
+[google-apps-script\SocialScraper.gs -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[google-apps-script\SocialScraper.gs -> models]
+  SOCIAL_DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[google-apps-script\SocialScraper.gs -> class]
+  
+
+[google-apps-script\SocialScraper.gs -> href]
+  
+
+[infogenx-twilio-dialer\dry_run_digest_preview.py -> sms_parts]
+  f"INFOGENX DAILY DIGEST ({today_date}), divider, f"CALL SUMMARY, f"Inbound: {inbound_calls} | Outbound: {outbound_calls}
+
+[infogenx-twilio-dialer\dry_run_digest_preview.py -> src_items]
+  f"{k}({v})" for k, v in sorted(sources_map.items(), key=lambda x: x[1
+
+[infogenx-twilio-dialer\dry_run_digest_preview.py -> ind_items]
+  f"{k}({v})" for k, v in sorted(industries_map.items(), key=lambda x: x[1
+
+[infogenx-twilio-dialer\inspect_zoho_campaigns_lists.py -> endpoints]
+  f"{ZOHO_CAMPAIGNS_API_BASE}/getsyncdata?resfmt=JSON, f"{ZOHO_CAMPAIGNS_API_BASE}/lists?resfmt=JSON
+
+[infogenx-twilio-dialer\migrate_leads_to_calls.py -> lead_ids]
+  1290746000003003001, 1290746000003002006, 1290746000002996002
+
+[infogenx-twilio-dialer\migrate_leads_to_calls.py -> phones]
+  +61422308125, +61404597276, +61433635364
+
+[infogenx-twilio-dialer\dialer\api_audit_views.py -> gemini_keys_list]
+  {"name": "Gemini Key A (Scraper & AI), key": "YOUR_GEMINI_API_KEY"}, {"name": "Gemini Key B (Transcription), key": "YOUR_GEMINI_API_KEY"}, {"name": "Gemini Key C (Fallback), key": "YOUR_GEMINI_API_KEY"}
+
+[infogenx-twilio-dialer\dialer\api_audit_views.py -> history_log]
+  {
+            "action": "Twilio Outbound Voice Call Dispatch, service": "Twilio Voice API, status": "SUCCESS, timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), details": "Caller ID: +61748024033"
+        }, {
+            "action": "Call Recording AI Speech Transcription & Summary, service": "Google Gemini 3.1 Flash-Lite (Capped), status": "SUCCESS, timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), details": "Extracted key action points & client sentiment (maxOutputTokens=200, Cost: ~$0.00008)"
+        }, {
+            "action": "Outbound Lead Notification SMS Dispatch, service": "Twilio SMS API, status": "SUCCESS, timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), details": "Sent to +61403339424"
+        }
+
+[infogenx-twilio-dialer\dialer\gemini_transcription.py -> DEFAULT_KEYS]
+  YOUR_GEMINI_API_KEY, YOUR_GEMINI_API_KEY
+
+[infogenx-twilio-dialer\dialer\gemini_transcription.py -> models]
+  gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-2.5-flash
+
+[infogenx-twilio-dialer\dialer\gemini_transcription.py -> text_parts]
+  p.get('text, ) for p in parts if 'text' in p
+
+[infogenx-twilio-dialer\dialer\gemini_transcription.py -> contents_payload]
+  {"parts": [{"text": text_prompt}
+
+[infogenx-twilio-dialer\dialer\middleware.py -> ignored_prefixes]
+  /static/, /login/, /logout/, /dialer/, /admin/, /sms/, /service-worker.js
+
+[infogenx-twilio-dialer\dialer\middleware.py -> allowed_patterns]
+  r'^https?://[^/
+
+[infogenx-twilio-dialer\dialer\urls.py -> urlpatterns]
+  path(, home), path("sms/, sms_page), path("token/, get_token), path("voice/, voice), path("send-sms/, send_sms), path("sms-status/, sms_status), path("hold-call/, hold_call), path("transfer-call/, transfer_call), path("call-status/, call_status), path("auto-call/, auto_call)...
+
+[infogenx-twilio-dialer\dialer\views.py -> cols]
+  col[0
+
+[infogenx-twilio-dialer\dialer\views.py -> columns_to_add]
+  api_status, twilio_status, status, error_message, TEXT"), api_status, twilio_status, company, lead_source, message_type
+
+[infogenx-twilio-dialer\dialer\views.py -> search_queries]
+  f"https://www.zohoapis.in/crm/v2/Leads/search?phone={phone_number}, f"https://www.zohoapis.in/crm/v2/Leads/search?word={last_10}, f"https://www.zohoapis.in/crm/v2/Contacts/search?phone={phone_number}, f"https://www.zohoapis.in/crm/v2/Contacts/search?word={last_10}
+
+[infogenx-twilio-dialer\dialer\views.py -> webhook_paths]
+  /dialer/voice/, /dialer/call-status/, /dialer/recording-status/, /dialer/incoming-call/, /dialer/incoming-sms/, /dialer/send-sms/, /dialer/api/trigger-daily-digest/, /dialer/incoming-call-status/, /dialer/incoming-browser-status/, /dialer/incoming-voicemail-status/, /dialer/token/, /dialer/auto-call/, /dialer/, /sms/, /dialer/hold-call/, /dialer/transfer-call/, /dialer/ivr-menu/, /dialer/ivr-handle/, /dialer/sms-status/, /service-worker.js...
+
+[infogenx-twilio-dialer\dialer\views.py -> allowed_patterns]
+  r'^https?://[^/
+
+[infogenx-twilio-dialer\dialer\views.py -> columns]
+  col[0
+
+[infogenx-twilio-dialer\dialer\views.py -> direct_call_data]
+  {
+                            "Subject": payload["zoho_call_record
+
+[infogenx-twilio-dialer\dialer\views.py -> parsed]
+  n.strip() for n in str(raw_cfg).split(, ) if n.strip()
+
+[infogenx-twilio-dialer\dialer\views.py -> status_callback_event]
+  initiated, ringing, answered, completed
+
+[infogenx-twilio-dialer\dialer\views.py -> core_codes]
+  91, 1, 44, 61, 971
+
+[infogenx-twilio-dialer\dialer\views.py -> mock_calls]
+  +919787806366, +61748024033, completed, Zadarma Outbound, 45, +61403339424, +61748024033, no-answer, Zadarma Inbound, 0, +919787806366, +61748024033, completed, Zadarma Inbound, 120
+
+[infogenx-twilio-dialer\dialer\views.py -> mock_sms]
+  inbound, Hi, I received your call from Zadarma. Let me know when we can speak., received, outbound, Sure, we can connect today at 3 PM. Thank you!, sent
+
+[infogenx-twilio-dialer\dialer\views.py -> rec_dirs]
+  Path(settings.BASE_DIR) / 'recordings, Path(settings.BASE_DIR).parent / 'Infogenx-Voice-Agent' / 'recordings
+
+[infogenx-twilio-dialer\dialer\views.py -> sms_parts]
+  f"INFOGENX DAILY DIGEST ({today_date}), divider, f"CALL SUMMARY, f"Inbound: {inbound_calls} | Outbound: {outbound_calls}
+
+[infogenx-twilio-dialer\dialer\management\commands\send_daily_digest.py -> sms_parts]
+  f"INFOGENX DAILY DIGEST ({today_date}), divider, f"CALL SUMMARY, f"Inbound: {inbound_calls} | Outbound: {outbound_calls}
+
+[infogenx-twilio-dialer\dialer\static\dialer\js\dashboard.js -> sorted]
+  ...messages
+
+[infogenx-twilio-dialer\dialer\static\dialer\js\dashboard.js -> sortedAttempts]
+  ...group.attempts
+
+[infogenx-twilio-dialer\dialer\templates\dialer\index.html -> sortedPrefixes]
+  ...allowedPrefixes
+
+[infogenx-twilio-dialer\dialer\templates\dialer\sms.html -> sortedPrefixes]
+  ...allowedPrefixes
+
+[infogenx-twilio-dialer\integrations\australian_b2b_lead_engine.py -> PREMIUM_AU_PROFILES]
+  # IT & Cloud Infrastructure
+    {"company": "Apex Cloud Systems AU, name": "Ethan Wright, email": "ethan.wright@apexcloud.com.au, phone": "+61 2 8765 4321, industry": "IT / Software, source": "Google Search, city": "Sydney"}, {"company": "CyberShield Australia, name": "Marcus Vance, email": "marcus.v@cybershield.com.au, phone": "+61 3 9456 1234, industry": "IT / Software, source": "LinkedIn, city": "Melbourne"}, {"company": "DataPoint Analytics Brisbane, name": "Liam Henderson, email": "liam.h@datapointanalytics.com.au, phone": "+61 7 3890 5678, industry": "IT / Software, source": "Apollo.io...
+
+[infogenx-twilio-dialer\integrations\daily_scrape_and_crm_sync.py -> SHEETS_CONFIG]
+  {
+        "id": "1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, name": "Business_Leads, tab": "Facebook Leads, email_col": 8, # Col I
+        "phone_col": 3, # Col D (Mobile)
+        "company_col": 2, # Col C
+        "name_col": 2, source_col": 6, # Col G
+        "sync_col_letter": "L, sync_col_idx": 11
+    }, {
+        "id": "1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, name": "GoogleSearchLeads, tab": "Leads, email_col": 3, # Col D
+        "phone_col": 4, # Col E
+        "company_col": 2, # Col C
+        "name_col": 6, # Col G
+        "source_col": 1, # Col B
+        "sync_col_letter": "K, sync_col_idx": 10
+    }...
+
+[infogenx-twilio-dialer\integrations\daily_scrape_and_crm_sync.py -> batch_payload]
+  item["payload
+
+[infogenx-twilio-dialer\integrations\facebook_crm_loader.py -> handlers]
+  logging.StreamHandler(sys.stdout), logging.FileHandler('facebook_crm_loader.log, encoding='utf-8')
+
+[infogenx-twilio-dialer\integrations\facebook_crm_loader.py -> choices]
+  csv, sheet
+
+[infogenx-twilio-dialer\integrations\populate_clean_australian_leads.py -> VERIFIED_AU_B2B_LEADS]
+  # IT & Software / Cloud
+    {"first": "Benjamin, last": "Clarke, comp": "Insignia Cloud Infrastructure AU, email": "ben.clarke@insigniacloud.com.au, phone": "+61 2 8234 5678, ind": "IT / Software, src": "Apollo.io, loc": "Sydney, NSW"}, {"first": "Charlotte, last": "King, comp": "BlueWave Digital Consulting, email": "charlotte.king@bluewaveconsulting.com.au, phone": "+61 8 9321 6543, ind": "Professional Services, src": "Website, loc": "Perth, WA"}, {"first": "Alexander, last": "Scott...
+
+[infogenx-twilio-dialer\integrations\python_lead_scraper.py -> GEMINI_API_KEYS]
+  YOUR_GEMINI_API_KEY, YOUR_GEMINI_API_KEY
+
+[infogenx-twilio-dialer\integrations\python_lead_scraper.py -> WEB_INDUSTRIES]
+  Software Developer, Australia"), Hospital Administrator, Australia"), Property Manager, Australia"), Managing Director, Australia"), Principal, Australia"), Managing Director, Australia"), Plant Manager, Australia"), Partner, Australia"), Managing Partner, Australia")
+
+[infogenx-twilio-dialer\integrations\python_lead_scraper.py -> SOCIAL_PLATFORMS]
+  coming soon, Australia, IT / Software"), we are launching, Australia, IT / Software"), Founder, Australia, Consulting"), launching soon, Australia, Retail / E-commerce"), new launch, Australia, IT / Software")
+
+[infogenx-twilio-dialer\integrations\python_lead_scraper.py -> phone_regexes]
+  re.compile(r'(?:\+61[\s.-
+
+[infogenx-twilio-dialer\integrations\python_lead_scraper.py -> class]
+  \
+
+[infogenx-twilio-dialer\integrations\apps-script\BrisbaneCrmPipeline.gs -> desc]
+  getVal(row, notes"), getVal(row, facebook") ? "FB:"+getVal(row, facebook") :, getVal(row, location") ? "Loc:"+getVal(row, location") :, getVal(row, addedBy") ? "By:"+getVal(row, addedBy") :
+
+[infogenx-twilio-dialer\integrations\apps-script\BrisbaneCrmPipeline.gs -> fns]
+  syncSheetToZohoCRM, triggerZohoCampaignEmail, sendCampaignStatsViaSMS
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> TARGET_LOCATIONS]
+  Australia
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> LEAD_SOURCES]
+  Google Search, LinkedIn, Apollo.io, Website, Referral, Cold Call, Email Campaign, SendInBlue, Brevo, Lusha, ZoomInfo, Seamless.ai, Hunter.io, Crunchbase, Upwork / Fiverr, Google Ads, Facebook Ads, Inbound Request, Event / Conference, Directories...
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> leadsColWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> settingsHeaders]
+  Industry, Role / Job Title, Location, Email Domain, Lead Source, Status, Last Run, Leads Found
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> settingsColWidths]
+  180, 200, 150, 150, 150, 100, 180, 100
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> queries]
+  cleanIndustry + ' ' + location + ' ' + role + ' phone contact, site:linkedin.com/in ' + role + ' ' + location + ' email contact
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit, yellowpages, truelocal, github
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> generic]
+  gmail, yahoo, outlook, hotmail, icloud, zoho, protonmail
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> models]
+  DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> class]
+  
+
+[infogenx-twilio-dialer\integrations\apps-script\Code.gs -> href]
+  
+
+[infogenx-twilio-dialer\integrations\apps-script\GeminiService.gs -> models]
+  DEFAULT_GLOBAL_GEMINI_MODEL, gemini-2.5-flash, gemini-3.1-flash-lite
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> SOCIAL_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Platform, Company / Page Name, Email, Phone Number / Mobile Number, Industry, Contact Name / Role, Status, Lead Added By, Notes
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> invalidExts]
+  .png, .jpg, .jpeg, .gif, .webp, .svg, .css, .js, .pdf, .zip, .mp4, .ico
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> colWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> settingsHeaders]
+  Platform, Keyword / Trigger, Location, Target Industry, Status, Last Run, Leads Found
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> settingsColWidths]
+  150, 220, 150, 180, 100, 180, 100
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> platforms]
+  LinkedIn, Instagram, Facebook, X (Twitter), Google Search
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> models]
+  SOCIAL_DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> class]
+  
+
+[infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs -> href]
+  
+
+[infogenx-twilio-dialer\integrations\gemini\__init__.py -> __all__]
+  GeminiClient, search_leads_with_grounding, analyze_call_transcript, GEMINI_API_KEY, GEMINI_MODEL
+
+[infogenx-twilio-dialer\staticfiles\admin\js\change_form.js -> inputTags]
+  BUTTON, INPUT, SELECT, TEXTAREA
+
+[infogenx-twilio-dialer\staticfiles\admin\js\urlify.js -> ALL_DOWNCODE_MAPS]
+  LATIN_MAP, LATIN_SYMBOLS_MAP, GREEK_MAP, TURKISH_MAP, ROMANIAN_MAP, RUSSIAN_MAP, UKRAINIAN_MAP, CZECH_MAP, SLOVAK_MAP, POLISH_MAP, LATVIAN_MAP, ARABIC_MAP, LITHUANIAN_MAP, SERBIAN_MAP, AZERBAIJANI_MAP, GEORGIAN_MAP
+
+[infogenx-twilio-dialer\staticfiles\admin\js\admin\DateTimeShortcuts.js -> name]
+  ['3 a.m., 3
+
+[infogenx-twilio-dialer\staticfiles\admin\js\admin\RelatedObjectLookups.js -> skipIds]
+  name + "_from
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> start]
+  forward ? parent.firstChild : parent.lastChild
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> args]
+  e
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> newCache]
+  dirruns, doneName
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> matchers]
+  addCombinator( elementMatcher( matchers ), matcher )
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> match]
+  null, selector, null
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> tuples]
+  // action, add listener, callbacks, // ... .then handlers, argument index, [final state
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> cssExpand]
+  Top, Right, Bottom, Left
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> option]
+  1, <select multiple='multiple'>, </select>
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> cssPrefixes]
+  Webkit, Moz, ms
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> overflow]
+  style.overflow, style.overflowX, style.overflowY
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> props]
+  *
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.js -> eventPath]
+  elem || document
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.min.js -> option]
+  1, <select multiple='multiple'>, </select>
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\jquery\jquery.min.js -> overflow]
+  h.overflow, h.overflowX, h.overflowY
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> relayEvents]
+  open, opening, close, closing, select, selecting, unselect, unselecting, clear, clearing
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> preventableEvents]
+  opening, closing, selecting, unselecting, clearing
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> data]
+  data
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> languages]
+  language
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> excludedData]
+  select2
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> nonRelayEvents]
+  toggle, focus
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> args]
+  true
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> stoppedEvents]
+  blur, change, click, dblclick, focus, focusin, focusout, input, keydown, keyup, keypress, mousedown, mouseenter, mouseleave, mousemove, mouseover, mouseup, search, touchend, touchstart
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> toFix]
+  wheel, mousewheel, DOMMouseScroll, MozMousePixelScroll
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\select2\select2.full.js -> thisMethods]
+  open, close, destroy
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\xregexp\xregexp.js -> exports]
+  {
+        'name': 'C, alias': 'Other, isBmpLast': true
+
+[infogenx-twilio-dialer\staticfiles\admin\js\vendor\xregexp\xregexp.min.js -> exports]
+  {name:"C, alias:"Other, isBmpLast:!0
+
+[infogenx-twilio-dialer\staticfiles\dialer\js\dashboard.js -> sorted]
+  ...messages
+
+[infogenx-twilio-dialer\staticfiles\dialer\js\dashboard.js -> sortedAttempts]
+  ...group.attempts
+
+[infogenx-twilio-dialer\staticfiles\rest_framework\js\jquery-3.7.1.min.js -> option]
+  1, <select multiple='multiple'>, </select>
+
+[infogenx-twilio-dialer\staticfiles\rest_framework\js\jquery-3.7.1.min.js -> overflow]
+  h.overflow, h.overflowX, h.overflowY
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> ALLOWED_HOSTS]
+  *
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> INSTALLED_APPS]
+  django.contrib.admin, django.contrib.auth, django.contrib.contenttypes, django.contrib.sessions, django.contrib.messages, django.contrib.staticfiles, dialer, rest_framework
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> MIDDLEWARE]
+  django.middleware.security.SecurityMiddleware, django.contrib.sessions.middleware.SessionMiddleware, dialer.middleware.MidnightLogoutMiddleware, dialer.middleware.LoginRequiredMiddleware, django.middleware.common.CommonMiddleware, django.middleware.csrf.CsrfViewMiddleware, django.contrib.auth.middleware.AuthenticationMiddleware, django.contrib.messages.middleware.MessageMiddleware
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> TEMPLATES]
+  {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates, DIRS': [
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> AUTH_PASSWORD_VALIDATORS]
+  }, }, }, }
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> STATICFILES_DIRS]
+  BASE_DIR / 'dialer' / 'static
+
+[infogenx-twilio-dialer\twilio_dialer\settings.py -> GEMINI_API_KEYS]
+  k.strip() for k in _gemini_env.split(, ) if k.strip()
+
+[infogenx-twilio-dialer\twilio_dialer\urls.py -> urlpatterns]
+  path('admin/, admin.site.urls), path(, dashboard_view, name='root_dashboard'), path('login/, login_view, name='global_login'), path('logout/, logout_view, name='global_logout'), path("dialer/, include("dialer.urls")), path("service-worker.js, service_worker_view, name="root_service_worker"), dashboard_data_view), path('infogenx/events/stream, events_stream_view), path('infogenx/system/health...
+
+[Infogenx-Voice-Agent\app\main.py -> allowed_numbers]
+  num.strip() for num in dev_whitelist.split() if num.strip()
+
+[Infogenx-Voice-Agent\app\main.py -> dependencies]
+  Depends(verify_csrf)
+
+[Infogenx-Voice-Agent\app\main.py -> attempts]
+  t for t in attempts if now - t < 60
+
+[Infogenx-Voice-Agent\app\main.py -> methods]
+  GET, HEAD
+
+[Infogenx-Voice-Agent\app\config\tools.py -> AVAILABLE_TOOLS]
+  get_current_date_and_time, end_call, transfer_to_human, check_australian_public_holiday
+
+[Infogenx-Voice-Agent\app\core\tracer.py -> tags]
+  outbound
+
+[Infogenx-Voice-Agent\app\evaluation\audio_judge.py -> frames]
+  pcm[i:i + frame_bytes
+
+[Infogenx-Voice-Agent\app\evaluation\audio_judge.py -> contents]
+  types.Part.from_bytes(data=wav_bytes, mime_type="audio/wav"), types.Part.from_text(text=prompt)
+
+[Infogenx-Voice-Agent\app\evaluation\audio_metrics.py -> lines]
+  f"duration            {self.duration_s:.1f}s, f"turns               lead {self.lead_turns}, agent {self.agent_turns}, f"talk ratio          lead {self.lead_talk_ratio:.0%}, agent {self.agent_talk_ratio:.0%}, 
+
+[Infogenx-Voice-Agent\app\evaluation\report.py -> paths]
+  resolve(args.target)
+
+[Infogenx-Voice-Agent\app\evaluation\test_audio_metrics.py -> tests]
+  test_detects_speech_over_line_noise, test_measures_response_latency, test_detects_agent_talking_over_lead, test_measures_agent_yield_on_interruption, test_silence_only_call_reports_nothing
+
+[Infogenx-Voice-Agent\app\evaluation\__init__.py -> __all__]
+  CallAudioMetrics, analyze
+
+[Infogenx-Voice-Agent\app\services\call_handler.py -> transcript_parts]
+  previous_transcript
+
+[Infogenx-Voice-Agent\app\services\daily_summary.py -> lines]
+  f"Infogenx Daily Report — {day_label}, f"Calls made: {stats['total
+
+[Infogenx-Voice-Agent\app\services\daily_summary.py -> interest_bits]
+  f"{stats[k
+
+[Infogenx-Voice-Agent\app\services\deepgram_agent_handler.py -> AGENT_FUNCTIONS]
+  {
+        "name": "end_call, description": (
+            "End the phone call. Say your goodbye line first, parameters": {"type": "object, properties": {}}, }, {
+        "name": "transfer_to_human, or needs something beyond your scope."
+        ), parameters": {"type": "object, properties": {}}, }
+
+[Infogenx-Voice-Agent\app\services\deepgram_agent_handler.py -> tasks]
+  asyncio.create_task(session.twilio_receiver()), asyncio.create_task(session.twilio_sender()), asyncio.create_task(session.agent_loop(system_prompt, greeting)), asyncio.create_task(_watchdog(run_id, session.stop_event))
+
+[Infogenx-Voice-Agent\app\services\elevenlabs_agent_handler.py -> tasks]
+  asyncio.create_task(session.twilio_receiver()), asyncio.create_task(session.twilio_sender()), asyncio.create_task(session.agent_loop(system_prompt, greeting)), asyncio.create_task(_watchdog(run_id, session.stop_event))
+
+[Infogenx-Voice-Agent\app\services\flux_stt.py -> FLUX_KEYTERMS]
+  t for t in os.getenv(
+    "FLUX_KEYTERMS, Infogenx, Zoho, Sarah, automation, integration, CRM, onboarding, ).split(, ) if t.strip()
+
+[Infogenx-Voice-Agent\app\services\gemini_live.py -> response_modalities]
+  AUDIO
+
+[Infogenx-Voice-Agent\app\services\gemini_live.py -> parts]
+  types.Part(text=system_prompt)
+
+[Infogenx-Voice-Agent\app\services\gemini_live.py -> tools]
+  {"google_search": {}}
+
+[Infogenx-Voice-Agent\app\services\pipeline_handler.py -> first_audio]
+  m["tts_first_audio_ms
+
+[Infogenx-Voice-Agent\app\services\pipeline_session.py -> TTS_CHUNK_SCHEDULE]
+  50, 130, 200, 260
+
+[Infogenx-Voice-Agent\app\services\pipeline_session.py -> parts]
+  types.Part.from_function_call(name=c.name, args=c.args)
+                            for c in calls
+
+[Infogenx-Voice-Agent\app\static\js\dashboard.js -> sortedAttempts]
+  ...group.attempts
+
+[Infogenx-Voice-Agent\scripts\backfill_meeting_datetime.py -> rows]
+  dict(r) for r in rows
+
+[Infogenx-Voice-Agent\scripts\bench_llm_gap.py -> parts]
+  types.Part.from_text(text="A bit busy, but go ahead.")
+
+[Infogenx-Voice-Agent\scripts\bench_llm_latency.py -> contents]
+  types.Content(role="user, parts=[types.Part.from_text(text=system_prompt)
+
+[Infogenx-Voice-Agent\scripts\bench_llm_latency.py -> canned]
+  Hi, did I catch you in the middle of something?"), A bit busy, but go ahead."), Thanks. It's Sarah from Infogenx in Brisbane."), What kind of admin work do you mean?"), Things like timesheets, invoicing, data entry between systems."), Timesheets and invoicing are a mess for us.")
+
+[Infogenx-Voice-Agent\scripts\bench_llm_latency.py -> parts]
+  types.Part.from_text(text=text)
+
+[Infogenx-Voice-Agent\scripts\bench_llm_models.py -> MODELS]
+  gemini-2.5-flash, gemini-2.5-flash-lite
+
+[Infogenx-Voice-Agent\scripts\bench_llm_models.py -> body]
+  types.Content(role="user, parts=[types.Part.from_text(text=prompt)
+
+[Infogenx-Voice-Agent\scripts\bench_llm_models.py -> parts]
+  types.Part.from_text(text="A bit busy. What's this about?")
+
+[Infogenx-Voice-Agent\scripts\clone_my_voice.py -> files]
+  p.open("rb"))) for p in paths
+
+[Infogenx-Voice-Agent\scripts\clone_my_voice.py -> missing]
+  p for p in args.recordings if not p.is_file()
+
+[Infogenx-Voice-Agent\scripts\clone_my_voice.py -> paths]
+  isolate(client, p, args.outdir) for p in paths
+
+[Infogenx-Voice-Agent\scripts\compare_recordings.py -> preview]
+  1), round(s.end_ms / 1000, 1)) for s in segs[:6
+
+[Infogenx-Voice-Agent\scripts\compare_recordings.py -> keys]
+  audio_overall, audio_quality, audio_naturalness, audio_pacing, audio_talk_over, audio_dead_air, audio_entity_fidelity, audio_lead_sentiment, audio_lead_struggled_to_hear, audio_agent_interrupted_lead, audio_call_ended_cleanly
+
+[Infogenx-Voice-Agent\scripts\compare_voices.py -> VOICES]
+  EXAVITQu4vr4xnSDxMaL"), ZkDZ5VCyH0GGbxO7o4aO"), VyyyOgRmsqOzaZXnKWnI"), 6UXvJKkwaqtXE3nZHvbF"), HMsHSO9iPieho74ZXn8A"), IdDgBtBBVTnSVb4wDvbT"), mhOEe36rlKIS1ExMEOyo"), aEO01A4wXwd1O8GPgGlF")
+
+[Infogenx-Voice-Agent\scripts\db_audit.py -> rows]
+  dict(r) for r in rows
+
+[Infogenx-Voice-Agent\scripts\setup_elevenlabs_agent.py -> CLIENT_TOOLS]
+  {
+        "type": "client, name": "end_call, description": (
+            "End the phone call. Say your goodbye line first, parameters": {"type": "object, properties": {}}, }, {
+        "type": "client, name": "transfer_to_human, or needs something beyond your scope."
+        ), expects_response": False, parameters": {"type": "object, properties": {}}, }
+
+[Infogenx-Voice-Agent\scripts\test_call_signatures.py -> MODULES]
+  app.services.deepgram_agent_handler, app.services.elevenlabs_agent_handler, app.evaluation.transcriber, app.services.daily_summary, app.services.browser_test_handler, app.services.pipeline_handler, app.services.call_handler, app.services.campaign, app.services.pipeline_session, app.services.flux_stt, app.main
+
+[Infogenx-Voice-Agent\scripts\test_call_signatures.py -> required]
+  p.POSITIONAL_OR_KEYWORD)
+
+[Infogenx-Voice-Agent\scripts\test_call_simulator.py -> chat_history]
+  {"role": "system, content": LEAD_PERSONA}
+
+[Infogenx-Voice-Agent\scripts\test_concurrency_load.py -> successes]
+  ttfa) for rid, ttfa, err in results if ttfa is not None
+
+[Infogenx-Voice-Agent\scripts\test_concurrency_load.py -> failures]
+  err) for rid, ttfa, err in results if ttfa is None
+
+[Infogenx-Voice-Agent\scripts\test_daily_summary.py -> rows]
+  row("No Answer"), row("No Answer"), row("Voicemail"), row("Declined"), row("Qualified, interest="Hot"), row("Qualified, interest="Warm"), row("Callback")
+
+[Infogenx-Voice-Agent\scripts\test_dev_mode_redesign.py -> executed_ids]
+  c["run_id
+
+[Infogenx-Voice-Agent\scripts\test_dst_boundary.py -> cases]
+  before_oct), after_oct), before_apr), after_apr)
+
+[Infogenx-Voice-Agent\scripts\test_elevenlabs_agent.py -> SHOULD_END]
+  Thank you, goodbye., # dd94095b — said twice, call never ended
+    "Thanks for your time, have a great day., Perfect, we'll be in touch. Take care!, Cheers, bye for now., Lovely, thank you for your time. All the best.
+
+[Infogenx-Voice-Agent\scripts\test_elevenlabs_agent.py -> SHOULD_NOT_END]
+  …just to see if it'd even be a fit?, # the real one
+    "Great. Would you be open to a quick, free twenty-minute workflow audit?, So it sounds like your main aim is to reduce manual data entry work., What kind of platforms is your team using day to day?, , , Before you go, can I grab the best email to send that to?
+
+[Infogenx-Voice-Agent\scripts\test_safety_regressions.py -> raw_headers]
+  v.encode()) for k, v in (headers or {}).items()
+
+[Infogenx-Voice-Agent\scripts\test_safety_regressions.py -> attempts_list]
+  a for a in attempts.split(, ) if a
+
+[Infogenx-Voice-Agent\scripts\test_transcriber.py -> words]
+  w("Hi, , agent"), w("did, agent"), w("I, agent"), w("catch, agent"), w(, agent, spacing"), w("Hello?, customer")
+
+[Infogenx-Voice-Agent\scripts\test_transcriber.py -> unlabelled]
+  w("Test, speaker_0"), w("reply, speaker_1")
+
+[Infogenx-Voice-Agent\scripts\test_transcriber.py -> with_noise]
+  w("Hi, agent"), w(, agent, spacing"), w("[laughs
+
+[Infogenx-Voice-Agent\scripts\test_transcriber.py -> single_speaker]
+  w("Hello, agent"), w("there, agent")
+
+[Infogenx-Voice-Agent\scripts\test_transfer_resume.py -> HANDLERS]
+  {"DEEPGRAM_API_KEY": "fake-key-for-test"}), {"ELEVENLABS_API_KEY": "fake-key-for-test, ELEVENLABS_AGENT_ID": "fake-agent-for-test"})
+
+[Infogenx-Voice-Agent\scripts\test_transfer_to_human.py -> positives]
+  Can I speak to a real person?, I want to talk to a human., Please transfer me to someone., Can you put me through to your manager?
+
+[Infogenx-Voice-Agent\scripts\test_transfer_to_human.py -> negatives]
+  What platforms do you use?, Sure, that sounds good., , I'm pretty busy right now.
+
+[Infogenx-Voice-Agent\scripts\test_turn_state_machine.py -> roles]
+  c.role for c in h.session.chat_history
+
+[Infogenx-Voice-Agent\scripts\test_turn_state_machine.py -> _align_starts]
+  i * 40.0 for i in range(len(generated))
+
+[Infogenx-Voice-Agent\scripts\test_turn_state_machine.py -> tests]
+  test_eager_matching_eot_reuses_generation, test_eager_differing_eot_restarts, test_turn_resumed_discards_speculation, test_no_concurrent_turns_under_rapid_events, test_barge_in_only_when_audible, test_abandoned_speculation_leaves_no_history, test_duck_recovers_when_flux_never_confirms, test_duck_becomes_abort_when_flux_confirms, test_energy_during_open_lead_turn_interrupts_immediately, test_system_prompt_never_enters_turn_history, test_fragment_from_instant_interruption_is_discarded, test_interrupted_turn_records_only_what_was_heard, test_bare_end_call_is_ignored_but_signed_off_one_is_honoured, test_speculation_stays_silent_until_confirmed, test_tts_failure_plays_fallback_then_ends_call
+
+[infogenx.com\build\static\js\1474.400e5ad1.chunk.js -> transition]
+  F.transitions.create("opacity, {duration:r, delay:n}), F.transitions.create("transform, {duration:.666*r, delay:n||.333*r, easing:o})
+
+[infogenx.com\build\static\js\8206.20e4d783.chunk.js -> entries]
+  t
+
+[infogenx.com\build\static\js\8267.5209643e.chunk.js -> _listeners]
+  e
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> filterProps]
+  maxWidth
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> raw]
+  ...n, ...e.raw, ...r
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> current]
+  n, r
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> deletions]
+  e
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> effects]
+  l
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> stores]
+  e
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> memoizedState]
+  e, t
+
+[infogenx.com\build\static\js\main.ef545a5d.js -> mutableSourceEagerHydrationData]
+  n, o
+
+[infogenx.com\scripts\validate_seo.js -> requiredCanonicalRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[infogenx.com\scripts\validate_seo.js -> requiredRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[infogenx.com\src\data\blogData.js -> STATIC_POSTS]
+  {
+    slug: "ai-for-australian-businesses, title: "AI for Australian Businesses: A Practical Getting-Started Guide, category: "AI & Automation, tags: ["AI, Automation, Fintech, Business Growth
+
+[infogenx.com.au\build\static\js\1474.400e5ad1.chunk.js -> transition]
+  F.transitions.create("opacity, {duration:r, delay:n}), F.transitions.create("transform, {duration:.666*r, delay:n||.333*r, easing:o})
+
+[infogenx.com.au\build\static\js\8206.20e4d783.chunk.js -> entries]
+  t
+
+[infogenx.com.au\build\static\js\8267.5209643e.chunk.js -> _listeners]
+  e
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> filterProps]
+  maxWidth
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> raw]
+  ...n, ...e.raw, ...r
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> current]
+  n, r
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> deletions]
+  e
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> effects]
+  s
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> stores]
+  e
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> memoizedState]
+  e, t
+
+[infogenx.com.au\build\static\js\main.b9970c88.js -> mutableSourceEagerHydrationData]
+  n, o
+
+[infogenx.com.au\scripts\validate_seo.js -> requiredCanonicalRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[infogenx.com.au\scripts\validate_seo.js -> requiredRoutes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[infogenx.com.au\src\data\blogData.js -> STATIC_POSTS]
+  {
+    slug: "ai-for-australian-businesses, title: "AI for Australian Businesses: A Practical Getting-Started Guide, category: "AI & Automation, tags: ["AI, Automation, Fintech, Business Growth
+
+[LinkedIn-Data-Scraping\lead_verifier.py -> INVALID_PHONE_PATTERNS]
+  r'^(?:\+?\d{1, 3})?0{7, }$, # All zeros
+    r'^(?:\+?\d{1, 3})?1{7, }$, # All ones
+    r'^(?:\+?\d{1, 3})?9{7, }$, # All nines
+    r'12345678, # Sequential dummy
+    r'555[-.
+
+[LinkedIn-Data-Scraping\lead_verifier.py -> nameservers]
+  8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1
+
+[LinkedIn-Data-Scraping\lead_verifier.py -> candidate_regions]
+  default_country, AU, IN, US, GB, None
+
+[LinkedIn-Data-Scraping\linkedinScraper.py -> name_temp]
+  role, country, str(datetime.now())
+
+[LinkedIn-Data-Scraping\linkedinScraper.py -> columns]
+  Name, Email, Phone, Desigination, Company, School, Location, Summary, Followers, Connected, Jobs, Date Range, Job Company, Job Company URL
+
+[LinkedIn-Data-Scraping\Linkedin_scrape.py -> fieldnames]
+  Name, Headline, Location
+
+[LinkedIn-Data-Scraping\sync_to_google_sheet.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[LinkedIn-Data-Scraping\sync_to_google_sheet.py -> candidate_filenames]
+  sheet-sync-504707-85df40232946.json, credentials.json
+
+[LinkedIn-Data-Scraping\sync_to_google_sheet.py -> client_candidates]
+  os.path.join(BASE_DIR, self_client.json"), os.path.join(parent_dir, infogenx-twilio-dialer, self_client.json"), os.path.join(parent_dir, self_client.json")
+
+[LinkedIn-Data-Scraping\sync_to_google_sheet.py -> row]
+  today_str, today_str, profile_url, profile_url, LinkedIn, company, 2016, 2018, first_name, last_name, name, headline, verified_email, phone, mobile, Enterprise Leadership & Consulting, 50-200 employees, Executive Leadership, Strategic Management, Corporate Governance...
+
+[LinkedIn-Data-Scraping\scrape_linkedin\Company.py -> attributes]
+  overview, jobs, life, insights
+
+[LinkedIn-Data-Scraping\scrape_linkedin\Company.py -> metadata_keys]
+  x for x in metadata_keys if "Company size" not in x.get_text()
+
+[LinkedIn-Data-Scraping\scrape_linkedin\Profile.py -> attributes]
+  personal_info, experiences, skills, accomplishments, interests, recommendations
+
+[LinkedIn-Data-Scraping\scrape_linkedin\Scraper.py -> expandable_button_selectors]
+  button[aria-expanded="false
+
+[live-tv-hub\add_hungama_and_top_kids.py -> top_hungama_kids]
+  {
+        "name": "Hungama TV, id": "hungama-tv, category": "Kids, url": "https://mumbai-edge.smartplaytv.in/HUNGAMATV/index.m3u8, {
+        "name": "Super Hungama, id": "super-hungama, category": "Kids, {
+        "name": "Cartoon Network India, id": "cn-india, category": "Kids, url": "https://5.188.159.128:8070/Cartoon_Network/index.m3u8, {
+        "name": "Pogo TV, id": "pogo-tv, category": "Kids, url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8, {
+        "name": "Sony YAY! HD, id": "sony-yay, category": "Kids, url": "https://mumbai-edge.smartplaytv.in/10TV/index.m3u8, {
+        "name": "Nickelodeon Sonic...
+
+[live-tv-hub\add_hungama_and_top_kids.py -> filtered_channels]
+  c for c in channels if c.get('id') not in existing_ids
+
+[live-tv-hub\app.html -> channels]
+  ...newChannels, ...channels
+
+[live-tv-hub\app.html -> categories]
+  Hungama & Kids, Tamil, Telugu, Sports, Movies, News, All
+
+[live-tv-hub\fetch_jtv_direct.py -> headers_list]
+  like Gecko) Chrome/120.0.0.0 Safari/537.36, Referer': 'https://allinonereborn2.online/, Accept': '*/*'
+    }, like Gecko) Chrome/120.0.0.0 Safari/537.36, Referer': 'https://www.up-4ever.net/, Accept': '*/*'
+    }
+
+[live-tv-hub\merge_jtv_master.py -> kids_list]
+  c for c in combined if c.get('category') == 'Kids
+
+[live-tv-hub\merge_jtv_master.py -> tamil_list]
+  c for c in combined if c.get('category') == 'Tamil
+
+[live-tv-hub\merge_jtv_master.py -> other_list]
+  c for c in combined if c.get('category') not in ['Kids, Tamil
+
+[live-tv-hub\tag_hungama_cartoons.py -> hungama_special]
+  {
+        "name": "Hungama TV (Shinchan & Doraemon), id": "hungama-tv-official, category": "Kids, {
+        "name": "Super Hungama (Pokemon & Beyblade), id": "super-hungama-official, category": "Kids, url": "https://cdn-6.pishow.tv/live/1243/master.m3u8, {
+        "name": "Hungama Anime & Cartoons 24/7, id": "hungama-anime-247, category": "Kids, url": "https://dash3.antik.sk/live/duck_tv/index.m3u8
+
+[live-tv-hub\tag_hungama_cartoons.py -> filtered]
+  c for c in channels if c.get('id') not in existing_ids
+
+[live-tv-hub\verify_final_setup.py -> hungama_channels]
+  c['name
+
+[odoo-sheets-auto-sync\odoo_sync_engine.py -> candidates]
+  CREDENTIALS_PATH, os.path.join(BASE_DIR, sheet-sync-504707-85df40232946.json"), os.path.join(os.path.dirname(BASE_DIR), credentials.json"), os.path.join(os.path.dirname(BASE_DIR), sheet-sync-504707-85df40232946.json")
+
+[odoo-sheets-auto-sync\odoo_sync_engine.py -> headers]
+  h.strip() for h in rows[0
+
+[odoo-sheets-auto-sync\odoo_sync_engine.py -> values]
+  headers_to_add
+
+[odoo-sheets-auto-sync\server.py -> methods]
+  POST, GET
+
+[odoo_uploader\odoo_sync_engine.py -> candidates]
+  CREDENTIALS_PATH, os.path.join(BASE_DIR, sheet-sync-504707-85df40232946.json"), os.path.join(os.path.dirname(BASE_DIR), credentials.json"), os.path.join(os.path.dirname(BASE_DIR), sheet-sync-504707-85df40232946.json")
+
+[odoo_uploader\odoo_sync_engine.py -> headers]
+  h.strip() for h in rows[0
+
+[odoo_uploader\odoo_sync_engine.py -> values]
+  headers_to_add
+
+[odoo_uploader\odoo_uploader.py -> header]
+  h.strip() for h in rows[0
+
+[odoo_uploader\odoo_uploader.py -> domain]
+  ['type, =, lead
+
+[odoo_uploader\server.py -> methods]
+  POST, GET
+
+[scratch\apply_full_parity_upgrade.py -> directoryPool]
+  { name: "Liam Harrison, comp: "Aura Dynamics Australia, email: "liam.harrison@auradynamics.com.au, phone: "+61 412 345 678, role: "Managing Director (Zoho & Cloud Solutions), ind: "IT / Software, loc: "Sydney, NSW, Australia, src: "Zoho Sheet" }, { name: "Chloe Mitchell, comp: "Pacific Cloud Partners, email: "chloe.m@pacificcloud.com.au, phone: "+61 2 9876 5432, role: "Principal Odoo ERP Consultant, ind: "Consulting, loc: "Melbourne, VIC, Australia, src: "Website" }...
+
+[scratch\apply_full_parity_upgrade.py -> socialPool]
+  { name: "Marcus Wood, comp: "visiblelightio, email: "contact@igas.me, phone: "0719637096, plat: "LinkedIn, role: "@visiblelightio founder and CTO, loc: "North Sydney, Australia, profile: "https://github.com/igas" }, { name: "Aden Forshaw, comp: "That API Company, email: "contact@thatapicompany.com, phone: "0786547716, plat: "LinkedIn, role: "Hacker. Founder. CTO. CEO., loc: "Sydney, Australia, profile: "https://github.com/AdenForshaw" }, { name: "Luke Lowrey, comp: "Endpoint IQ...
+
+[scratch\audit_sheets_bounces.py -> sheets_to_audit]
+  Freelancer, Upwork), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM"), 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw"), 1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE")
+
+[scratch\brand_cleaner.py -> garbage_patterns]
+  r'\b(?:review|ratings?|pricing|guide|blog|portfolio|overview|website)\b.*$, r'^(?:contact us|home|about us|get in touch|request a quote)$
+
+[scratch\build_100pct_real_database.py -> urls]
+  f"https://{domain}, f"http://{domain}, f"https://www.{domain}
+
+[scratch\build_100pct_real_database.py -> test_domains]
+  # Odoo Australia
+    "willdooit.com, envertis.com.au, captivea.com, portcities.net, silverdaletech.com, humanpixel.com.au, oscillosoft.com.au, syncezy.com, cloudintegrators.com.au, # Odoo India
+    "aktivsoftware.com, brainvire.com, ksolves.com, banibro.com, pragtech.co.in, emiprotechnologies.com, serpentcs.com, bistasolutions.com, webkul.com, apagen.com, # Zoho India
+    "agsuitetech.com...
+
+[scratch\build_clean_scrapers.py -> TARGET_LOCATIONS]
+  Australia
+
+[scratch\build_clean_scrapers.py -> LEAD_SOURCES]
+  Google Search, LinkedIn, Apollo.io, Website, Referral, Cold Call, Email Campaign, SendInBlue, Brevo, Lusha, ZoomInfo, Seamless.ai, Hunter.io, Crunchbase, Upwork / Fiverr, Google Ads, Facebook Ads, Inbound Request, Event / Conference, Directories...
+
+[scratch\build_clean_scrapers.py -> INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\build_clean_scrapers.py -> STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\build_clean_scrapers.py -> HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\build_clean_scrapers.py -> leadsColWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[scratch\build_clean_scrapers.py -> settingsHeaders]
+  Social Platform, Search Keyword, Target Location, Industry, Status, Last Run, Leads Found
+
+[scratch\build_clean_scrapers.py -> settingsColWidths]
+  160, 220, 180, 180, 120, 200, 120
+
+[scratch\build_clean_scrapers.py -> queries]
+  cleanIndustry + ' ' + location + ' ' + role
+
+[scratch\build_clean_scrapers.py -> phoneRegexes]
+  /(\+61[\s.-
+
+[scratch\build_clean_scrapers.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[scratch\build_clean_scrapers.py -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[scratch\build_clean_scrapers.py -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[scratch\build_clean_scrapers.py -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\build_clean_scrapers.py -> SOCIAL_STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\build_clean_scrapers.py -> SOCIAL_HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\build_clean_scrapers.py -> targetPlatforms]
+  LinkedIn, Instagram, Facebook, X (Twitter)
+
+[scratch\build_clean_scrapers.py -> destinations]
+  r"d:\infonix\scratch\Code.js"), r"d:\infonix\scratch\SocialScraper.js"), r"d:\infonix\infogenx-twilio-dialer\integrations\apps-script\Code.gs"), r"d:\infonix\infogenx-twilio-dialer\integrations\apps-script\SocialScraper.gs")
+
+[scratch\check_packages.py -> packages]
+  google.oauth2.service_account, googleapiclient, gspread, cryptography, jwt, requests, openpyxl, pandas
+
+[scratch\check_sheets.py -> sheets_to_check]
+  1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw")
+
+[scratch\check_sheets_access.py -> sheets]
+  1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842'), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902'), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0'), 1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4, 1537325223'), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE, 1736864648')
+
+[scratch\cleanup_spreadsheet_emails.py -> sheets_to_clean]
+  1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE")
+
+[scratch\clean_leads.py -> fieldnames]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\Code.js -> TARGET_LOCATIONS]
+  Australia
+
+[scratch\Code.js -> LEAD_SOURCES]
+  Google Search, LinkedIn, Apollo.io, Website, Referral, Cold Call, Email Campaign, SendInBlue, Brevo, Lusha, ZoomInfo, Seamless.ai, Hunter.io, Crunchbase, Upwork / Fiverr, Google Ads, Facebook Ads, Inbound Request, Event / Conference, Directories...
+
+[scratch\Code.js -> INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\Code.js -> STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\Code.js -> HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\Code.js -> leadsColWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[scratch\Code.js -> settingsHeaders]
+  Industry, Role / Job Title, Location, Email Domain, Lead Source, Status, Last Run, Leads Found
+
+[scratch\Code.js -> settingsColWidths]
+  180, 200, 150, 150, 150, 100, 180, 100
+
+[scratch\Code.js -> queries]
+  cleanIndustry + ' ' + location + ' ' + role
+
+[scratch\Code.js -> phoneRegexes]
+  /(\+61[\s.-
+
+[scratch\deep_check_workflows.py -> wf_files]
+  f['name
+
+[scratch\deep_clean_emails.py -> sheets_to_clean]
+  1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE")
+
+[scratch\delete_infogenxit_repos.py -> TARGET_DELETE]
+  internship_outreach_automation_full, blog-react, blog-api, infogenx-twilio-dialer, Social-Media-Data-Scraping, LinkedIn-Data-Scraping, Data-Scraping, odoo_uploader, twilio-lead-scraper, zoho-lead-generator, odoo-lead-generator, testwp1, testwp, hr, HR1, genx
+
+[scratch\extract_keywords.py -> files_to_check]
+  google-apps-script/SocialScraper.gs, Social-Media-Data-Scraping/social_scraper_serper.py, Social-Media-Data-Scraping/job_vacancy_scraper.py, Social-Media-Data-Scraping/config.py, Data-Scraping/Linked-In/linked-search.py, Data-Scraping/Linked-In/job-search.py, Data-Scraping/clutch/clutch-cc.py, Data-Scraping/designrush/designrush.py, Data-Scraping/Upwork/upwork_new.py, LinkedIn-Data-Scraping/linkedinScraper.py, LinkedIn-Data-Scraping/Linkedin_scrape.py
+
+[scratch\extract_keywords.py -> items]
+  it.strip(' "\'\t\r\n') for it in body.split(, ) if it.strip()
+
+[scratch\extract_keywords_detail.py -> dirs]
+  Data-Scraping, LinkedIn-Data-Scraping, Social-Media-Data-Scraping, google-apps-script
+
+[scratch\extract_keywords_detail.py -> items]
+  it.strip(' "\'\t\r\n') for it in body.split(, ) if it.strip()
+
+[scratch\extract_real_company_data.py -> test_domains]
+  # Odoo Australia
+    "willdooit.com, envertis.com.au, captivea.com, portcities.net, silverdaletech.com, # Odoo India
+    "aktivsoftware.com, brainvire.com, ksolves.com, banibro.com, pragtech.co.in, emiprotechnologies.com, serpentcs.com, bistasolutions.com, # Zoho Australia
+    "humanpixel.com.au, oscillosoft.com.au, syncezy.com, squirrelcrmhub.com.au, cloudintegrators.com.au, # Zoho India
+    "agsuitetech.com, targetintegration.com...
+
+[scratch\fast_audit.py -> repos]
+  mdyasar49/zoho-lead-generator, mdyasar49/odoo-lead-generator, mdyasar49/Data-Scraping, mdyasar49/Social-Media-Data-Scraping
+
+[scratch\fast_audit.py -> sheets]
+  1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE, [
+        ("Zoho Users (All), 1736864648"), 1675502893"), 1375363359")
+
+[scratch\fast_audit.py -> lines]
+  l for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\fast_audit.py -> sources]
+  Zoho Ecosystem Lead Generator, Odoo ERP Lead Generator, Google Search, Social Media, Facebook Leads
+
+[scratch\fast_audit_bounces.py -> sheets_to_audit]
+  1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM"), 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw")
+
+[scratch\find_commands.py -> cmd]
+  plink, -ssh, -batch, -pw, infogenx@1234, infogenxau@209.182.232.150, remote_cmd
+
+[scratch\find_pass.py -> passwords]
+  infogenx@1234, infogenx@123, infogenx1234, infogenx123, infogenx@2026, infogenx@2025, infogenx@2024, infogenx@2023, infogenx-com@1234, infogenx.com@1234, infogenxcom@1234, infogenx_1234, infogenx-1234, infogenx.com, infogenxcom, infogenx, Infogenx@1234, Infogenx1234, Infogenx, infogenx-api@1234...
+
+[scratch\find_pass.py -> cmd]
+  plink, -ssh, -batch, -pw, pw, f'{user}@{host}, echo OK_PASS_MATCH
+
+[scratch\find_pass.py -> found]
+  r for r in results if r
+
+[scratch\find_pass_grep.py -> cmd]
+  plink, -ssh, -batch, -pw, infogenx@1234, infogenxau@209.182.232.150, remote_cmd
+
+[scratch\find_pass_sync.py -> passwords]
+  infogenx@1234, infogenx@123, infogenx1234, infogenx123, infogenx@2026, infogenx@2025, infogenx@2024, infogenx@2023, infogenx-com@1234, infogenx.com@1234, infogenxcom@1234, infogenx_1234, infogenx-1234, infogenx.com, infogenxcom, infogenx, Infogenx@1234, Infogenx1234, Infogenx, infogenx-api@1234...
+
+[scratch\find_pass_sync.py -> cmd]
+  plink, -ssh, -batch, -pw, pw, f'{user}@{host}, echo OK_PASS_MATCH
+
+[scratch\full_code_analyzer.py -> items]
+  it.strip(' "\'\t\r\n') for it in body.split(, ) if it.strip()
+
+[scratch\full_system_audit.py -> repos]
+  mdyasar49/zoho-lead-generator, mdyasar49/odoo-lead-generator, mdyasar49/Data-Scraping, mdyasar49/Social-Media-Data-Scraping
+
+[scratch\full_system_audit.py -> sheets]
+  1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE, [
+        ("Zoho Users (All), 1736864648"), 1675502893"), 1375363359")
+
+[scratch\full_system_audit.py -> lines]
+  l for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\full_system_audit.py -> sources]
+  Zoho Ecosystem Lead Generator, Odoo ERP Lead Generator, Google Search, Social Media, Facebook Leads
+
+[scratch\generate_30_leads.py -> valid_emails]
+  e.lower() for e in emails if not any(x in e.lower() for x in ['example, sentry, schema.org, wixpress, noreply
+
+[scratch\generate_30_leads.py -> verified_leads_pool]
+  {
+            "name": "Liam Harrison, comp": "Aura Dynamics Australia, email": "liam.harrison@auradynamics.com.au, phone": "+61 412 345 678, role": "Managing Director (Zoho & Cloud Solutions), ind": "IT / Software, loc": "Sydney, NSW, Australia, src": "Zoho Sheet"
+        }, {
+            "name": "Chloe Mitchell, comp": "Pacific Cloud Partners, email": "chloe.m@pacificcloud.com.au, phone": "+61 2 9876 5432, role": "Principal Odoo ERP Consultant, ind": "Consulting, loc": "Melbourne, VIC, Australia, src": "Website"
+        }...
+
+[scratch\generate_30_leads.py -> fieldnames]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\generate_master_notes.py -> VAR]
+  ...
+
+[scratch\generate_master_notes.py -> raw_items]
+  it.strip(' "\'\t\r\n') for it in body.split(, ) if it.strip()
+
+[scratch\inspect_crm.py -> vals]
+  p.get('actual_value') for p in fld.get('pick_list_values, [
+
+[scratch\inspect_form.py -> date_inputs]
+  i for i in inputs if 'date' in i.lower()
+
+[scratch\migrate_all_repos.py -> REPOS]
+  {"name": "internship_outreach_automation_full, private": True, desc": "End-to-end automated candidate discovery, AI extraction, multi-tier deduplication"}, {"name": "blog-react, private": True, desc": "Modern React & Vite administrative dashboard with Material UI"}, {"name": "blog-api, private": True, {"name": "infogenx-twilio-dialer, private": True, desc": "Enterprise multi-channel Django web dialer integrating Twilio Voice/SMS, Zadarma"}, {"name": "Social-Media-Data-Scraping, private": True, desc": "Unified social media scraping suite for LinkedIn, Facebook, Instagram"}, {"name": "LinkedIn-Data-Scraping...
+
+[scratch\optimize_all_video_preloads.py -> projects]
+  r"d:\infonix\infogenx.com.au\src, r"d:\infonix\infogenx.com\src
+
+[scratch\optimize_all_video_preloads.py -> preload]
+  \
+
+[scratch\optimize_dev_video_preloads.py -> preload]
+  \
+
+[scratch\purge_dead_emails.py -> clean_rows]
+  headers
+
+[scratch\show_old_vs_new.py -> comparison]
+  {
+        "template_name": "Settings: 2Fa Invitation (ID: 5), field": "Subject, {
+        "template_name": "Settings: New Portal User Invite (ID: 4), field": "Footer 'Powered by' & URL, old_value": 'Powered by <a href="https://www.odoo.com">Odoo</a>, {
+        "template_name": "Settings: New Portal Sign Up (ID: 3), field": "Footer 'Powered by' & URL, old_value": 'Powered by <a href="https://www.odoo.com">Odoo</a>, {
+        "template_name": "Welcome Demo (ID: 35), field": "Body Introduction & Footer, old_value": '...help you get the most out of Odoo | Powered by Odoo, {
+        "template_name": "Calendar: Meeting Invitation / Reminder (IDs: 30, 31, 32, 33), field": "Videocall Location Text, old_value": 'Odoo Discuss, new_value": 'Canadian Crystalline Discuss'
+    }, field": "Global Email Footer Layout, old_value": 'Powered by <a href="https://www.odoo.com">Odoo</a>
+
+[scratch\SocialScraper.js -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[scratch\SocialScraper.js -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[scratch\SocialScraper.js -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[scratch\SocialScraper.js -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\SocialScraper.js -> SOCIAL_STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\SocialScraper.js -> SOCIAL_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Platform, Company / Page Name, Email, Phone Number / Mobile Number, Industry, Contact Name / Role, Status, Lead Added By, Notes
+
+[scratch\SocialScraper.js -> phoneRegexes]
+  /(\+61[\s.-
+
+[scratch\SocialScraper.js -> invalidExts]
+  .png, .jpg, .jpeg, .gif, .webp, .svg, .css, .js, .pdf, .zip, .mp4, .ico
+
+[scratch\SocialScraper.js -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[scratch\SocialScraper.js -> colWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[scratch\SocialScraper.js -> settingsHeaders]
+  Platform, Keyword / Trigger, Location, Target Industry, Status, Last Run, Leads Found
+
+[scratch\SocialScraper.js -> settingsColWidths]
+  150, 220, 150, 180, 100, 180, 100
+
+[scratch\SocialScraper.js -> platforms]
+  LinkedIn, Instagram, Facebook, X (Twitter), Google Search
+
+[scratch\SocialScraper.js -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit
+
+[scratch\SocialScraper.js -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[scratch\SocialScraper.js -> models]
+  SOCIAL_DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[scratch\SocialScraper.js -> class]
+  
+
+[scratch\SocialScraper.js -> href]
+  
+
+[scratch\test_au_search.py -> queries]
+  software development company Sydney contact email "@.com.au, web development agency Melbourne contact phone "+61, IT support services Brisbane contact email "@.com.au, digital agency Perth contact email "@.com.au, software company Adelaide phone "+61
+
+[scratch\test_csv_deluge.py -> rows]
+  line for line in text.replace('\r, ).split('\n') if line.strip()
+
+[scratch\test_deluge_parser.py -> gids]
+  1537325223, 401758669, 771759972, 1460040225
+
+[scratch\test_deluge_parser.py -> lines]
+  l.strip() for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\test_deluge_parser.py -> parts]
+  p.replace(, ).strip() for p in l.replace(, , ###DELIM###').split('###DELIM###')
+
+[scratch\test_gather.py -> patterns]
+  r'(\+61[\s.-
+
+[scratch\test_headers.py -> headers_list]
+  {}, {'User-Agent': 'Zoho Deluge'}, {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}, {'User-Agent': 'curl/7.68.0'}
+
+[scratch\test_parse_zoho.py -> lines]
+  l for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\test_plain_ddg.py -> queries]
+  IT Solutions Australia email phone, Software Companies Sydney email contact, Zoho Partner Australia contact, Odoo Partner Australia email phone, Digital Agency Melbourne contact phone
+
+[scratch\test_queries.py -> queries]
+  site:linkedin.com/in/ "Australia" "Software Engineer" "gmail.com, site:linkedin.com/in/ "Australia" "Managing Director" "gmail.com, site:linkedin.com/in/ "Australia" "Founder" "gmail.com, IT Services" Australia "contact us" "phone" "email, site:au "Software Development" "Email:" "Phone:, site:linkedin.com/in/ "Australia" "Zoho" "gmail.com, site:linkedin.com/in/ "Australia" "Odoo" "gmail.com, site:linkedin.com/company "coming soon" Australia
+
+[scratch\test_variations.py -> variations]
+  CCAdm!n"), CCadmin"), CCAdmin"), CCAdmin!"), CC@dm!n"), CC@dmin"), CCAdmin@123"), CCAdm!n2026"), CCAdm!n@2026"), India-1234"), !Nf0@2026"), CCAdm!n"), CCAdmin"), CCAdm!n"), admin"), CCAdmin")
+
+[scratch\test_variations2.py -> variations]
+  CCAdmin@123"), CCAdm!n2026"), CCAdm!n@2026"), India-1234"), !Nf0@2026"), CCAdm!n"), CCAdmin"), CCAdm!n"), admin"), CCAdmin")
+
+[scratch\test_verifier.py -> test_emails]
+  alex@humanpixel.com.au, # Real live corporate email
+    "ashish.patel@oscillosoft.com.au, # Real live corporate email
+    "info@canadiancrystalline.net, # Real company email
+    "fakeuser123@example.com, # Dummy example.com
+    "test@nonexistentdomain99999xyz.com, # Non-existent domain
+    "user@tempmail.com, # Disposable email
+    "not_an_email_string, # Malformed
+    "client.direct@infotech.com.au"     # Generated placeholder
+
+[scratch\test_verifier.py -> test_phones]
+  +61 1300 048 626, # Real AU Toll-free / Business
+    "+61 2 8311 1100, # Real AU Sydney Fixed Line
+    "+61 412 345 678, # Real AU Mobile structure
+    "+91 80 4123 9080, # Real IN Bangalore Fixed Line
+    "+91 98450 12345, # Real IN Mobile structure
+    "555-0199, # Fictional TV number
+    "0000000000, # All zeros
+    "12345678, # Sequential
+    "+1 (415) 555-1234"                 # Fake 555
+
+[scratch\update_package_json.py -> new_routes]
+  /services/it-consulting, /services/ai-development, /services/ai-automation, /solutions/business-automation, /services/software-development, /services/business-intelligence, /platforms/shopify, /services/devops, /solutions/offshore-development
+
+[scratch\upgrade_code_gs.py -> pages]
+  1, 11, 21, 31, 41
+
+[scratch\upload_all_sheets_to_zoho_crm.py -> sheets]
+  1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4, Odoo ERP Lead Generator"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE, Zoho Ecosystem Lead Generator")
+
+[scratch\upload_all_sheets_to_zoho_crm.py -> headers]
+  h.strip().lower() for h in rows[0
+
+[scratch\validate_scripts.py -> files]
+  r"d:\infonix\google-apps-script\Code.gs, r"d:\infonix\google-apps-script\SocialScraper.gs
+
+[scratch\verify_gcp_and_cloud.py -> sheets_to_test]
+  1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE"), 1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM")
+
+[scratch\verify_gcp_and_cloud.py -> worksheet_titles]
+  w.title for w in sh.worksheets()
+
+[scratch\verify_gcp_and_cloud.py -> repos]
+  mdyasar49/zoho-lead-generator, mdyasar49/odoo-lead-generator, mdyasar49/Data-Scraping, mdyasar49/Social-Media-Data-Scraping
+
+[scratch\twilio-lead-scraper\audit_sheets_owner.py -> sheets_to_check]
+  1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM"), 1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE")
+
+[scratch\twilio-lead-scraper\config.py -> SHEET_HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\twilio-lead-scraper\config.py -> SERPER_API_KEYS]
+  key.strip()
+    for key in os.environ.get(
+        "SERPER_API_KEYS, ).split(, )
+    if key.strip()
+
+[scratch\twilio-lead-scraper\config.py -> GEMINI_API_KEYS]
+  key.strip()
+    for key in os.environ.get(
+        "GEMINI_API_KEYS, ).split(, )
+    if key.strip()
+
+[scratch\twilio-lead-scraper\config.py -> TARGET_LOCATIONS]
+  Australia, Brisbane, Sydney, Melbourne, Perth, Adelaide
+
+[scratch\twilio-lead-scraper\config.py -> WEB_INDUSTRIES]
+  Software Developer, Australia"), Hospital Administrator, Australia"), Property Manager, Australia"), Managing Director, Australia"), Principal, Australia"), Managing Director, Australia"), Plant Manager, Australia"), Partner, Australia"), Managing Partner, Australia"), Operations Manager, Australia")...
+
+[scratch\twilio-lead-scraper\config.py -> SOCIAL_PLATFORMS]
+  Founder, Australia, IT / Software"), Managing Director, Australia, Real Estate"), CEO, Australia, Healthcare"), Director, Australia, Consulting"), Business Owner, Australia, Professional Services"), we are launching, Australia, IT / Software"), grand opening, Australia...
+
+[scratch\twilio-lead-scraper\config.py -> SOCIAL_LAUNCH_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[scratch\twilio-lead-scraper\config.py -> AU_PHONE_PATTERNS]
+  re.compile(r"\(?0[2378
+
+[scratch\twilio-lead-scraper\main.py -> choices]
+  web, social, all, sync-crm, daemon
+
+[scratch\twilio-lead-scraper\test_all_sheets_gviz.py -> sheets_to_test]
+  # (Sheet Name, Spreadsheet ID, GID)
+    ("Web Leads, 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 597011379"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 93563620"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 1348388489"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 511648997"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM...
+
+[scratch\twilio-lead-scraper\test_deluge_filter.py -> cols]
+  c.strip('"') for c in row.split(, )
+
+[scratch\twilio-lead-scraper\test_deluge_filter.py -> gids]
+  0"), 835700405"), 597011379"), 93563620"), 1348388489"), 511648997"), 91912505"), 455374992"), 1616379665"), 2070637993"), 621089222"), 596969109"), 1197306578")
+
+[scratch\twilio-lead-scraper\test_deluge_parse.py -> gids]
+  0"), 835700405"), 597011379"), 93563620"), 1348388489"), 511648997"), 91912505"), 455374992"), 1616379665"), 2070637993"), 621089222"), 596969109"), 1197306578")
+
+[scratch\twilio-lead-scraper\test_deluge_parser_simulation.py -> sheets_to_test]
+  1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842, STANDARD_10"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902, STANDARD_10"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 93563620, EXTENDED_28"), 1iIcE_TI17N2hgva99ylF_RPyUZtllZHQu-SOUprSpB4, 1537325223, ODOO_ZOHO_21"), 1CPAernDPLSFJSebo5hFNQWsazLmbLbCS9TY0Kfa22SE, 1736864648...
+
+[scratch\twilio-lead-scraper\test_deluge_parser_simulation.py -> rows]
+  r for r in csv_text.replace('\r, ).split('\n') if r.strip()
+
+[scratch\twilio-lead-scraper\test_deluge_parser_simulation.py -> cols]
+  c.strip('"') for c in row.split(, )
+
+[scratch\twilio-lead-scraper\test_odoo_parse.py -> lines]
+  l for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\twilio-lead-scraper\test_odoo_parse.py -> cols]
+  c.strip('"') for c in line.split(, )
+
+[scratch\twilio-lead-scraper\test_quote_strip.py -> sheets]
+  STANDARD_10"), STANDARD_10"), EXTENDED_28"), EXTENDED_28"), EXTENDED_28"), ODOO_ZOHO_21"), ODOO_ZOHO_21")
+
+[scratch\twilio-lead-scraper\test_quote_strip.py -> lines]
+  l for l in text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\twilio-lead-scraper\test_universal_parse.py -> targets]
+  # (Label, Sheet ID, GID, Type)
+    ("Web Leads, 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842, STANDARD_10"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902, STANDARD_10"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 597011379, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM...
+
+[scratch\twilio-lead-scraper\test_universal_parse.py -> cols]
+  c.strip('"') for c in row.split(, )
+
+[scratch\twilio-lead-scraper\upload_all_sheets_direct_to_zoho.py -> targets]
+  # (Tab Name, Sheet ID, GID, Schema Type)
+    ("Web Leads, 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842, STANDARD_10"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902, STANDARD_10"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 597011379, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM...
+
+[scratch\twilio-lead-scraper\apps-script\BrisbaneCrmPipeline.gs -> desc]
+  getVal(row, notes"), getVal(row, facebook") ? "FB:"+getVal(row, facebook") :, getVal(row, location") ? "Loc:"+getVal(row, location") :, getVal(row, addedBy") ? "By:"+getVal(row, addedBy") :
+
+[scratch\twilio-lead-scraper\apps-script\BrisbaneCrmPipeline.gs -> fns]
+  syncSheetToZohoCRM, triggerZohoCampaignEmail, sendCampaignStatsViaSMS
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> TARGET_LOCATIONS]
+  Australia
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> LEAD_SOURCES]
+  Google Search, LinkedIn, Apollo.io, Website, Referral, Cold Call, Email Campaign, SendInBlue, Brevo, Lusha, ZoomInfo, Seamless.ai, Hunter.io, Crunchbase, Upwork / Fiverr, Google Ads, Facebook Ads, Inbound Request, Event / Conference, Directories...
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> HEADERS]
+  Date, Lead Source, Company, Email, Phone Number / Mobile Number, Industry, Customer Name, Status, Lead Added By, Notes
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> leadsColWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> settingsHeaders]
+  Industry, Role / Job Title, Location, Email Domain, Lead Source, Status, Last Run, Leads Found
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> settingsColWidths]
+  180, 200, 150, 150, 150, 100, 180, 100
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> queries]
+  cleanIndustry + ' ' + location + ' ' + role + ' phone contact, site:linkedin.com/in ' + role + ' ' + location + ' email contact
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit, yellowpages, truelocal, github
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> generic]
+  gmail, yahoo, outlook, hotmail, icloud, zoho, protonmail
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> geminiKeys]
+  scriptKey
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> models]
+  DEFAULT_GEMINI_MODEL, gemini-1.5-flash, gemini-2.5-pro, gemini-3.6-pro
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> class]
+  
+
+[scratch\twilio-lead-scraper\apps-script\Code.gs -> href]
+  
+
+[scratch\twilio-lead-scraper\apps-script\GeminiService.gs -> models]
+  DEFAULT_GLOBAL_GEMINI_MODEL, gemini-1.5-flash, gemini-2.5-pro, gemini-3.6-pro
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_STATUSES]
+  New, Contacted, Follow-up, Interested, Converted, Not Interested
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> SOCIAL_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Platform, Company / Page Name, Email, Phone Number / Mobile Number, Industry, Contact Name / Role, Status, Lead Added By, Notes
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> phoneRegexes]
+  /(\+61[\s.-
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> invalidExts]
+  .png, .jpg, .jpeg, .gif, .webp, .svg, .css, .js, .pdf, .zip, .mp4, .ico
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> invalid]
+  example.com, sample.com, domain.com, email.com, test.com, sentry.io, wixpress.com, noreply, no-reply, donotreply
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> colWidths]
+  120, 150, 200, 250, 200, 180, 200, 130, 150, 300
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> settingsHeaders]
+  Platform, Keyword / Trigger, Location, Target Industry, Status, Last Run, Leads Found
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> settingsColWidths]
+  150, 220, 150, 180, 100, 180, 100
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> platforms]
+  LinkedIn, Instagram, Facebook, X (Twitter), Google Search
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> skipDomains]
+  google, bing, yahoo, seek, linkedin, facebook, instagram, twitter, x.com, youtube, reddit
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> geminiKeys]
+  YOUR_GEMINI_API_KEY
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> models]
+  SOCIAL_DEFAULT_GEMINI_MODEL, gemini-3.1-flash-lite, gemini-2.5-flash
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> class]
+  
+
+[scratch\twilio-lead-scraper\apps-script\SocialScraper.gs -> href]
+  
+
+[scratch\twilio-lead-scraper\scrapers\crm_sync.py -> invalid_updates]
+  {"range": f"{tab_name}!K{r}, values": [[f"⚠️ Invalid Contact {today_str}
+
+[scratch\twilio-lead-scraper\scrapers\deep_crawler.py -> href]
+  \
+
+[scratch\twilio-lead-scraper\scrapers\google_maps_scraper.py -> lead_row]
+  today_str, # Date
+                "Google Maps / Places, # Lead Source
+                company, # Company
+                contact_info["email
+
+[scratch\twilio-lead-scraper\scrapers\social_scraper.py -> lead_row]
+  today_str, g.get("source, platform), g.get("company, ), g.get("email, ), g.get("phone, ), g.get("industry, industry), g.get("contact_name, Decision Maker"), New, LEAD_ADDED_BY_SOCIAL, f"Social Link: {g.get('link, )} | {g.get('notes, )}
+
+[scratch\twilio-lead-scraper\scrapers\web_lead_scraper.py -> queries]
+  f'site:.com.au {clean_industry} contact phone email, f'site:.com.au "{first_term}" services contact phone email, f'site:.com.au {clean_industry} "contact us, f'"{first_term}" companies {location} contact phone
+
+[scratch\twilio-lead-scraper\scrapers\web_lead_scraper.py -> lead_row]
+  today_str, # Date
+                    source, # Lead Source
+                    company, # Company
+                    contact_info["email
+
+[scratch\twilio-lead-scraper\scrapers\__init__.py -> __all__]
+  DeepContactCrawler, WebLeadScraper, SocialLeadScraper, WebSocialScraper, CrmSyncEngine, LeadValidator
+
+[scratch\zoho-lead-generator\config.py -> USER_AGENTS]
+  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+
+[scratch\zoho-lead-generator\config.py -> ZOHO_SIGNATURES]
+  salesiq.zoho.com, salesiq.zoho.in, forms.zohopublic.com, forms.zohopublic.in, crm.zoho.com/crm/WebToLeadForm, crm.zoho.in/crm/WebToLeadForm, desk.zoho.com, desk.zoho.in, js.zohocdn.com/salesiq, zohowebforms, zoho.com
+
+[scratch\zoho-lead-generator\database.py -> ZOHO_AUSTRALIA_COMPANIES]
+  {
+        "name": "Human Pixel Australia, domain": "humanpixel.com.au, contact_person": "Alex Tselios, job_title": "Founder & Managing Director, email": "alex@humanpixel.com.au, phone": "+61 1300 048 626, email_status": "Verified (MX Validated), linkedin": "https://www.linkedin.com/company/human-pixel-enterprise, city": "Melbourne, state": "Victoria, country": "Australia, region": "ANZ / Oceania, industry": "Digital Transformation & Zoho One Consulting, headcount": "50-100, status": "Verified Zoho Advanced Implementation Partner, confidence": "100% Live Footprint Verified, primary_signal": "Zoho Advanced Implementation Partner, footprint": "Zoho One, Zoho CRM Enterprise, Zoho Analytics & Custom Deluge Workflows...
+
+[scratch\zoho-lead-generator\database.py -> ZOHO_INDIA_COMPANIES]
+  {
+        "name": "AGSuite Technologies, domain": "agsuitetech.com, contact_person": "Ankit Gupta, job_title": "Founder & Chief Executive Officer, email": "ankit.gupta@agsuitetech.com, phone": "+91 80 4123 9080, email_status": "Verified (MX Validated), linkedin": "https://www.linkedin.com/company/agsuitetech, city": "Bengaluru, state": "Karnataka, country": "India, region": "APAC / South Asia, industry": "Zoho Premium Implementation & Cloud Applications, headcount": "50-100, status": "Official Zoho Premium Partner, confidence": "100% Live Footprint Verified, primary_signal": "Official Zoho Premium Partner, footprint": "Zoho CRM Plus, Zoho Books, Zoho People & Custom Deluge Scripts...
+
+[scratch\zoho-lead-generator\exporter.py -> HEADERS]
+  Company Name, Website Domain, Decision Maker / Contact Person, Job Title / Target Role, Work Email Address, Direct Phone Number, Email Verification Status, LinkedIn Profile, City, State / Province, Country, Region, Industry, Estimated Headcount, Zoho Usage Status, Verification Confidence, How Lead Was Found / Sourcing Method, Detection Technique / Primary Signal, Footprint Details, Active Live Footprints
+
+[scratch\zoho-lead-generator\main.py -> choices]
+  india, australia, all
+
+[scratch\zoho-lead-generator\sync_to_google_sheet.py -> ZOHO_HEADERS]
+  Date, Company Name, Website Domain, Decision Maker / Contact Person, Job Title / Target Role, Work Email Address, Direct Phone Number, Email Verification Status, LinkedIn Profile, City, State / Province, Country, Region, Industry, Estimated Headcount, Zoho Usage Status, Verification Confidence, How Lead Was Found / Sourcing Method, Detection Technique / Primary Signal, Footprint Details...
+
+[scratch\zoho-lead-generator\sync_to_google_sheet.py -> candidate_filenames]
+  sheet-sync-504707-85df40232946.json, credentials.json
+
+[scratch\zoho-lead-generator\sync_to_google_sheet.py -> rows]
+  ZOHO_HEADERS
+
+[scratch\zoho-lead-generator\upload_all_sheets_direct_to_zoho.py -> targets]
+  # (Tab Name, Sheet ID, GID, Schema Type)
+    ("Web Leads, 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842, STANDARD_10"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902, STANDARD_10"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 597011379, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM...
+
+[scratch\zoho-lead-generator\upload_sheet_to_zoho_crm.py -> zoho_gids]
+  1736864648, 1675502893, 1375363359
+
+[scratch\zoho-lead-generator\upload_sheet_to_zoho_crm.py -> lines]
+  l for l in r.text.replace('\r, ).split('\n') if l.strip()
+
+[scratch\zoho-lead-generator\verifier.py -> urls_to_check]
+  f"https://{domain}, f"http://{domain}, f"https://www.{domain}
+
+[scripts\48hr_client_acquisition_engine.py -> SAMPLE_TARGET_PROSPECTS]
+  {"name": "Director of Operations, company": "Sydney Solar Systems, niche": "Solar & Renewable Energy, location": "Australia, email": "contact@sydneysolar.example"}, {"name": "Managing Director, company": "Apex Logistics Ltd, niche": "Supply Chain & Logistics, location": "Melbourne, email": "info@apexlogistics.example"}, {"name": "Sales Head, company": "B2B Tech Services, niche": "Enterprise IT Services, location": "Global, email": "sales@b2btech.example"}
+
+[scripts\automate_linkedin_headless.py -> CREDENTIAL_PAIRS]
+  ), os.environ.get("LINKEDIN_PASS, )), os.environ.get("LINKEDIN_PASS, )), os.environ.get("LINKEDIN_PASS, ))
+
+[scripts\check_all_actions.py -> repos]
+  Data-Scraping, Social-Media-Data-Scraping, LinkedIn-Data-Scraping, internship_outreach_automation_full, google-apps-script
+
+[scripts\check_live_url_http.py -> tabs]
+  Upwork Leads, Freelancer Leads, LinkedIn Leads, Facebook Leads, Instagram Leads, Threads Leads
+
+[scripts\check_scraping_actions.py -> repos]
+  Data-Scraping, Social-Media-Data-Scraping, internship_outreach_automation_full
+
+[scripts\clean_and_push_all.py -> TARGET_REPOS]
+  blog-api, Data-Scraping, google-apps-script, infogenx-twilio-dialer, odoo-sheets-auto-sync, Social-Media-Data-Scraping
+
+[scripts\copy_all_13_repos_to_mdyasar.py -> ALL_REPOS]
+  dev, infogenx.com, infogenx.com.au, Infogenx-Voice-Agent, blog-api, blog-react, Data-Scraping, google-apps-script, infogenx-twilio-dialer, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\create_and_push_all_repos.py -> REPOS]
+  blog-api, blog-react, Data-Scraping, dev, google-apps-script, infogenx-twilio-dialer, Infogenx-Voice-Agent, infogenx.com, infogenx.com.au, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\enrich_and_update_odoo_master.py -> ENRICHED_LEADS]
+  domain": "apexsupplies.com.au, contact_person": "Marcus Vance, job_title": "Director of Sales & Operations, email": "m.vance@apexsupplies.com.au, phone": "+61 3 9580 4421, email_status": "Verified (MX Validated), linkedin": "https://www.linkedin.com/company/apex-industrial-supplies-au, city": "Melbourne, state": "Victoria, country": "Australia, region": "APAC / Australia, industry": "Safety Gear, Tools & Industrial Fasteners, headcount": "20-50, status": "Verified Ecosystem User, confidence": "Technographic Verified, primary_signal": "Technographic Scraping (/web/static/), footprint": "Odoo B2B Shop & Multi-tier Pricing, live_footprint": "Technographic / Ecosystem Record"
+    }, {
+        "name": "Australis Pro Services...
+
+[scripts\enrich_and_update_odoo_master.py -> COLUMNS]
+  name"), domain"), contact_person"), job_title"), email"), phone"), email_status"), linkedin"), city"), state"), country"), region"), industry"), headcount"), status"), confidence"), sourcing_method"), primary_signal"), footprint"), live_footprint")
+
+[scripts\enrich_and_update_odoo_master.py -> HEADER_NAMES]
+  c[0
+
+[scripts\enrich_and_update_odoo_master.py -> FIELD_KEYS]
+  c[1
+
+[scripts\enrich_and_update_odoo_master.py -> row_values]
+  lead.get(k, ) for k in FIELD_KEYS
+
+[scripts\enrich_and_update_odoo_master.py -> sheets]
+  Master Leads (All)"), Australia Leads"), India Leads"), Global & Europe Leads")
+
+[scripts\enrich_and_update_odoo_master.py -> export_mappings]
+  Master Leads (All)"), Master Leads (All)"), Australia Leads"), India Leads"), Master Leads (All)")
+
+[scripts\enrich_and_update_odoo_master.py -> excel_destinations]
+  r"d:\infonix\odoo-lead-generator\exports\odoo_leads_master.xlsx, r"d:\infonix\odoo_leads_master.xlsx
+
+[scripts\fix_all_three_tabs.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[scripts\fix_all_three_tabs.py -> upwork_data]
+  Enterprise SaaS Australia Pty Ltd, Marcus, Vance, Managing Director & Founder, Software & Cloud Solutions, Sydney, NSW, $5, 000, 29/08/2026"), Data Metrics Engineering, Sarah, Hemsworth, Head of Data Engineering, Data Engineering & Analytics, Melbourne, VIC, $2, 200, 28/08/2026")...
+
+[scripts\fix_all_three_tabs.py -> instagram_data]
+  Ketan, Patel, Managing Director, Software & App Development, Sydney, NSW, 29/08/2026"), Emma, Watson, Brand Director, Cosmetics & Aesthetics, Melbourne, VIC, 28/08/2026"), Liam, Smith, Head Coach & Owner, Fitness & Wellness, Sydney, NSW...
+
+[scripts\fix_all_three_tabs.py -> threads_data]
+  Alexander, Wright, Chief AI Scientist, Artificial Intelligence & ML, Sydney, NSW, 29/08/2026"), Sarah, Jenkins, Head of Growth, eCommerce & Marketing, Melbourne, VIC, 28/08/2026"), Nathan, Drake, Managing Partner, SaaS & Cloud Computing, Brisbane, QLD...
+
+[scripts\fix_all_three_tabs.py -> tabs_to_update]
+  upwork_data, Upwork"), instagram_data, Instagram"), threads_data, Threads")
+
+[scripts\fix_all_three_tabs.py -> rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\format_google_sheet.py -> subset]
+  Company Name
+
+[scripts\format_google_sheet.py -> sort_cols]
+  c for c in ["Region, Country, Company Name
+
+[scripts\format_google_sheet.py -> clean_data]
+  headers
+
+[scripts\format_google_sheet.py -> format_requests]
+  fields": "gridProperties.frozenRowCount"
+            }
+        }, startRowIndex": 0, endRowIndex": 1, startColumnIndex": 0, endColumnIndex": num_cols
+                }, green": 0.21, blue": 0.36}, green": 1.0, blue": 1.0}, fontSize": 10, bold": True
+                        }, horizontalAlignment": "CENTER, verticalAlignment": "MIDDLE, wrapStrategy": "CLIP"
+                    }
+                }, fields": "userEnteredFormat(backgroundColor, textFormat, horizontalAlignment, verticalAlignment, wrapStrategy)"
+            }
+        }, dimension": "COLUMNS...
+
+[scripts\inspect_all_sheet_headers.py -> sheets_to_inspect]
+  Freelancer, LinkedIn, Social Media), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM"), 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw"), 1VGXRW9iJVwESvqNWQV89S_LPy1uMJCGaElHx_VZ5_8s")
+
+[scripts\inspect_and_update_sheet.py -> creds_files]
+  r"d:\infonix\sheet-sync-504707-85df40232946.json, r"d:\infonix\splendid-planet-504710-d0-9231c038688c.json, r"d:\infonix\internship_outreach_automation_full\credentials\token.json
+
+[scripts\inspect_live_lead_urls.py -> tabs]
+  Upwork Leads, Freelancer Leads, LinkedIn Leads, Facebook Leads
+
+[scripts\inspect_problematic_tabs.py -> target_tabs]
+  Upwork Leads, Instagram Leads, Threads Leads
+
+[scripts\lead_verifier.py -> INVALID_PHONE_PATTERNS]
+  r'^(?:\+?\d{1, 3})?0{7, }$, # All zeros
+    r'^(?:\+?\d{1, 3})?1{7, }$, # All ones
+    r'^(?:\+?\d{1, 3})?9{7, }$, # All nines
+    r'12345678, # Sequential dummy
+    r'555[-.
+
+[scripts\lead_verifier.py -> nameservers]
+  8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1
+
+[scripts\lead_verifier.py -> candidate_regions]
+  default_country, AU, IN, US, GB, None
+
+[scripts\master_config_manager.py -> REPO_CONFIG_PATHS]
+  os.path.join(BASE_DIR, odoo-sheets-auto-sync, config.json"), os.path.join(BASE_DIR, odoo_uploader, config.json"), os.path.join(BASE_DIR, Data-Scraping, config.json"), os.path.join(BASE_DIR, Social-Media-Data-Scraping, config.json"), os.path.join(BASE_DIR, LinkedIn-Data-Scraping, config.json")
+
+[scripts\merge_google_sheet_tabs.py -> sheet_data]
+  canonical_headers
+
+[scripts\migrate_9_target_repos.py -> TARGET_REPOS]
+  blog-api, blog-react, Data-Scraping, google-apps-script, infogenx-twilio-dialer, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\migrate_and_push_all.py -> REPOS]
+  blog-api, blog-react, Data-Scraping, dev, google-apps-script, infogenx-twilio-dialer, Infogenx-Voice-Agent, infogenx.com, infogenx.com.au, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> upwork_direct_jobs]
+  Enterprise SaaS Australia, Marcus, Vance, Python, Excel, PostgreSQL, Tech Systems Global, Sarah, Hemsworth, React, Node.js, Python, NLP, Interactive Studio AU, David, Miller, Unity, C#, Mobile Games, Automation Labs Pty Ltd...
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> upwork_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> linkedin_companies]
+  qantas, Executive Leadership, Aviation & Transport"), deloitte, Management Consulting, Professional Services"), telstra, Telecommunications Lead, Telecommunications"), atlassian, Software Engineering, Enterprise Software"), canva, Design & Tech Leadership, Graphic Software"), commonwealthbank, FinTech & Banking, Banking & Finance"), macquarie, Investment Banking...
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> linkedin_names]
+  Vance"), Hemsworth"), Miller"), Rostova"), Moretti"), Drake"), Watson"), Patel"), Bennett"), Stone")
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> linkedin_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> facebook_pages]
+  Healthcare & Wellness"), Fashion & Apparel"), Automotive Detailing"), Education & Community"), Hardware & Construction"), Solar & Renewable Energy"), Prestige Real Estate"), Medical & Telehealth"), Logistics & Supply Chain"), Food & Hospitality")
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> facebook_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> instagram_accounts]
+  devstree_it, Software & App Development"), velvetglow_au, Cosmetics & Aesthetics"), apexfitness_syd, Fitness & Wellness"), auracafe_brisbane, Food & Hospitality"), horizonarchitecture_perth, Architecture & Design"), somainternational, Digital Marketing"), faytthestore, Apparel & Retail"), paintprotectionfilmperth, Automotive"), pacificsolar_qld, Renewable Energy"), coastalluxury_re, Real Estate")
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> instagram_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> threads_accounts]
+  quantumscale_ai, Artificial Intelligence & ML"), nextgen_ecom, eCommerce & Marketing"), starlight_saas, SaaS & Cloud Computing"), biovitality_au, Health & Biotechnology"), apexmedia_perth, Media & Entertainment"), infogenx_digital, IT Services & Consulting"), harbourfront_marine, Marine & Transport"), artisancoffee_au, Food & Beverage"), precisiontooling_au, Manufacturing & Tooling"), apexcloud_syd, Cloud & Cybersecurity")
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> threads_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_100_percent_direct_urls_bulk.py -> all_bulk_tabs]
+  upwork_rows), linkedin_rows), facebook_rows), instagram_rows), threads_rows)
+
+[scripts\populate_all_tabs_bulk.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[scripts\populate_all_tabs_bulk.py -> upwork_topics]
+  Enterprise SaaS Australia, Marcus, Vance, Python, React, AWS, Data Metrics Tech, Sarah, Hemsworth, Python, Scrapy, Selenium, Apex Digital Ecom, David, Miller, PHP, WordPress, React, FinTech Innovations AU, Elena...
+
+[scripts\populate_all_tabs_bulk.py -> upwork_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_all_tabs_bulk.py -> linkedin_companies]
+  qantas, Executive Leadership, Aviation & Transport"), deloitte, Management Consulting, Professional Services"), telstra, Telecommunications Lead, Telecommunications"), atlassian, Software Engineering, Enterprise Software"), canva, Design & Tech Leadership, Graphic Software"), commonwealthbank, FinTech & Banking, Banking & Finance"), macquarie, Investment Banking...
+
+[scripts\populate_all_tabs_bulk.py -> linkedin_names]
+  Vance"), Hemsworth"), Miller"), Rostova"), Moretti"), Drake"), Watson"), Patel"), Bennett"), Stone"), Saunders"), Miller")
+
+[scripts\populate_all_tabs_bulk.py -> linkedin_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_all_tabs_bulk.py -> facebook_pages]
+  Healthcare & Wellness"), Fashion & Apparel"), Automotive Detailing"), Education & Community"), Hardware & Construction"), Solar & Renewable Energy"), Prestige Real Estate"), Medical & Telehealth"), Logistics & Supply Chain"), Food & Hospitality")
+
+[scripts\populate_all_tabs_bulk.py -> facebook_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_all_tabs_bulk.py -> instagram_accounts]
+  devstree_it, Software & App Development"), velvetglow_au, Cosmetics & Aesthetics"), apexfitness_syd, Fitness & Wellness"), auracafe_brisbane, Food & Hospitality"), horizonarchitecture_perth, Architecture & Design"), somainternational, Digital Marketing"), faytthestore, Apparel & Retail"), paintprotectionfilmperth, Automotive"), pacificsolar_qld, Renewable Energy"), coastalluxury_re, Real Estate")
+
+[scripts\populate_all_tabs_bulk.py -> instagram_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_all_tabs_bulk.py -> threads_accounts]
+  quantumscale_ai, Artificial Intelligence & ML"), nextgen_ecom, eCommerce & Marketing"), starlight_saas, SaaS & Cloud Computing"), biovitality_au, Health & Biotechnology"), apexmedia_perth, Media & Entertainment"), infogenx_digital, IT Services & Consulting"), harbourfront_marine, Marine & Transport"), artisancoffee_au, Food & Beverage"), precisiontooling_au, Manufacturing & Tooling"), apexcloud_syd, Cloud & Cybersecurity")
+
+[scripts\populate_all_tabs_bulk.py -> threads_rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\populate_all_tabs_bulk.py -> all_bulk_tabs]
+  upwork_rows), linkedin_rows), facebook_rows), instagram_rows), threads_rows)
+
+[scripts\push_all_files_no_ignore.py -> ALL_REPOS]
+  blog-api, blog-react, Data-Scraping, dev, google-apps-script, infogenx-twilio-dialer, Infogenx-Voice-Agent, infogenx.com, infogenx.com.au, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\push_everything_unignored.py -> ALL_REPOS]
+  blog-api, blog-react, Data-Scraping, dev, google-apps-script, infogenx-twilio-dialer, Infogenx-Voice-Agent, infogenx.com, infogenx.com.au, LinkedIn-Data-Scraping, odoo-sheets-auto-sync, odoo_uploader, Social-Media-Data-Scraping
+
+[scripts\remote_job_acquisition_engine.py -> JOB_TARGET_ROLES]
+  {
+        "role_title": "Senior Full-Stack AI Engineer (Remote), tech_focus": "React, Vite, Node.js, Python, Gemini AI, Microservices, pitch_highlights": "5+ years architecting full-stack web applications, LLM/Gemini API integrations, and scalable REST backends., target_platforms": ["LinkedIn Jobs, RemoteOK, WeWorkRemotely, Wellfound
+
+[scripts\run_google_drive_scrapers.py -> scripts]
+  os.path.join(BASE_DIR, Data-Scraping, sync_to_google_sheet.py")), os.path.join(BASE_DIR, LinkedIn-Data-Scraping, sync_to_google_sheet.py")), Instagram, Threads with Multimodal AI), os.path.join(BASE_DIR, Social-Media-Data-Scraping, sync_to_google_sheet.py"))
+
+[scripts\sanitize_and_push_last2.py -> REPOS]
+  google-apps-script, infogenx-twilio-dialer
+
+[scripts\scrub_infogenx_links.py -> script_files]
+  os.path.join(r"d:\infonix, scripts, resume_client_acquisition_engine.py"), os.path.join(r"d:\infonix, scripts, 48hr_client_acquisition_engine.py")
+
+[scripts\seo_audit_guardrail.py -> sites]
+  dev, infogenx.com, infogenx.com.au
+
+[scripts\sync_all_individual_gdrive_tabs.py -> ZOHO_CRM_HEADERS]
+  Date, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating, Annual Revenue / Budget, Street, City...
+
+[scripts\sync_all_individual_gdrive_tabs.py -> first_names]
+  James, Liam, Oliver, William, Lucas, Alexander, Sarah, Emma, Chloe, Sophie, Rajesh, Marcus
+
+[scripts\sync_all_individual_gdrive_tabs.py -> last_names]
+  Smith, Taylor, Wilson, Anderson, Davies, Brown, Martin, Clark, White, Mitchell, Kumar, Miller
+
+[scripts\sync_all_individual_gdrive_tabs.py -> company_sizes]
+  11-50 employees, 51-200 employees, 201-500 employees, 500+ employees
+
+[scripts\sync_all_individual_gdrive_tabs.py -> final_data]
+  ZOHO_CRM_HEADERS
+
+[scripts\sync_all_individual_gdrive_tabs.py -> format_requests]
+  fields": "gridProperties.frozenRowCount"
+            }
+        }, startRowIndex": 0, endRowIndex": 1, startColumnIndex": 0, endColumnIndex": num_cols
+                }, green": 0.45098, blue": 0.9098}, textFormat": {
+                            "foregroundColor": {"red": 1.0, green": 1.0, blue": 1.0}, fontSize": 11, bold": True
+                        }, horizontalAlignment": "CENTER, verticalAlignment": "MIDDLE, wrapStrategy": "CLIP"
+                    }
+                }, fields": "userEnteredFormat(backgroundColor, textFormat, horizontalAlignment, verticalAlignment, wrapStrategy)"
+            }
+        }...
+
+[scripts\sync_all_individual_gdrive_tabs.py -> expert_leads]
+  {"company": "Kinetik Strategic Consulting Australia, type": "Management Consulting, location": "Sydney, Australia, origin": "Expert360 Platform, media_type": "Consultant Profile & Case Study Document, notes": "Senior strategic consultant & corporate advisory."}, {"company": "Vantage Financial Advisors Sydney, type": "Corporate Finance, location": "Sydney, Australia, origin": "Expert360 Platform, media_type": "Executive Profile & Video Bio, notes": "Financial modeling & M&A transaction support."}, {"company": "Apex Digital Transformation Group, type": "Digital Transformation, location": "Melbourne, Australia, origin": "Expert360 Platform, media_type": "Portfolio Showcase Flyer...
+
+[scripts\sync_all_individual_gdrive_tabs.py -> acres_leads]
+  {"company": "Prestige Commercial Realty Australia, type": "Commercial Real Estate, location": "Sydney, Australia, origin": "99acres Commercial Property Scraper, media_type": "Property Floorplan & Commercial Flyer (OCR), notes": "Prime CBD commercial office spaces."}, {"company": "Metro Industrial Logistics Parks, type": "Industrial Real Estate, location": "Melbourne, Australia, origin": "99acres Commercial Property Scraper, media_type": "Warehouse Blueprint & Video Tour, notes": "Logistics hub and industrial facility leasing."}, {"company": "Harbour View Office Towers Sydney, type": "Corporate Real Estate, location": "Sydney, Australia, origin": "99acres Commercial Property Scraper, media_type": "Prestige Development Walkthrough Video...
+
+[scripts\sync_and_fix_all_3_sites.py -> sites]
+  dev, infogenx.com, infogenx.com.au
+
+[scripts\sync_directory_leads.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[scripts\sync_directory_leads.py -> rows]
+  ZOHO_CRM_HEADERS
+
+[scripts\test_live_serper_upwork.py -> queries]
+  site:upwork.com/jobs "python, site:upwork.com/jobs "react, site:upwork.com/jobs "developer, site:upwork.com/jobs "automation, site:upwork.com/jobs "scraping, site:upwork.com/jobs "australia
+
+[scripts\test_serper_live.py -> queries]
+  site:upwork.com/jobs python, site:freelancer.com/projects python, site:linkedin.com/posts python developer australia, site:facebook.com/permalink.php python
+
+[scripts\update_db.py -> india_leads]
+  l for l in ENRICHED_LEADS if 'india' in l['country
+
+[scripts\update_db.py -> aus_leads]
+  l for l in ENRICHED_LEADS if 'australia' in l['country
+
+[scripts\update_db.py -> global_leads]
+  l for l in ENRICHED_LEADS if 'australia' not in l['country
+
+[scripts\update_developer_email.py -> script_paths]
+  os.path.join(r"d:\infonix, scripts, resume_client_acquisition_engine.py"), os.path.join(r"d:\infonix, scripts, 48hr_client_acquisition_engine.py")
+
+[scripts\upgrade_all_tabs_schema.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[scripts\upgrade_all_tabs_schema.py -> format_requests]
+  startRowIndex": 0, endRowIndex": 1, startColumnIndex": 0, endColumnIndex": num_cols
+                    }, green": 0.45098, blue": 0.9098}, textFormat": {
+                                "foregroundColor": {"red": 1.0, green": 1.0, blue": 1.0}, fontSize": 11, bold": True
+                            }, horizontalAlignment": "CENTER, verticalAlignment": "MIDDLE, wrapStrategy": "CLIP"
+                        }
+                    }, fields": "userEnteredFormat(backgroundColor, textFormat, horizontalAlignment, verticalAlignment, wrapStrategy)"
+                }
+            }, dimension": "COLUMNS...
+
+[Social-Media-Data-Scraping\api.py -> cmd]
+  python, script_path
+
+[Social-Media-Data-Scraping\config.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\config.py -> SOCIAL_KEYWORDS]
+  coming soon, launching soon, opening soon, new launch, pre-launch, website launching, getting ready to launch, grand opening, pre-register now, beta launch, early access, launching this month, we are launching
+
+[Social-Media-Data-Scraping\config.py -> SOCIAL_LEAD_SOURCES]
+  LinkedIn, Instagram, Facebook, X (Twitter), YouTube, Pinterest, Google Search, Web Research
+
+[Social-Media-Data-Scraping\config.py -> SOCIAL_INDUSTRIES]
+  IT / Software, ITES / BPO, ICT, Healthcare, Manufacturing, Education, Real Estate, Retail / E-commerce, Consulting, Wholesale & Distribution, Professional Services, Accounting Firms
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> ROLES]
+  Software Developer, Python Developer, React Developer, MERN Stack Developer, Full Stack Developer
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> valid_parts]
+  p.capitalize() for p in parts if len(p) > 1
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> generic]
+  gmail, yahoo, hotmail, outlook, aol, icloud, mail, protonmail, ymail, rediffmail
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> organic_results]
+  {"title": r.get("title, ), snippet": r.get("snippet, ), link": r.get("link, ), is_ad": 0} for r in res_json.get("organic, [
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> ad_results]
+  {"title": a.get("title, ), snippet": a.get("snippet, ), link": a.get("link, ), is_ad": 1} for a in res_json.get("ads, [
+
+[Social-Media-Data-Scraping\job_vacancy_scraper.py -> choices]
+  serper, ddg
+
+[Social-Media-Data-Scraping\lead_verifier.py -> INVALID_PHONE_PATTERNS]
+  r'^(?:\+?\d{1, 3})?0{7, }$, # All zeros
+    r'^(?:\+?\d{1, 3})?1{7, }$, # All ones
+    r'^(?:\+?\d{1, 3})?9{7, }$, # All nines
+    r'12345678, # Sequential dummy
+    r'555[-.
+
+[Social-Media-Data-Scraping\lead_verifier.py -> nameservers]
+  8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1
+
+[Social-Media-Data-Scraping\lead_verifier.py -> candidate_regions]
+  default_country, AU, IN, US, GB, None
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> phone_regexes]
+  re.compile(r'(\+91[\s.-
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> valid_parts]
+  p.capitalize() for p in parts if len(p) > 1
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> generic]
+  gmail, yahoo, hotmail, outlook, aol, icloud, mail, protonmail, ymail, rediffmail
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> organic_results]
+  {"title": r.get("title, ), snippet": r.get("snippet, ), link": r.get("link, ), is_ad": 0} for r in res_json.get("organic, [
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> ad_results]
+  {"title": a.get("title, ), snippet": a.get("snippet, ), link": a.get("link, ), is_ad": 1} for a in res_json.get("ads, [
+
+[Social-Media-Data-Scraping\social_scraper_serper.py -> choices]
+  serper, ddg
+
+[Social-Media-Data-Scraping\sync_to_google_sheet.py -> ZOHO_CRM_HEADERS]
+  Scraped Date, Post Date / Posted Date, Post Link / Direct Post URL, Page Link / Profile Page URL, Lead Source, Company, Company Founded Year, Account Created Year, First Name, Last Name, Customer Name, Designation / Title, Email, Phone Number, Mobile Number, Industry, Company Size, Key Technologies / Skills, Lead Status, Rating...
+
+[Social-Media-Data-Scraping\sync_to_google_sheet.py -> candidate_filenames]
+  sheet-sync-504707-85df40232946.json, credentials.json
+
+[Social-Media-Data-Scraping\sync_to_google_sheet.py -> client_candidates]
+  os.path.join(BASE_DIR, self_client.json"), os.path.join(parent_dir, infogenx-twilio-dialer, self_client.json"), os.path.join(parent_dir, self_client.json")
+
+[Social-Media-Data-Scraping\sync_to_google_sheet.py -> row]
+  today_str, post_date, url, page_url, source_name, company, 2019, 2021, first_name, last_name, client_name, designation, verified_email, phone, mobile, industry, 11-50 employees, skills, Attempted Contact, rating...
+
+[Social-Media-Data-Scraping\upload_all_sheets_direct_to_zoho.py -> targets]
+  # (Tab Name, Sheet ID, GID, Schema Type)
+    ("Web Leads, 1CbW9pPLyEtyl8cBpjNDcOEuLLFrgK5LFF8xoPRSMbpw, 1144923842, STANDARD_10"), 1P9LOyq4UKwVuc8ZFjg6cOlb2fwOci3nUV300E5J5Fgw, 1029677902, STANDARD_10"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 0, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 835700405, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM, 597011379, EXTENDED_28"), 1QY8hbycY-gdOWRch52SKoUS975U-t3EgZ0JrtdhPCoM...
+
+[Social-Media-Data-Scraping\Facebook\extract.py -> selectors]
+  h3 strong a, h2 strong a, span[dir='auto
+
+[Social-Media-Data-Scraping\Facebook\extract.py -> content_selectors]
+  div[data-ad-preview='message
+
+[Social-Media-Data-Scraping\Facebook\extract.py -> time_selectors]
+  a[role='link
+
+[Social-Media-Data-Scraping\Facebook\main.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\Facebook\main.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\Facebook\main.py -> credentials_list]
+  infogenx.meta@gmail.com"), os.getenv("FB_PASSWORD, !nfogenX123")), Infogenx@123")
+
+[Social-Media-Data-Scraping\Instagram\main.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\Instagram\main.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\LinkedIn\data-extract.py -> valid_locations]
+  loc, re.I)
+
+[Social-Media-Data-Scraping\LinkedIn\email-linkedin.py -> queries]
+  f'"{name}" "{company}" email, f'"{name}" "{company}" contact, f'"{name}" LinkedIn email, f'"{name}" phone number
+
+[Social-Media-Data-Scraping\LinkedIn\job-post.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\LinkedIn\job-post.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\LinkedIn\job-search.py -> parts]
+  p.strip() for p in meta_text.split("·")
+
+[Social-Media-Data-Scraping\LinkedIn\job-search.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\LinkedIn\job-search.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\LinkedIn\linked-search.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\LinkedIn\linked-search.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\Pinterest\main.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\Pinterest\main.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\Twitter\main.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\Twitter\main.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+[Social-Media-Data-Scraping\utils\gemini_multimodal.py -> GEMINI_API_KEYS]
+  k for k in [os.getenv("GEMINI_API_KEY")
+
+[Social-Media-Data-Scraping\utils\gemini_multimodal.py -> parts]
+  {"text": prompt}
+
+[Social-Media-Data-Scraping\YouTube\main.py -> SOCIAL_KEYWORDS]
+  coming soon
+
+[Social-Media-Data-Scraping\YouTube\main.py -> SOCIAL_TARGET_LOCATIONS]
+  Australia
+
+================================================================================
+                     END OF SCRAPING KEYWORDS MASTER NOTES
+================================================================================

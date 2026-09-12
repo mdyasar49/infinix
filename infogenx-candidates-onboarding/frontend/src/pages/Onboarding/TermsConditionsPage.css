@@ -1,0 +1,134 @@
+.terms-shell {
+  min-height: 100vh;
+  padding: 40px 24px 88px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.terms-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.terms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.terms-header h1 {
+  margin: 0;
+  color: #00123c;
+  font-size: clamp(2rem, 2.4vw, 2.6rem);
+}
+
+.terms-header p {
+  margin: 0;
+  color: #5c6a86;
+}
+
+.terms-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+  box-shadow: 0 24px 70px rgba(0, 18, 60, 0.08);
+}
+
+.terms-copy {
+  height: 420px;
+  overflow: auto;
+  padding: 28px 32px;
+  color: #4c5c7a;
+  line-height: 1.85;
+}
+
+.terms-copy h2 {
+  margin: 0 0 10px;
+  color: #00123c;
+}
+
+.terms-copy p {
+  margin-bottom: 20px;
+}
+
+.terms-copy strong {
+  color: #00123c;
+}
+
+.terms-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 32px;
+  background: #f8f9fd;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.checkbox-field input {
+  width: 18px;
+  height: 18px;
+  accent-color: #e65525;
+  margin-top: 3px;
+}
+
+.checkbox-field label {
+  color: #00123c;
+  font-weight: 600;
+}
+
+.terms-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #00123c 0%, #000e68 100%);
+  color: white;
+}
+
+.secondary-button {
+  background: white;
+  color: #00123c;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+}
+
+.primary-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 780px) {
+  .terms-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .terms-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

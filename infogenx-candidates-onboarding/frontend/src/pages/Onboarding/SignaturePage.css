@@ -1,0 +1,120 @@
+.signature-shell {
+  min-height: 100vh;
+  padding: 40px 24px 88px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.signature-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.signature-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-end;
+}
+
+.signature-header h1 {
+  margin: 0;
+  color: #00123c;
+  font-size: clamp(2rem, 2.4vw, 2.5rem);
+}
+
+.signature-header p {
+  margin: 0;
+  color: #5c6a86;
+}
+
+.signature-card {
+  background: white;
+  border-radius: 28px;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+  box-shadow: 0 24px 70px rgba(0, 18, 60, 0.08);
+  padding: 32px;
+  display: grid;
+  gap: 24px;
+}
+
+.signature-area {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 18, 60, 0.12);
+  background: #f7f9fe;
+}
+
+.signature-canvas {
+  width: 100%;
+  min-height: 300px;
+  display: block;
+  background: transparent;
+}
+
+.signature-note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 0 0;
+}
+
+.signature-note p {
+  margin: 0;
+  color: #5c6a86;
+}
+
+.signature-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.secondary-button,
+.accept-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-button {
+  color: #00123c;
+  background: white;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+}
+
+.accept-button {
+  color: white;
+  background: linear-gradient(135deg, #00123c 0%, #000e68 100%);
+}
+
+.accept-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.signature-footer {
+  display: grid;
+  gap: 12px;
+  color: #5c6a86;
+}
+
+@media (max-width: 760px) {
+  .signature-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .signature-actions {
+    justify-content: stretch;
+  }
+}

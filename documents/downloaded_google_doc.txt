@@ -1,0 +1,271 @@
+﻿📊 Master Odoo ERP Technical & Visual Comparison Report
+Date: September 5, 2026
+Author: Infogenx Technical ERP Team
+Comparison Target: Client Production Website (app.canadiancrystalline.info) vs. Our Company Website (igxerp.infogenx.com)
+________________
+
+
+📌 1. Executive Summary
+This master technical document consolidates all visual screenshot evidence, database queries, and system configuration audits comparing the Client Production Odoo ERP Instance (https://app.canadiancrystalline.info) against Our Company Odoo ERP Instance (https://igxerp.infogenx.com).
+Both systems operate custom-branded Odoo ERP v19.0 environments tailored for Canadian Crystalline (Life Science Since 1969), utilizing custom URL slug routing (/canadian/), Infogenx debranding, and shared theme color palettes (#99a4ae primary, #2c2f32 secondary, #242733 header).
+________________
+
+
+🏢 2. Master System Comparison Matrix
+#
+	Dimension / Feature
+	Client Website (app.canadiancrystalline.info)
+	Our Company Website (igxerp.infogenx.com)
+	Parity & Status
+	1
+	Target URL Route
+	https://app.canadiancrystalline.info/canadian/
+	https://igxerp.infogenx.com/canadian/
+	✅ 100% Match
+	2
+	Odoo Core Engine
+	Odoo 19.0-2026
+	Odoo 19.0-2026
+	✅ 100% Match
+	3
+	Python & OS Runtime
+	Python 3.12 (Ubuntu 24.04 noble)
+	Python 3.12 (Ubuntu 24.04 noble)
+	✅ 100% Match
+	4
+	Active Company Name
+	Canadian Crystaline
+	Canadian Crystaline
+	✅ 100% Match
+	5
+	Database Name
+	app365
+	infogenx-igxerpnew
+	🗄️ System Specific
+	6
+	Database Filtering
+	Single Tenant (app365)
+	Strict Filter (dbfilter = ^infogenx-igxerpnew$)
+	✅ Identical Behavior
+	7
+	Primary Theme Color
+	#99a4ae (Soft Silver Grey)
+	#99a4ae (Soft Silver Grey)
+	✅ 100% Match
+	8
+	Secondary Theme Color
+	#2c2f32 (Dark Charcoal Grey)
+	#2c2f32 (Dark Charcoal Grey)
+	✅ 100% Match
+	9
+	Navbar Background
+	#242733 (Deep Slate Charcoal)
+	#242733 (Deep Slate Charcoal)
+	✅ 100% Match
+	10
+	Debranding Credit
+	Implemented/Customized by Infogenx
+	Implemented/Customized by Infogenx
+	✅ 100% Match
+	11
+	Total Installed Modules
+	140 Installed Modules
+	133 Installed Modules
+	⚠️ 8 Client Modules
+	12
+	Side Navigation Menus
+	15 Sidebar Menu Items
+	13 Sidebar Menu Items
+	⚠️ 2 Missing Menus
+	13
+	CRM Submenu Headers
+	9 Submenus (Includes HOD, Salesperson, Daily Sales)
+	6 Standard Submenus
+	⚠️ 3 Missing Submenus
+	14
+	CRM Lead Stages
+	Project Finalized, New Enquiry - Hod
+	New, Won
+	⚠️ Custom Stages
+	15
+	CRM Lead Sources
+	IndiaMART Source Tag
+	Standard Sources
+	⚠️ IndiaMART Tag
+	16
+	Contacts Directory
+	121 Contacts (1-80 / 121)
+	112 Contacts (1-80 / 112)
+	📊 9 Client Contacts
+	________________
+
+
+🎯 3. CRM Dashboard & Analytics Audit (/canadian/action-808)
+CRM Widget / Feature
+	Client Website (app.canadiancrystalline.info)
+	Our Company Website (igxerp.infogenx.com)
+	Delta & Analysis
+	CRM Submenu Headers
+	CRM | Dashboard | Sales | HOD Dashboard | Salesperson Dashboard | Leads | Daily Sales Activity | Reporting | Configuration
+	CRM | Dashboard | Sales | Leads | Reporting | Configuration
+	⚠️ Client has 3 extra submenus (HOD Dashboard, Salesperson Dashboard, Daily Sales Activity)
+	CRM Lead Stages
+	Custom Stages: Project Finalized, New Enquiry - Hod
+	Standard Stages: New, Won
+	⚠️ Client CRM has custom stages
+	Leads Group By Source
+	Tracks IndiaMART source leads
+	Tracks standard sources
+	⚠️ Client CRM has IndiaMART tag
+	My Leads KPI Card
+	22 Leads
+	24 Leads
+	📊 Our server has 2 additional leads
+	My Opportunities KPI Card
+	0 Opportunities
+	3 Opportunities
+	📊 Our server has 3 active opportunities
+	Expected Revenue Card
+	$0 Expected Revenue
+	$10,000 Expected Revenue
+	📊 Our server has $10,000 pipeline value
+	Average Closing Time
+	0 Seconds
+	67,445 Seconds (~18.7 Hours)
+	📊 Our server calculates stage duration
+	CRM Activities Chart
+	Breakdown: Call, To-Do
+	Breakdown: Call, Email, Meeting, To-Do
+	📊 Our server has active logged activities
+	________________
+
+
+📇 4. Contacts Directory Audit (/canadian/contacts)
+Feature / Metric
+	Client Website (app.canadiancrystalline.info)
+	Our Company Website (igxerp.infogenx.com)
+	Audit & Parity Status
+	Target Route
+	https://app.canadiancrystalline.info/canadian/contacts
+	https://igxerp.infogenx.com/canadian/contacts
+	✅ 100% Identical Slug
+	List View Columns
+	[Avatar], Follow-up Response, Name, Email, Phone, Activities, Country
+	[Avatar], Follow-up Response, Name, Email, Phone, Activities, Country
+	✅ 100% Identical Field Layout
+	Total Contacts Count
+	121 Contacts (1-80 / 121)
+	112 Contacts (1-80 / 112)
+	📊 Client has 9 additional contacts (Ravi, RameshKumar, Nayana, Neeraja)
+	Custom Partner Field
+	Follow-up Response field present
+	Follow-up Response field present
+	✅ 100% Identical Custom Extension
+	________________
+
+
+📑 5. Itemized Side Navigation (Sidebar) Audit Table
+#
+	Side Navigation Menu Item
+	Client Website (app.canadiancrystalline.info)
+	Our Company Website (igxerp.infogenx.com)
+	Parity Status
+	1
+	💬 Discuss
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	2
+	📅 Calendar
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	3
+	🛡️ Access Role
+	✅ Present
+	❌ Missing
+	⚠️ Client Exclusive (access_roles)
+	4
+	👤 Contacts
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	5
+	🎯 CRM
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	6
+	📊 Sales
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	7
+	🖥️ Dashboards
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	8
+	💲 Accounting
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	9
+	🛒 Purchase
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	10
+	📦 Inventory
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	11
+	🏭 Manufacturing
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	12
+	👥 Employees
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	13
+	🔗 Link Tracker
+	✅ Present
+	❌ Missing
+	⚠️ Client Exclusive (link_tracker)
+	14
+	🧩 Apps
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	15
+	⚙️ Settings
+	✅ Present
+	✅ Present
+	✅ 100% Match
+	________________
+
+
+📦 6. Module Inventory Audit
+* Total Common Installed Modules: 132 (account, crm, crm_kit, crm_territory_management, custom_crm, custom_manufacturing, custom_sale, custom_spreadsheet_dashboard, muk_web_appsbar, accounting_pdf_reports, auth_passkey)
+* Installed on OUR Server Only (1 Module): custom_attachment
+* Installed on CLIENT Server Only (8 Modules):
+   1. access_roles (Access Role sidebar menu)
+   2. crm_product_lines (CRM Product Lines)
+   3. crm_status_stage_sync (CRM Status Stage Sync)
+   4. custom_user (Custom User Profile)
+   5. daily_sales_report (Daily Sales Activity Report)
+   6. field_help_editor (Field Help Editor)
+   7. hod_dashboard (HOD Dashboard)
+   8. salesperson_dashboard (Salesperson Dashboard)
+________________
+
+
+🛠️ 7. Action Plan for 100% Parity
+1. Install 8 Client Modules: Install access_roles, link_tracker, crm_product_lines, crm_status_stage_sync, custom_user, daily_sales_report, hod_dashboard, and salesperson_dashboard on Our Server.
+2. Configure Custom CRM Stages: Create Project Finalized and New Enquiry - Hod stages.
+3. Add IndiaMART Lead Tag: Add IndiaMART tag under CRM Lead Sources.
+4. Sync Contacts: Import the 9 missing contacts (Ravi, RameshKumar, etc.) into infogenx-igxerpnew database.
+5. Nginx WebSocket Proxy: Configure /websocket proxy pass in Nginx to clear the connection warning banner on Our Server.

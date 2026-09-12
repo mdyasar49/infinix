@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A. Mohamed Yasar - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0f172a;
+      /* Slate 900 */
+      --secondary-color: #334155;
+      /* Slate 700 */
+      --accent-color: #d33e00;
+      /* Infogenx brand accent */
+      --text-muted: #64748b;
+      /* Slate 500 */
+      --border-color: #cbd5e1;
+      /* Slate 300 */
+      --light-bg: #f8fafc;
+      /* Slate 50 */
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--secondary-color);
+      background-color: #f1f5f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Preview Container for Screen */
+    .resume-container {
+      max-width: 210mm;
+      margin: 30px auto;
+    }
+
+    .page {
+      background: #ffffff;
+      width: 210mm;
+      height: 297mm;
+      box-sizing: border-box;
+      padding: 14mm 18mm;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Header Section styling */
+    header {
+      text-align: center;
+      border-bottom: 3px double var(--border-color);
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--primary-color);
+      margin: 0 0 2px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+      color: var(--accent-color);
+      margin: 0 0 8px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.75px;
+    }
+
+    .contact-info {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .contact-info a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .contact-info a:hover {
+      color: var(--accent-color);
+    }
+
+    .contact-info span:not(:last-child)::after {
+      content: "•";
+      margin-left: 12px;
+      color: var(--border-color);
+    }
+
+    /* Section Styles */
+    section {
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 2px;
+      margin: 12px 0 6px 0;
+    }
+
+    .summary-text {
+      font-size: 9.8px;
+      color: var(--secondary-color);
+      text-align: justify;
+      margin: 0;
+    }
+
+    /* Skill grid styles */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 20px;
+    }
+
+    .skill-group {
+      font-size: 9.8px;
+    }
+
+    .skill-label {
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .skill-values {
+      color: var(--secondary-color);
+    }
+
+    /* Experience styles */
+    .experience-item {
+      margin-bottom: 8px;
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .company-name {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 11.5px;
+      color: var(--primary-color);
+    }
+
+    .exp-date {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+
+    .exp-subheader {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+
+    .job-title {
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--accent-color);
+      font-style: italic;
+    }
+
+    .location {
+      font-size: 9.5px;
+      color: var(--text-muted);
+    }
+
+    ul.bullet-list {
+      margin: 0;
+      padding-left: 12px;
+    }
+
+    ul.bullet-list li {
+      font-size: 9.8px;
+      color: var(--secondary-color);
+      margin-bottom: 3px;
+      line-height: 1.35;
+    }
+
+    /* Projects styles */
+    .project-item {
+      margin-bottom: 8px;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .project-title {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      color: var(--primary-color);
+    }
+
+    .project-role {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--accent-color);
+      font-style: italic;
+    }
+
+    .project-tech {
+      font-size: 9px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 3px;
+    }
+
+    /* Education section */
+    .edu-item {
+      margin-bottom: 6px;
+    }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .degree {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      color: var(--primary-color);
+    }
+
+    .edu-date {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+
+    .college {
+      font-size: 9.8px;
+      color: var(--secondary-color);
+    }
+
+    /* Additional Information grid */
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4px;
+      font-size: 9.8px;
+    }
+
+    .info-item {
+      margin-bottom: 1px;
+    }
+
+    .info-label {
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    /* Print Styles Override */
+    @media print {
+      body {
+        background-color: #ffffff;
+        color: #1e293b;
+        margin: 0;
+        padding: 0;
+      }
+
+      .resume-container {
+        max-width: 100%;
+        margin: 0;
+      }
+
+      .page {
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 10mm 15mm;
+        page-break-after: always;
+        background-color: #ffffff;
+        box-sizing: border-box;
+      }
+
+      .page:last-child {
+        page-break-after: avoid;
+      }
+
+      .contact-info a {
+        color: var(--secondary-color) !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resume-container">
+
+    <!-- ==================== PAGE 1 ==================== -->
+    <div class="page">
+      <header>
+        <h1>A. MOHAMED YASAR</h1>
+        <div class="subtitle">Full Stack Engineer | React.js | Python & Django | AI Voice Systems | REST APIs</div>
+        <div class="contact-info">
+          <span>Chennai, TN</span>
+          <span>+91-9025943184</span>
+          <span><a href="mailto:mohamedyasar081786@gmail.com">mohamedyasar081786@gmail.com</a></span>
+          <span><a href="https://linkedin.com/in/mohamed-yasar-4674ba223" target="_blank">LinkedIn</a></span>
+          <span><a href="https://mern-portfolio-yasar-1.onrender.com/" target="_blank">Portfolio</a></span>
+        </div>
+      </header>
+
+      <section>
+        <div class="section-title">Professional Summary</div>
+        <p class="summary-text">
+          Full Stack Engineer with 2.5+ years of experience building responsive web applications, real-time AI Voice
+          portals, and RESTful APIs using React.js, Python (Django), Node.js, and Express.js. Proven expertise in
+          integrating Twilio Voice & SMS services, Server-Sent Events (SSE) streaming, polymorphic databases
+          (MySQL/SQLite), and automated deployment pipelines. Strong track record of optimizing application security and
+          performance via SonarQube code quality audits and leveraging AI agent workflows (Antigravity, Gemini, Cursor)
+          for high-speed development and root-cause bug resolution.
+        </p>
+      </section>
+
+      <section>
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <span class="skill-label">Frontend:</span>
+            <span class="skill-values">React.js, Redux, JavaScript (ES6+), HTML5, CSS3, Material UI, Glassmorphic UI,
+              SSE</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Backend:</span>
+            <span class="skill-values">Python (Django), Node.js, Express.js, REST APIs, Java (Core), Spring Boot</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Database & Real-Time:</span>
+            <span class="skill-values">MySQL, SQL Server, MongoDB, SQLite (WAL Mode), SSE Streaming, WebSockets</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Tools & DevOps:</span>
+            <span class="skill-values">Git, GitHub, Postman, CloudPanel, SSH, PowerShell, Bash, SonarQube, VS
+              Code</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Telephony & Voice AI:</span>
+            <span class="skill-values">Twilio API (Voice & SMS), WebRTC/Twilio Device, AI Voice Agent Integration</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">AI Tools & Workflows:</span>
+            <span class="skill-values">Gemini 3.6 Flash, Antigravity AI, Claude, Cursor, OpenAI Codex, Agentic
+              Tooling</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Code Quality & Security:</span>
+            <span class="skill-values">SonarQube Audit, Memory Leak Optimization, WCAG Accessibility, Root Cause
+              Analysis</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Professional Experience</div>
+
+        <!-- Experience 1: Infogenx -->
+        <div class="experience-item">
+          <div class="exp-header">
+            <span class="company-name">Infogenx Pvt. Ltd.</span>
+            <span class="exp-date">May 2026 – Present</span>
+          </div>
+          <div class="exp-subheader">
+            <span class="job-title">Freelance Full Stack Developer</span>
+            <span class="location">Remote</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Developed and deployed the multimodal AI Voice Agent System ("Sarah") over low-latency WebSockets with Voice Activity Detection (VAD) and automated post-call AI transcript evaluators pushing QA scores to Zoho CRM (<a href="https://voice.infogenx.com/infogenx/dashboard" target="_blank">voice.infogenx.com/infogenx/dashboard</a>).</li>
+            <li>Architected and launched the production Twilio Dialer & Communication Suite (<a href="https://twilliodialer.infogenx.com/" target="_blank">twilliodialer.infogenx.com</a>) with Django, dual-channel call recording, click-to-call, Zadarma SMS failover, and automated Zoho CRM/Books Deluge integrations.</li>
+            <li>Conducted SonarQube security and code quality audits across core pipelines—resolving cognitive complexity, eliminating memory leaks (SQLite WAL mode & connection safety), and enforcing accessibility compliance.</li>
+            <li>Led end-to-end development, deployment, and hosting of the Blog Administration Dashboard (<a href="https://blogadmin.infogenx.com/dashboard" target="_blank">blogadmin.infogenx.com/dashboard</a>), featuring a React.js frontend, Node.js API, dynamic Markdown guides, and automated image compression.</li>
+            <li>Built and launched official corporate web portals (<a href="https://infogenx.com" target="_blank">infogenx.com</a>, <a href="https://infogenx.com.au" target="_blank">infogenx.com.au</a>, <a href="https://dev.infogenx.com" target="_blank">dev.infogenx.com</a>) from scratch with 20+ responsive views, SVG network animations, floating capsule headers, and Zoho CRM widgets.</li>
+            <li>Engineered automated PowerShell and Bash deployment scripts (deploy.ps1, setup_server.sh) for server deployment via CloudPanel and SSH.</li>
+            <li>Leveraged AI Agent tools (Antigravity AI, Gemini, Cursor) to accelerate code generation, automate testing scripts, and perform rapid root-cause isolation of critical production bugs.</li>
+          </ul>
+        </div>
+
+        <!-- Experience 2: Bytes and Binaries -->
+        <div class="experience-item">
+          <div class="exp-header">
+            <span class="company-name">Bytes and Binaries Software Solutions</span>
+            <span class="exp-date">July 2023 – March 2026</span>
+          </div>
+          <div class="exp-subheader">
+            <span class="job-title">Software Engineer / Frontend Developer</span>
+            <span class="location">Pudukkottai, TN</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Built 20+ reusable, responsive UI components using React.js and Material UI, achieving consistent UI across all application modules.</li>
+            <li>Integrated 15+ frontend modules with backend REST APIs, handling complex data flows and edge case validations.</li>
+            <li>Wrote and optimized SQL queries for data validation, issue analysis, and performance troubleshooting — cutting query resolution time by ~40%.</li>
+            <li>Led investigation and resolution of 50+ UI, API, and database-related bugs — reducing post-release issues by ~30%.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section style="margin-bottom: 0;">
+        <div class="section-title">Project Experience</div>
+
+        <!-- Project 1: AI Voice Agent -->
+        <div class="project-item" style="margin-bottom: 0;">
+          <div class="project-header">
+            <span class="project-title">Infogenx AI Voice & Multimodal Agent Platform</span>
+            <span class="project-role">Full Stack Engineer</span>
+          </div>
+          <div class="project-tech">Tech: Python, FastAPI, Google Gemini 2.5 Live API, WebSockets, Twilio Voice & SMS, Zoho CRM Integration, Docker</div>
+          <ul class="bullet-list">
+            <li>Architected and deployed the multimodal AI Voice Agent ("Sarah") operating over low-latency PCM WebSockets with Voice Activity Detection (VAD) and telecom error handling (<a href="https://voice.infogenx.com/infogenx/dashboard" target="_blank">voice.infogenx.com/infogenx/dashboard</a>).</li>
+            <li>Built automated post-call AI transcript evaluation (QA scoring 1-10, structured pain point extraction) pushing JSON payloads directly to Zoho CRM webhooks.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 2 ==================== -->
+    <div class="page">
+      <section style="margin-top: 0;">
+        <div class="section-title" style="margin-top: 0;">Project Experience (Continued)</div>
+
+        <!-- Project 2: Twilio Dialer Platform -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">Infogenx Production Twilio Dialer & Multi-Channel Automation</span>
+            <span class="project-role">Full Stack Engineer</span>
+          </div>
+          <div class="project-tech">Tech: Python, Django, Twilio Voice & SMS API, Zadarma API, Zoho CRM & Books (Deluge), MySQL, SQLite, PowerShell</div>
+          <ul class="bullet-list">
+            <li>Engineered a production-grade Django web dialer (<a href="https://twilliodialer.infogenx.com/" target="_blank">twilliodialer.infogenx.com</a>) featuring dual-channel call recording (`recording_channels="dual"`), click-to-dial, and Zadarma SMS failover.</li>
+            <li>Developed daily multi-channel performance digest automation aggregating leads from Google Apps Script, Zoho Campaigns, Zoho Books, and call logs with custom Zoho Deluge scripts.</li>
+          </ul>
+        </div>
+
+        <!-- Project 3: Infogenx Blog & CMS -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">Infogenx Blog Admin Portal & CMS</span>
+            <span class="project-role">Full Stack Developer</span>
+          </div>
+          <div class="project-tech">Tech: React.js, Node.js, Express.js, LocalStorage API, Image Compression, Web Hosting</div>
+          <ul class="bullet-list">
+            <li>Built and hosted custom blog admin portal (<a href="https://blogadmin.infogenx.com/dashboard" target="_blank">blogadmin.infogenx.com/dashboard</a>) supporting database-free blogging with dynamic CRUD actions, Markdown guides, and automatic table of contents generation.</li>
+          </ul>
+        </div>
+
+        <!-- Project 4: Infogenx Corporate Portals -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">Infogenx Corporate Portals & Design System</span>
+            <span class="project-role">Lead Frontend Developer</span>
+          </div>
+          <div class="project-tech">Tech: React.js, Material UI, CSS3 (Flexbox/Grid), SVG Polygon Animation, Web Performance, SEO</div>
+          <ul class="bullet-list">
+            <li>Developed company corporate websites from scratch: <a href="https://infogenx.com" target="_blank">infogenx.com</a>, <a href="https://infogenx.com.au" target="_blank">infogenx.com.au</a>, and <a href="https://dev.infogenx.com" target="_blank">dev.infogenx.com</a> with 20+ responsive views and Zoho CRM widgets.</li>
+          </ul>
+        </div>
+
+        <!-- Project 5: Job Planner -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">Job Planner / Job Management System</span>
+            <span class="project-role">Full Stack Developer</span>
+          </div>
+          <div class="project-tech">Tech: React.js, Redux, Material UI, REST APIs, MySQL</div>
+          <ul class="bullet-list">
+            <li>Built modular UI components, integrated backend APIs with data rendering, and resolved 30+ cross-layer issues spanning UI, APIs, and SQL databases.</li>
+          </ul>
+        </div>
+
+        <!-- Project 6: MERN Stack Portfolio -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">MERN Stack Portfolio Application</span>
+            <span class="project-role">Full Stack Developer</span>
+          </div>
+          <div class="project-tech">Tech: MongoDB, Express.js, React.js, Node.js, Render CI/CD</div>
+          <ul class="bullet-list">
+            <li>Built and deployed a full-stack portfolio application with Express REST APIs, MongoDB storage, and Render deployment (<a href="https://mern-portfolio-yasar-1.onrender.com/" target="_blank">mern-portfolio-yasar-1.onrender.com</a>).</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+          <div class="edu-header">
+            <span class="degree">Master of Computer Applications (MCA)</span>
+            <span class="edu-date">2025</span>
+          </div>
+          <div class="college">M.I.E.T Arts and Science College, Tiruchirappalli</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-header">
+            <span class="degree">Bachelor of Computer Applications (BCA)</span>
+            <span class="edu-date">2023</span>
+          </div>
+          <div class="college">Jamal Mohamed College, Tiruchirappalli</div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Additional Information</div>
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="info-label">Availability:</span>
+            <span>Immediate Joiner</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Work Mode:</span>
+            <span>Work From Office | Rotational Shifts | Open to Relocation (Anywhere in Tamil Nadu)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Languages:</span>
+            <span>English, Tamil</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Soft Skills:</span>
+            <span>Problem Solving, Analytical Thinking, Communication, Team Collaboration, Adaptability</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+</body>
+
+</html>

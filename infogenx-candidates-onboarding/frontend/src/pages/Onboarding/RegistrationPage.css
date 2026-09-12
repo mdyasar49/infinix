@@ -1,0 +1,100 @@
+.register-shell {
+  min-height: 100vh;
+  padding: 40px 24px 90px;
+  background: radial-gradient(circle at top right, rgba(0, 18, 60, 0.12), transparent 30%), #f8fbff;
+}
+
+.register-card {
+  max-width: 520px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 28px;
+  padding: 38px;
+  box-shadow: 0 28px 80px rgba(0, 18, 60, 0.08);
+  border: 1px solid rgba(0, 18, 60, 0.08);
+}
+
+.register-card h1 {
+  margin: 0 0 14px;
+  color: #00123c;
+  font-size: clamp(2rem, 2.2vw, 2.4rem);
+}
+
+.register-card p {
+  margin: 0 0 28px;
+  color: #5c6a86;
+  line-height: 1.75;
+}
+
+.register-form {
+  display: grid;
+  gap: 18px;
+}
+
+.form-group {
+  display: grid;
+  gap: 10px;
+}
+
+.form-label {
+  font-weight: 700;
+  color: #00123c;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 18, 60, 0.12);
+  padding: 14px 16px;
+  font-size: 1rem;
+  color: #00123c;
+  background: #f8f9fd;
+}
+
+.form-input:focus {
+  outline: 2px solid rgba(0, 18, 60, 0.2);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 24px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #00123c 0%, #000e68 100%);
+  color: white;
+}
+
+.secondary-button {
+  background: white;
+  color: #00123c;
+  border: 1px solid rgba(0, 18, 60, 0.08);
+}
+
+.register-footer {
+  margin-top: 20px;
+  color: #5c6a86;
+  text-align: center;
+}
+
+.register-footer a {
+  color: #00123c;
+  text-decoration: none;
+  font-weight: 700;
+}

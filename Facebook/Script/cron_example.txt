@@ -1,0 +1,8 @@
+# Example cron entry — runs daily at 06:00 local time.
+# Edit paths if your machine user/path differs.
+#
+# 1) crontab -e
+# 2) paste the line below
+# 3) ensure Script/.env and credentials are configured
+
+0 6 * * * cd /Users/apple/Downloads/Facebook/Script && /usr/bin/python3 daily_run.py >> /Users/apple/Downloads/Facebook/logs/cron.log 2>&1

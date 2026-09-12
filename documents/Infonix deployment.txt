@@ -1,0 +1,27 @@
+// Dev
+209.182.232.150
+infogenx-dev
+infogenx@1234
+
+/home/infogenx-dev/htdocs//htdocs/dev.infogenx.com/
+
+// Au
+209.182.232.150
+infogenx.com.au
+infogenxau
+infogenx@1234
+
+infogenx.com.au--->    /home/infogenxau/htdocs/infogenx.com.au
+
+// com
+209.182.232.150
+infogenx.com
+infogenx
+infogenx@1234
+
+infogenx.com---> /home/infogenx/htdocs/infogenx.com
+
+
+git pull origin main
+npm i
+npm run build
